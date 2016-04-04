@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAsciiSynchronousTestCommander.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAsciiSynchronousTestCommander</TokenIdentifier>
+			<Abstract type="html">A class used to replace TSLAsciiCommander when testing.</Abstract>
+			<DeclaredIn>TSLAsciiSynchronousTestCommander.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiSynchronousTestCommander/setLastCommandLine:</TokenIdentifier>
+			<Abstract type="html">The last command line sent</Abstract>
+			<DeclaredIn>TSLAsciiSynchronousTestCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *lastCommandLine</Declaration>
+			
+			
+			<Anchor>//api/name/lastCommandLine</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiSynchronousTestCommander/lastCommandLine</TokenIdentifier>
+			<Abstract type="html">The last command line sent</Abstract>
+			<DeclaredIn>TSLAsciiSynchronousTestCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *lastCommandLine</Declaration>
+			
+			
+			<Anchor>//api/name/lastCommandLine</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiSynchronousTestCommander/lastCommandLine</TokenIdentifier>
+			<Abstract type="html">The last command line sent</Abstract>
+			<DeclaredIn>TSLAsciiSynchronousTestCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *lastCommandLine</Declaration>
+			
+			
+			<Anchor>//api/name/lastCommandLine</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiSynchronousTestCommander/executeCommand:withResponse:</TokenIdentifier>
+			<Abstract type="html">Executes the given (synchronous) command using the supplied response lines</Abstract>
+			<DeclaredIn>TSLAsciiSynchronousTestCommander.h</DeclaredIn>			
+			
+			<Declaration>- (void)executeCommand:(id&lt;TSLAsciiCommand&gt;)command withResponse:(NSArray *)responseLines</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>command</Name>
+					<Abstract type="html">the command to &apos;execute&apos;</Abstract>
+				</Parameter><Parameter>
+					<Name>responseLines</Name>
+					<Abstract type="html">the response to feed through the responder chain</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeCommand:withResponse:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+	</File>
+</Tokens>

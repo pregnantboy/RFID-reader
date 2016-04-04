@@ -1,0 +1,529 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLDataBankParameters Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLDataBankParameters Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/bankForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ bankForParameterValue:</option>
+	
+	<option value="//api/name/descriptionForBank:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForBank:</option>
+	
+	<option value="//api/name/isValidBank:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidBank:</option>
+	
+	<option value="//api/name/parameterValueForBank:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForBank:</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bankForParameterValue:">bankForParameterValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForBank:">descriptionForBank:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidBank:">isValidBank:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForBank:">parameterValueForBank:</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLDataBankParameters Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLDataBankParameters Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/TSLParametersProtocol.html">TSLParametersProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLDataBankParameters.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Helper class for implementing <a href="../Protocols/TSLDataBankParametersProtocol.html">TSLDataBankParametersProtocol</a></p>
+
+<p>When issuing a command to the reader the values are interpreted as follows:</p>
+
+<ul>
+<li><code>TSL_DataBank_NotSpecified</code> - <em>The value has not been specified and the corresponding parameter will not be sent</em></li>
+<li><code>TSL_DataBank_ElectronicProductCode</code> - <em>The value has been specified and is sent as <code>'epc'</code></em></li>
+<li><code>TSL_DataBank_TransponderIdentifier</code> - <em>The value has been specified and is sent as <code>'tid'</code></em></li>
+<li><code>TSL_DataBank_User</code> - <em>The value has been specified and is sent as <code>'usr'</code></em></li>
+<li><code>TSL_DataBank_Reserved</code> - <em>The value has been specified and is sent as <code>'res'</code></em></li>
+</ul>
+
+
+<p>When a command includes the &lsquo;-p&rsquo; option <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responses will set corresponding parameters as follows:</p>
+
+<ul>
+<li><code>TSL_DataBank_ElectronicProductCode</code> - <em>The parameter is <code>'epc'</code></em></li>
+<li><code>TSL_DataBank_TransponderIdentifier</code> - <em>The parameter is <code>'tid'</code></em></li>
+<li><code>TSL_DataBank_User</code> - <em>The parameter is <code>'usr'</code></em></li>
+<li><code>TSL_DataBank_Reserved</code> - <em>The parameter is <code>'res'</code></em></li>
+</ul>
+
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bankForParameterValue:">+&nbsp;bankForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given parameter value string and determine the corresponding TSL_DataBank</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForBank:">+&nbsp;parameterValueForBank:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_DataBank</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForBank:">+&nbsp;descriptionForBank:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_DataBank</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidBank:">+&nbsp;isValidBank:</a></code>
+		<span class="tooltip"><p>Test the given TSL_DataBank for validity</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bankForParameterValue:" title="bankForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">bankForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given parameter value string and determine the corresponding TSL_DataBank</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_DataBank)bankForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_DataBank corresponding to the given string. Invalid parameter values return TSL_DataBank_NotSpecified</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLDataBankParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForBank:" title="descriptionForBank:"></a>
+	<h3 class="subsubtitle method-title">descriptionForBank:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_DataBank</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForBank:(TSL_DataBank)<em>bank</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bank</em></dt>
+			<dd><p>The TSL_DataBank value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_DataBank or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLDataBankParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidBank:" title="isValidBank:"></a>
+	<h3 class="subsubtitle method-title">isValidBank:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_DataBank for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidBank:(TSL_DataBank)<em>bank</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bank</em></dt>
+			<dd><p>The TSL_DataBank value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_DataBank is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLDataBankParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForBank:" title="parameterValueForBank:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForBank:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_DataBank</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForBank:(TSL_DataBank)<em>bank</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bank</em></dt>
+			<dd><p>The TSL_DataBank value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_DataBank or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLDataBankParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

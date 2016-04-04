@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLWriteSingleTransponderCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLWriteSingleTransponderCommand</TokenIdentifier>
+			<Abstract type="html">A command to write data to the memory banks of a single transponder only</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteSingleTransponderCommand/setTransponderReceivedDelegate:</TokenIdentifier>
+			<Abstract type="html">The TSLWriteSingleCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLWriteSingleCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteSingleTransponderCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLWriteSingleCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLWriteSingleCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteSingleTransponderCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLWriteSingleCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLWriteSingleCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteSingleTransponderCommand/setTransponderReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLWriteSingleTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteSingleTransponderCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLWriteSingleTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteSingleTransponderCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLWriteSingleTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteSingleTransponderCommand/setDidAnyTransponderRespond:</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteSingleTransponderCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteSingleTransponderCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteSingleTransponderCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLWriteSingleTransponderCommand
+(with self as synchronous responder)</Abstract>
+			<DeclaredIn>TSLWriteSingleTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLWriteSingleTransponderCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+	</File>
+</Tokens>

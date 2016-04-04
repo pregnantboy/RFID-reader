@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAntennaParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAntennaParameters</TokenIdentifier>
+			<Abstract type="html">Helper class for implementing TSLAntennaParametersProtocol</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

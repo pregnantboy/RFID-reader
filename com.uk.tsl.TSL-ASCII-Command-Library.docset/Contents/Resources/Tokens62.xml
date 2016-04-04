@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLBarcodeCommandBarcodeReceivedDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLBarcodeCommandBarcodeReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for objects wishing to receive asynchronous notification of each barcode received</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLBarcodeCommandBarcodeReceivedDelegate/barcodeReceived:</TokenIdentifier>
+			<Abstract type="html">The barcode information received</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>- (void)barcodeReceived:(NSString *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">the barcode information as ascii string</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/barcodeReceived:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+	</File>
+</Tokens>

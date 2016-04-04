@@ -1,0 +1,956 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLAsciiCommander Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLAsciiCommander Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/connectedAccessory">&nbsp;&nbsp;&nbsp;&nbsp;connectedAccessory</option>
+	
+	<option value="//api/name/isConnected">&nbsp;&nbsp;&nbsp;&nbsp;isConnected</option>
+	
+	<option value="//api/name/isResponsive">&nbsp;&nbsp;&nbsp;&nbsp;isResponsive</option>
+	
+	<option value="//api/name/lastActivityTime">&nbsp;&nbsp;&nbsp;&nbsp;lastActivityTime</option>
+	
+	<option value="//api/name/lastCommandLine">&nbsp;&nbsp;&nbsp;&nbsp;lastCommandLine</option>
+	
+	<option value="//api/name/supportedDeviceDelegate">&nbsp;&nbsp;&nbsp;&nbsp;supportedDeviceDelegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/abortSynchronousCommand">&nbsp;&nbsp;&nbsp;&nbsp;- abortSynchronousCommand</option>
+	
+	<option value="//api/name/connect:">&nbsp;&nbsp;&nbsp;&nbsp;- connect:</option>
+	
+	<option value="//api/name/disconnect">&nbsp;&nbsp;&nbsp;&nbsp;- disconnect</option>
+	
+	<option value="//api/name/halt">&nbsp;&nbsp;&nbsp;&nbsp;- halt</option>
+	
+	<option value="//api/name/permanentlyDisconnect">&nbsp;&nbsp;&nbsp;&nbsp;- permanentlyDisconnect</option>
+	
+	<option value="//api/name/send:">&nbsp;&nbsp;&nbsp;&nbsp;- send:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Properties">Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Connecting to a TSL device">Connecting to a TSL device</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Communicating with the TSL device">Communicating with the TSL device</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Instance Disposal">Instance Disposal</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/connectedAccessory">connectedAccessory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isConnected">isConnected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isResponsive">isResponsive</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastActivityTime">lastActivityTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastCommandLine">lastCommandLine</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/supportedDeviceDelegate">supportedDeviceDelegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/abortSynchronousCommand">abortSynchronousCommand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/connect:">connect:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disconnect">disconnect</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/halt">halt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/permanentlyDisconnect">permanentlyDisconnect</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/send:">send:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLAsciiCommander Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLAsciiCommander Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TSLAsciiCommandExecutorBase.html">TSLAsciiCommandExecutorBase</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLAsciiCommander.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>TSLAsciiCommander provides methods to communicate with TSL devices that use the TSL ASCII 2.0 Protocol</p>
+
+<p>Instances of this class support:</p>
+
+<ul>
+<li>connection and disconnection from any TSL Reader paired to the iOS device<br/>
+ (including reconnection to that last sucessfully connected device)</li>
+<li>execution of a <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> either synchronously or asynchronously</li>
+<li>management of the responder chain for data received from the TSL device</li>
+<li>execution of <em>raw</em> TSL ASCII 2.0 commands e.g. <code>'.iv'</code>, <code>'.vr'</code> etc&hellip;</li>
+<li>provides notifications when the TSLAsciiCommander changes state e.g. connection/disconnection</li>
+</ul>
+
+
+<p><em>Important:</em> All communication with the TSL Device is performed on a separate thread.<br/>
+This has the effect that all TSLAsciiResponders in the responder chain are executed off the main UI thread.<br/>
+Several TSLAsciiCommands make use of delegates for custom processing e.g. the <a href="../Classes/TSLInventoryCommand.html">TSLInventoryCommand</a> passes each<br/>
+received transponder to its delegate. Any delegate should be aware that to modify any UI elements will require<br/>
+explicit dispatch to the UI thread e.g. performSelectorOnMainThread:withObject:waitUntilDone: or via dispatch_async()</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Properties" name="task_Properties"></a>
+						<h3 class="subsubtitle task-title">Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/connectedAccessory">&nbsp;&nbsp;connectedAccessory</a></code>
+		<span class="tooltip"><p>The EAAccessory for the currently connected TSL Device</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isConnected">&nbsp;&nbsp;isConnected</a></code>
+		<span class="tooltip"><p>YES if the TSLAsciiCommander is connected to a TSL device</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isResponsive">&nbsp;&nbsp;isResponsive</a></code>
+		<span class="tooltip"><p>YES if the last command completed as expected i.e. did not timeout</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastActivityTime">&nbsp;&nbsp;lastActivityTime</a></code>
+		<span class="tooltip"><p>The time of the readers last activity (send or receive)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastCommandLine">&nbsp;&nbsp;lastCommandLine</a></code>
+		<span class="tooltip"><p>The last command line sent</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/supportedDeviceDelegate">&nbsp;&nbsp;supportedDeviceDelegate</a></code>
+		<span class="tooltip"><p>The delegate used to test for supported devices</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Connecting to a TSL device" name="task_Connecting to a TSL device"></a>
+						<h3 class="subsubtitle task-title">Connecting to a TSL device</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/connect:">&ndash;&nbsp;connect:</a></code>
+		<span class="tooltip"><p>Connect the TSLAsciiCommander to the given TSL Device</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disconnect">&ndash;&nbsp;disconnect</a></code>
+		<span class="tooltip"><p>Disconnects from the current device - this allows reconnections using <a href="#//api/name/connect:">connect:</a></p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/permanentlyDisconnect">&ndash;&nbsp;permanentlyDisconnect</a></code>
+		<span class="tooltip"><p>Sends the signal to the accessory to permanently <a href="#//api/name/disconnect">disconnect</a></p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Communicating with the TSL device" name="task_Communicating with the TSL device"></a>
+						<h3 class="subsubtitle task-title">Communicating with the TSL device</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/send:">&ndash;&nbsp;send:</a></code>
+		<span class="tooltip"><p>Send the given string as a &lt;CR>&lt;LF> terminated string, to the TSL device</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Instance Disposal" name="task_Instance Disposal"></a>
+						<h3 class="subsubtitle task-title">Instance Disposal</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/halt">&ndash;&nbsp;halt</a></code>
+		<span class="tooltip"><p>Stops the TSLAsciiCommander</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/abortSynchronousCommand">&ndash;&nbsp;abortSynchronousCommand</a></code>
+		<span class="tooltip"><p>Aborts any currently running synchronous command</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/connectedAccessory" title="connectedAccessory"></a>
+	<h3 class="subsubtitle method-title">connectedAccessory</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The EAAccessory for the currently connected TSL Device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) EAAccessory *connectedAccessory</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isConnected" title="isConnected"></a>
+	<h3 class="subsubtitle method-title">isConnected</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>YES if the TSLAsciiCommander is connected to a TSL device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL isConnected</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isResponsive" title="isResponsive"></a>
+	<h3 class="subsubtitle method-title">isResponsive</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>YES if the last command completed as expected i.e. did not timeout</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL isResponsive</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastActivityTime" title="lastActivityTime"></a>
+	<h3 class="subsubtitle method-title">lastActivityTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The time of the readers last activity (send or receive)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (atomic, readonly) NSDate *lastActivityTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastCommandLine" title="lastCommandLine"></a>
+	<h3 class="subsubtitle method-title">lastCommandLine</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The last command line sent</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSString *lastCommandLine</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Because TSLAsciiCommands add a unique id number each time their commandLine property is accessed<br/>
+this property can be used (primarily for debugging) to get the actual command line issued (if examined<br/>
+immediately after the command is executed)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/supportedDeviceDelegate" title="supportedDeviceDelegate"></a>
+	<h3 class="subsubtitle method-title">supportedDeviceDelegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The delegate used to test for supported devices</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) Class&lt;TSLAsciiCommanderSupportedDeviceDelegate&gt; supportedDeviceDelegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/abortSynchronousCommand" title="abortSynchronousCommand"></a>
+	<h3 class="subsubtitle method-title">abortSynchronousCommand</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Aborts any currently running synchronous command</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)abortSynchronousCommand</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: The state of the aborted command is undefined.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/connect:" title="connect:"></a>
+	<h3 class="subsubtitle method-title">connect:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Connect the TSLAsciiCommander to the given TSL Device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)connect:(EAAccessory *)<em>accessory</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>accessory</em></dt>
+			<dd><p>The TSL Device, as an EAAccessory, with which to connect to or nil.<br/>
+  If nil then a connection is attempted with the last, successfully connected device.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if successfully connected</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This must be done before any TSLAsciiCommands are executed.<br/>
+The serial number of the TSL device is stored in NSUserDefaults' standardUserDefaults upon successful connection.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disconnect" title="disconnect"></a>
+	<h3 class="subsubtitle method-title">disconnect</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Disconnects from the current device - this allows reconnections using <a href="#//api/name/connect:">connect:</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)disconnect</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/halt" title="halt"></a>
+	<h3 class="subsubtitle method-title">halt</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Stops the TSLAsciiCommander</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)halt</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>When an instance of TSLAsciiCommander is no longer needed ensure that this method is called prior to object disposal</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/permanentlyDisconnect" title="permanentlyDisconnect"></a>
+	<h3 class="subsubtitle method-title">permanentlyDisconnect</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sends the signal to the accessory to permanently <a href="#//api/name/disconnect">disconnect</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)permanentlyDisconnect</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Once issued this will require reconnecting to the reader to use the accessory again. This may require switching to the<br/>
+iOS Settings App</p>
+
+<p>This is a convenience method and is equivalent to sending a <a href="../Classes/TSLSleepCommand.html">TSLSleepCommand</a> to the reader</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/send:" title="send:"></a>
+	<h3 class="subsubtitle method-title">send:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Send the given string as a &lt;CR>&lt;LF> terminated string, to the TSL device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)send:(NSString *)<em>line</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>line</em></dt>
+			<dd><p>The ASCII string to send to the device</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This method waits until the command has been successfuly sent</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>TSLInvalidOperationException</em></dt>
+			<dd><p>thrown if no device is connected</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommander.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

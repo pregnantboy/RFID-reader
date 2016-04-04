@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLWriteAutorunFileCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLWriteAutorunFileCommand</TokenIdentifier>
+			<Abstract type="html">A command to write commands to the device&apos;s autorun file</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteAutorunFileCommand/setValue:</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be added to the autorun file as an NSString</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteAutorunFileCommand/value</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be added to the autorun file as an NSString</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteAutorunFileCommand/value</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be added to the autorun file as an NSString</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteAutorunFileCommand/setAutorunCommand:</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be added to the autorun file as an idTSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLAsciiCommand&gt; autorunCommand</Declaration>
+			
+			
+			<Anchor>//api/name/autorunCommand</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteAutorunFileCommand/autorunCommand</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be added to the autorun file as an idTSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLAsciiCommand&gt; autorunCommand</Declaration>
+			
+			
+			<Anchor>//api/name/autorunCommand</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteAutorunFileCommand/autorunCommand</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be added to the autorun file as an idTSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLAsciiCommand&gt; autorunCommand</Declaration>
+			
+			
+			<Anchor>//api/name/autorunCommand</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteAutorunFileCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLWriteAutorunFileCommand</Abstract>
+			<DeclaredIn>TSLWriteAutorunFileCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLWriteAutorunFileCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+	</File>
+</Tokens>

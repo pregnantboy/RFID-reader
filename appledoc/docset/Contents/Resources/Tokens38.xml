@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSwitchActionCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSwitchActionCommand</TokenIdentifier>
+			<Abstract type="html">A command to set the action of the reader&apos;s switch</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/setAsynchronousReportingEnabled:</TokenIdentifier>
+			<Abstract type="html">Set to TSLTriStateYES to start the generation of asynchronous switch status reports
+Set to TSLTriStateNO to stop the generation of asynchronous switch status reports
+Set to TSLTriStateNOT_SPECIFIED to leave the asynchronous reporting state unchanged</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState asynchronousReportingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/asynchronousReportingEnabled</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/asynchronousReportingEnabled</TokenIdentifier>
+			<Abstract type="html">Set to TSLTriStateYES to start the generation of asynchronous switch status reports
+Set to TSLTriStateNO to stop the generation of asynchronous switch status reports
+Set to TSLTriStateNOT_SPECIFIED to leave the asynchronous reporting state unchanged</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState asynchronousReportingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/asynchronousReportingEnabled</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchActionCommand/asynchronousReportingEnabled</TokenIdentifier>
+			<Abstract type="html">Set to TSLTriStateYES to start the generation of asynchronous switch status reports
+Set to TSLTriStateNO to stop the generation of asynchronous switch status reports
+Set to TSLTriStateNOT_SPECIFIED to leave the asynchronous reporting state unchanged</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState asynchronousReportingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/asynchronousReportingEnabled</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/setSinglePressAction:</TokenIdentifier>
+			<Abstract type="html">Set the Single press action</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SwitchAction singlePressAction</Declaration>
+			
+			
+			<Anchor>//api/name/singlePressAction</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/singlePressAction</TokenIdentifier>
+			<Abstract type="html">Set the Single press action</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SwitchAction singlePressAction</Declaration>
+			
+			
+			<Anchor>//api/name/singlePressAction</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchActionCommand/singlePressAction</TokenIdentifier>
+			<Abstract type="html">Set the Single press action</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SwitchAction singlePressAction</Declaration>
+			
+			
+			<Anchor>//api/name/singlePressAction</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/setDoublePressAction:</TokenIdentifier>
+			<Abstract type="html">Set the Double press action</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SwitchAction doublePressAction</Declaration>
+			
+			
+			<Anchor>//api/name/doublePressAction</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/doublePressAction</TokenIdentifier>
+			<Abstract type="html">Set the Double press action</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SwitchAction doublePressAction</Declaration>
+			
+			
+			<Anchor>//api/name/doublePressAction</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchActionCommand/doublePressAction</TokenIdentifier>
+			<Abstract type="html">Set the Double press action</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SwitchAction doublePressAction</Declaration>
+			
+			
+			<Anchor>//api/name/doublePressAction</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/setSinglePressRepeatDelay:</TokenIdentifier>
+			<Abstract type="html">The minimum delay, in the range [1-999], before the single press trigger action repeats
+Negative values are ignored and the delay is not set (the default value)</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int singlePressRepeatDelay</Declaration>
+			
+			
+			<Anchor>//api/name/singlePressRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/singlePressRepeatDelay</TokenIdentifier>
+			<Abstract type="html">The minimum delay, in the range [1-999], before the single press trigger action repeats
+Negative values are ignored and the delay is not set (the default value)</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int singlePressRepeatDelay</Declaration>
+			
+			
+			<Anchor>//api/name/singlePressRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchActionCommand/singlePressRepeatDelay</TokenIdentifier>
+			<Abstract type="html">The minimum delay, in the range [1-999], before the single press trigger action repeats
+Negative values are ignored and the delay is not set (the default value)</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int singlePressRepeatDelay</Declaration>
+			
+			
+			<Anchor>//api/name/singlePressRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/setDoublePressRepeatDelay:</TokenIdentifier>
+			<Abstract type="html">The minimum delay, in the range [1-999], before the double press trigger action repeats
+Negative values are ignored and the delay is not set (the default value)</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int doublePressRepeatDelay</Declaration>
+			
+			
+			<Anchor>//api/name/doublePressRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchActionCommand/doublePressRepeatDelay</TokenIdentifier>
+			<Abstract type="html">The minimum delay, in the range [1-999], before the double press trigger action repeats
+Negative values are ignored and the delay is not set (the default value)</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int doublePressRepeatDelay</Declaration>
+			
+			
+			<Anchor>//api/name/doublePressRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchActionCommand/doublePressRepeatDelay</TokenIdentifier>
+			<Abstract type="html">The minimum delay, in the range [1-999], before the double press trigger action repeats
+Negative values are ignored and the delay is not set (the default value)</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int doublePressRepeatDelay</Declaration>
+			
+			
+			<Anchor>//api/name/doublePressRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchActionCommand</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchActionCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/minimumRepeatDelay</TokenIdentifier>
+			<Abstract type="html">the minimum valid value for the repeat delay parameter</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)minimumRepeatDelay</Declaration>
+			
+			<ReturnValue><Abstract type="html">the minimum valid value for the repeat delay parameter</Abstract></ReturnValue>
+			<Anchor>//api/name/minimumRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/maximumRepeatDelay</TokenIdentifier>
+			<Abstract type="html">the maximum valid value for the repeat delay parameter</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)maximumRepeatDelay</Declaration>
+			
+			<ReturnValue><Abstract type="html">the maximum valid value for the repeat delay parameter</Abstract></ReturnValue>
+			<Anchor>//api/name/maximumRepeatDelay</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/switchActionForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given string and determine the corresponding TSL_SwitchAction
+@param value</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_SwitchAction)switchActionForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLSwitchAction corresponding to the given string. Invalid parameter values return TSLSwitchActionNOCHANGE</Abstract></ReturnValue>
+			<Anchor>//api/name/switchActionForParameterValue:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/parameterValueForSwitchAction:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_SwitchAction</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForSwitchAction:(TSL_SwitchAction)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The TSL_SwitchAction value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_SwitchAction or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForSwitchAction:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/descriptionForSwitchAction:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_SwitchAction</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForSwitchAction:(TSL_SwitchAction)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The TSL_SwitchAction value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_SwitchAction or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForSwitchAction:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchActionCommand/isValidSwitchAction:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_SwitchAction for validity</Abstract>
+			<DeclaredIn>TSLSwitchActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidSwitchAction:(TSL_SwitchAction)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The TSL_SwitchAction value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_SwitchAction is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidSwitchAction:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+	</File>
+</Tokens>

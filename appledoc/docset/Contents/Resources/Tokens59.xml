@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAsciiCommandResponderDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAsciiCommandResponderDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol used to allow command responders access to any synchronous command that is currently executing and to inform delegates that a command has finished</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponderDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponderDelegate/commandDidFinish</TokenIdentifier>
+			<Abstract type="html">Responders should call this when the end of a command is detected</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponderDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)commandDidFinish</Declaration>
+			
+			
+			<Anchor>//api/name/commandDidFinish</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponderDelegate/setSynchronousCommand:</TokenIdentifier>
+			<Abstract type="html">The currently executing synchronous command or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponderDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) id&lt;TSLAsciiCommand&gt; synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponderDelegate/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">The currently executing synchronous command or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponderDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) id&lt;TSLAsciiCommand&gt; synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponderDelegate/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">The currently executing synchronous command or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponderDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) id&lt;TSLAsciiCommand&gt; synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+	</File>
+</Tokens>

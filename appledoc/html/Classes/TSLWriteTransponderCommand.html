@@ -1,0 +1,1129 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLWriteTransponderCommand Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLWriteTransponderCommand Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/didAnyTransponderRespond">&nbsp;&nbsp;&nbsp;&nbsp;didAnyTransponderRespond</option>
+	
+	<option value="//api/name/impinjBlockWriteMode">&nbsp;&nbsp;&nbsp;&nbsp;impinjBlockWriteMode</option>
+	
+	<option value="//api/name/inventoryOnly">&nbsp;&nbsp;&nbsp;&nbsp;inventoryOnly</option>
+	
+	<option value="//api/name/transponderReceivedBlock">&nbsp;&nbsp;&nbsp;&nbsp;transponderReceivedBlock</option>
+	
+	<option value="//api/name/transponderReceivedDelegate">&nbsp;&nbsp;&nbsp;&nbsp;transponderReceivedDelegate</option>
+	
+	<option value="//api/name/writeMode">&nbsp;&nbsp;&nbsp;&nbsp;writeMode</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/descriptionForImpinjBlockWriteMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForImpinjBlockWriteMode:</option>
+	
+	<option value="//api/name/descriptionForWriteMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForWriteMode:</option>
+	
+	<option value="//api/name/impinjBlockWriteModeForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ impinjBlockWriteModeForParameterValue:</option>
+	
+	<option value="//api/name/isValidImpinjBlockWriteMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidImpinjBlockWriteMode:</option>
+	
+	<option value="//api/name/isValidWriteMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidWriteMode:</option>
+	
+	<option value="//api/name/parameterValueForImpinjBlockWriteMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForImpinjBlockWriteMode:</option>
+	
+	<option value="//api/name/parameterValueForWriteMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForWriteMode:</option>
+	
+	<option value="//api/name/synchronousCommand">&nbsp;&nbsp;&nbsp;&nbsp;+ synchronousCommand</option>
+	
+	<option value="//api/name/writeModeForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ writeModeForParameterValue:</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Properties">Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Enum Helper methods">Enum Helper methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/didAnyTransponderRespond">didAnyTransponderRespond</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/impinjBlockWriteMode">impinjBlockWriteMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/inventoryOnly">inventoryOnly</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transponderReceivedBlock">transponderReceivedBlock</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transponderReceivedDelegate">transponderReceivedDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/writeMode">writeMode</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForImpinjBlockWriteMode:">descriptionForImpinjBlockWriteMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForWriteMode:">descriptionForWriteMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/impinjBlockWriteModeForParameterValue:">impinjBlockWriteModeForParameterValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidImpinjBlockWriteMode:">isValidImpinjBlockWriteMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidWriteMode:">isValidWriteMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForImpinjBlockWriteMode:">parameterValueForImpinjBlockWriteMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForWriteMode:">parameterValueForWriteMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/synchronousCommand">synchronousCommand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/writeModeForParameterValue:">writeModeForParameterValue:</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLWriteTransponderCommand Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLWriteTransponderCommand Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TSLTransponderMemoryCommandBase.html">TSLTransponderMemoryCommandBase</a> : <a href="../Classes/TSLAsciiSelfResponderCommandBase.html">TSLAsciiSelfResponderCommandBase</a> : <a href="../Classes/TSLAsciiCommandLibraryResponderBase.html">TSLAsciiCommandLibraryResponderBase</a> : <a href="../Classes/TSLAsciiCommandResponderBase.html">TSLAsciiCommandResponderBase</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/TSLQAlgorithmParametersProtocol.html">TSLQAlgorithmParametersProtocol</a><br /><a href="../Protocols/TSLQueryParametersProtocol.html">TSLQueryParametersProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLWriteTransponderCommand.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A command to write data to the memory banks of multiple transponders</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Properties" name="task_Properties"></a>
+						<h3 class="subsubtitle task-title">Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/inventoryOnly">&nbsp;&nbsp;inventoryOnly</a></code>
+		<span class="tooltip"><p>When set to <code>TSL_TriState_YES</code> the Select operation is NOT performed</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/writeMode">&nbsp;&nbsp;writeMode</a></code>
+		<span class="tooltip"><p>The write mode to use</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/impinjBlockWriteMode">&nbsp;&nbsp;impinjBlockWriteMode</a></code>
+		<span class="tooltip"><p>The block write mode to use when writing to supported transponders<br/>
+(Impinj specific extension)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transponderReceivedDelegate">&nbsp;&nbsp;transponderReceivedDelegate</a></code>
+		<span class="tooltip"><p>The <a href="../Protocols/TSLWriteSingleCommandTransponderReceivedDelegate.html">TSLWriteSingleCommandTransponderReceivedDelegate</a> to inform when each transponder is received</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transponderReceivedBlock">&nbsp;&nbsp;transponderReceivedBlock</a></code>
+		<span class="tooltip"><p>The Block invoked for each transponder received</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/didAnyTransponderRespond">&nbsp;&nbsp;didAnyTransponderRespond</a></code>
+		<span class="tooltip"><p>YES if any transponder responded to the write command</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/synchronousCommand">+&nbsp;synchronousCommand</a></code>
+		<span class="tooltip"><p>Returns a synchronous TSLWriteTransponderCommand<br/>
+(with self as synchronous responder)</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Enum Helper methods" name="task_Enum Helper methods"></a>
+						<h3 class="subsubtitle task-title">Enum Helper methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidWriteMode:">+&nbsp;isValidWriteMode:</a></code>
+		<span class="tooltip"><p>Test the given TSL_WriteMode for validity</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/writeModeForParameterValue:">+&nbsp;writeModeForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given parameter value string and determine the corresponding TSL_WriteMode</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForWriteMode:">+&nbsp;parameterValueForWriteMode:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_WriteMode</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForWriteMode:">+&nbsp;descriptionForWriteMode:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_WriteMode</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidImpinjBlockWriteMode:">+&nbsp;isValidImpinjBlockWriteMode:</a></code>
+		<span class="tooltip"><p>Test the given TSL_ImpinjBlockWriteMode for validity</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/impinjBlockWriteModeForParameterValue:">+&nbsp;impinjBlockWriteModeForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given parameter value string and determine the corresponding TSL_ImpinjBlockWriteMode</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForImpinjBlockWriteMode:">+&nbsp;parameterValueForImpinjBlockWriteMode:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_ImpinjBlockWriteMode</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForImpinjBlockWriteMode:">+&nbsp;descriptionForImpinjBlockWriteMode:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_ImpinjBlockWriteMode</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/didAnyTransponderRespond" title="didAnyTransponderRespond"></a>
+	<h3 class="subsubtitle method-title">didAnyTransponderRespond</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>YES if any transponder responded to the write command</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/impinjBlockWriteMode" title="impinjBlockWriteMode"></a>
+	<h3 class="subsubtitle method-title">impinjBlockWriteMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The block write mode to use when writing to supported transponders<br/>
+(Impinj specific extension)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_ImpinjBlockWriteMode impinjBlockWriteMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/inventoryOnly" title="inventoryOnly"></a>
+	<h3 class="subsubtitle method-title">inventoryOnly</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When set to <code>TSL_TriState_YES</code> the Select operation is NOT performed</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transponderReceivedBlock" title="transponderReceivedBlock"></a>
+	<h3 class="subsubtitle method-title">transponderReceivedBlock</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The Block invoked for each transponder received</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) TSLWriteTransponderReceivedBlock transponderReceivedBlock</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transponderReceivedDelegate" title="transponderReceivedDelegate"></a>
+	<h3 class="subsubtitle method-title">transponderReceivedDelegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="../Protocols/TSLWriteSingleCommandTransponderReceivedDelegate.html">TSLWriteSingleCommandTransponderReceivedDelegate</a> to inform when each transponder is received</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic, readwrite) id&lt;TSLWriteCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/writeMode" title="writeMode"></a>
+	<h3 class="subsubtitle method-title">writeMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The write mode to use</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_WriteMode writeMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Not all transponders support block write</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForImpinjBlockWriteMode:" title="descriptionForImpinjBlockWriteMode:"></a>
+	<h3 class="subsubtitle method-title">descriptionForImpinjBlockWriteMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_ImpinjBlockWriteMode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForImpinjBlockWriteMode:(TSL_ImpinjBlockWriteMode)<em>mode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mode</em></dt>
+			<dd><p>The TSL_ImpinjBlockWriteMode value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_ImpinjBlockWriteMode or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForWriteMode:" title="descriptionForWriteMode:"></a>
+	<h3 class="subsubtitle method-title">descriptionForWriteMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_WriteMode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForWriteMode:(TSL_WriteMode)<em>mode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mode</em></dt>
+			<dd><p>The TSL_WriteMode value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_WriteMode or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/impinjBlockWriteModeForParameterValue:" title="impinjBlockWriteModeForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">impinjBlockWriteModeForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given parameter value string and determine the corresponding TSL_ImpinjBlockWriteMode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_ImpinjBlockWriteMode)impinjBlockWriteModeForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_ImpinjBlockWriteMode corresponding to the given string. Invalid parameter values return TSL_ImpinjBlockWriteMode_NotSpecified</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidImpinjBlockWriteMode:" title="isValidImpinjBlockWriteMode:"></a>
+	<h3 class="subsubtitle method-title">isValidImpinjBlockWriteMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_ImpinjBlockWriteMode for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidImpinjBlockWriteMode:(TSL_ImpinjBlockWriteMode)<em>mode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mode</em></dt>
+			<dd><p>The TSL_ImpinjBlockWriteMode value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_ImpinjBlockWriteMode is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidWriteMode:" title="isValidWriteMode:"></a>
+	<h3 class="subsubtitle method-title">isValidWriteMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_WriteMode for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidWriteMode:(TSL_WriteMode)<em>mode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mode</em></dt>
+			<dd><p>The TSL_WriteMode value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_WriteMode is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForImpinjBlockWriteMode:" title="parameterValueForImpinjBlockWriteMode:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForImpinjBlockWriteMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_ImpinjBlockWriteMode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForImpinjBlockWriteMode:(TSL_ImpinjBlockWriteMode)<em>mode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mode</em></dt>
+			<dd><p>The TSL_ImpinjBlockWriteMode value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_ImpinjBlockWriteMode or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForWriteMode:" title="parameterValueForWriteMode:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForWriteMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_WriteMode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForWriteMode:(TSL_WriteMode)<em>mode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mode</em></dt>
+			<dd><p>The TSL_WriteMode value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_WriteMode or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/synchronousCommand" title="synchronousCommand"></a>
+	<h3 class="subsubtitle method-title">synchronousCommand</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a synchronous TSLWriteTransponderCommand<br/>
+(with self as synchronous responder)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSLWriteTransponderCommand *)synchronousCommand</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/writeModeForParameterValue:" title="writeModeForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">writeModeForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given parameter value string and determine the corresponding TSL_WriteMode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_WriteMode)writeModeForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_WriteMode corresponding to the given string. Invalid parameter values return TSL_WriteMode_NotSpecified</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLWriteTransponderCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

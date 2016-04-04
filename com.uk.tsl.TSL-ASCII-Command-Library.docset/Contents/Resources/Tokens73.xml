@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLSwitchResponderStateReceivedDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLSwitchResponderStateReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for objects wishing to receive asynchronous notification of changes in switch state</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLSwitchResponderStateReceivedDelegate/switchStateReceived:</TokenIdentifier>
+			<Abstract type="html">Invoked each time switch state information has been received</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>- (void)switchStateReceived:(TSL_SwitchState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_SwitchState received from the reader</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/switchStateReceived:</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLInventoryCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLInventoryCommand</TokenIdentifier>
+			<Abstract type="html">A command to perform an inventory</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/setInventoryOnly:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLInventoryCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/setUseFastId:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES
+Impinj Only - requires transponder support</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useFastId</Declaration>
+			
+			
+			<Anchor>//api/name/useFastId</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/useFastId</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES
+Impinj Only - requires transponder support</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useFastId</Declaration>
+			
+			
+			<Anchor>//api/name/useFastId</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLInventoryCommand/useFastId</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES
+Impinj Only - requires transponder support</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useFastId</Declaration>
+			
+			
+			<Anchor>//api/name/useFastId</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/setUseTagFocus:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES
+Impinj Only - requires transponder support</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useTagFocus</Declaration>
+			
+			
+			<Anchor>//api/name/useTagFocus</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/useTagFocus</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES
+Impinj Only - requires transponder support</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useTagFocus</Declaration>
+			
+			
+			<Anchor>//api/name/useTagFocus</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLInventoryCommand/useTagFocus</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES
+Impinj Only - requires transponder support</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useTagFocus</Declaration>
+			
+			
+			<Anchor>//api/name/useTagFocus</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/setSessionModeDescription:</TokenIdentifier>
+			<Abstract type="html">Convenience property returning the &apos;query session&apos; parameter</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *sessionModeDescription</Declaration>
+			
+			
+			<Anchor>//api/name/sessionModeDescription</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/sessionModeDescription</TokenIdentifier>
+			<Abstract type="html">Convenience property returning the &apos;query session&apos; parameter</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *sessionModeDescription</Declaration>
+			
+			
+			<Anchor>//api/name/sessionModeDescription</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLInventoryCommand/sessionModeDescription</TokenIdentifier>
+			<Abstract type="html">Convenience property returning the &apos;query session&apos; parameter</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *sessionModeDescription</Declaration>
+			
+			
+			<Anchor>//api/name/sessionModeDescription</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/setTransponderReceivedDelegate:</TokenIdentifier>
+			<Abstract type="html">The TSLInventoryCommandTransponderReceivedDelegate to inform after each transponder is received</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLInventoryCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLInventoryCommandTransponderReceivedDelegate to inform after each transponder is received</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLInventoryCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLInventoryCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLInventoryCommandTransponderReceivedDelegate to inform after each transponder is received</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLInventoryCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/setTransponderReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The TSLTransponderReceivedBlock</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLInventoryTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLInventoryCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The TSLTransponderReceivedBlock</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLInventoryTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLInventoryCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The TSLTransponderReceivedBlock</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLInventoryTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLInventoryCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLInventoryCommand</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLInventoryCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+	</File>
+</Tokens>

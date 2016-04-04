@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1785FA19B5F501007BABC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1785F919B5F501007BABC8 /* Foundation.framework */; };
+		2D1785FC19B5F501007BABC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1785FB19B5F501007BABC8 /* CoreGraphics.framework */; };
+		2D1785FE19B5F501007BABC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1785FD19B5F501007BABC8 /* UIKit.framework */; };
+		2D17860419B5F501007BABC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D17860219B5F501007BABC8 /* InfoPlist.strings */; };
+		2D17860619B5F501007BABC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D17860519B5F501007BABC8 /* main.m */; };
+		2D17860A19B5F501007BABC8 /* TSLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D17860919B5F501007BABC8 /* TSLAppDelegate.m */; };
+		2D17860D19B5F501007BABC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D17860B19B5F501007BABC8 /* Main.storyboard */; };
+		2D17861019B5F501007BABC8 /* TSLLicenceKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D17860F19B5F501007BABC8 /* TSLLicenceKeyViewController.m */; };
+		2D17861219B5F501007BABC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D17861119B5F501007BABC8 /* Images.xcassets */; };
+		2D17862F19B5F721007BABC8 /* Version History.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D17862E19B5F721007BABC8 /* Version History.txt */; };
+		2D17863719B5F986007BABC8 /* TSLSelectReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D17863619B5F986007BABC8 /* TSLSelectReaderViewController.m */; };
+		2D17863A19B604EB007BABC8 /* TSLAsciiCommands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D17863919B604EB007BABC8 /* TSLAsciiCommands.framework */; };
+		2D45AEAB1BE7A3630090424C /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D45AEAA1BE7A3630090424C /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D1785F619B5F501007BABC8 /* Licence Key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Licence Key.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1785F919B5F501007BABC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D1785FB19B5F501007BABC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D1785FD19B5F501007BABC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D17860119B5F501007BABC8 /* Licence Key-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Licence Key-Info.plist"; sourceTree = "<group>"; };
+		2D17860319B5F501007BABC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D17860519B5F501007BABC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D17860719B5F501007BABC8 /* Licence Key-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Licence Key-Prefix.pch"; sourceTree = "<group>"; };
+		2D17860819B5F501007BABC8 /* TSLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLAppDelegate.h; sourceTree = "<group>"; };
+		2D17860919B5F501007BABC8 /* TSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSLAppDelegate.m; sourceTree = "<group>"; };
+		2D17860C19B5F501007BABC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D17860E19B5F501007BABC8 /* TSLLicenceKeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLLicenceKeyViewController.h; sourceTree = "<group>"; };
+		2D17860F19B5F501007BABC8 /* TSLLicenceKeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSLLicenceKeyViewController.m; sourceTree = "<group>"; };
+		2D17861119B5F501007BABC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D17862E19B5F721007BABC8 /* Version History.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Version History.txt"; path = "Licence Key/Version History.txt"; sourceTree = "<group>"; };
+		2D17863419B5F986007BABC8 /* TSLSelectReaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLSelectReaderProtocol.h; sourceTree = "<group>"; };
+		2D17863519B5F986007BABC8 /* TSLSelectReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLSelectReaderViewController.h; sourceTree = "<group>"; };
+		2D17863619B5F986007BABC8 /* TSLSelectReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLSelectReaderViewController.m; sourceTree = "<group>"; };
+		2D17863919B604EB007BABC8 /* TSLAsciiCommands.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TSLAsciiCommands.framework; path = ../TSLAsciiCommands.framework; sourceTree = "<group>"; };
+		2D45AEAA1BE7A3630090424C /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1785F319B5F501007BABC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D45AEAB1BE7A3630090424C /* ExternalAccessory.framework in Frameworks */,
+				2D17863A19B604EB007BABC8 /* TSLAsciiCommands.framework in Frameworks */,
+				2D1785FC19B5F501007BABC8 /* CoreGraphics.framework in Frameworks */,
+				2D1785FE19B5F501007BABC8 /* UIKit.framework in Frameworks */,
+				2D1785FA19B5F501007BABC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1785ED19B5F501007BABC8 = {
+			isa = PBXGroup;
+			children = (
+				2D17862E19B5F721007BABC8 /* Version History.txt */,
+				2D17863819B5F98A007BABC8 /* Select Reader */,
+				2D1785FF19B5F501007BABC8 /* Licence Key */,
+				2D1785F819B5F501007BABC8 /* Frameworks */,
+				2D1785F719B5F501007BABC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1785F719B5F501007BABC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1785F619B5F501007BABC8 /* Licence Key.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1785F819B5F501007BABC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D45AEAA1BE7A3630090424C /* ExternalAccessory.framework */,
+				2D17863919B604EB007BABC8 /* TSLAsciiCommands.framework */,
+				2D1785F919B5F501007BABC8 /* Foundation.framework */,
+				2D1785FB19B5F501007BABC8 /* CoreGraphics.framework */,
+				2D1785FD19B5F501007BABC8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D1785FF19B5F501007BABC8 /* Licence Key */ = {
+			isa = PBXGroup;
+			children = (
+				2D17860819B5F501007BABC8 /* TSLAppDelegate.h */,
+				2D17860919B5F501007BABC8 /* TSLAppDelegate.m */,
+				2D17860B19B5F501007BABC8 /* Main.storyboard */,
+				2D17860E19B5F501007BABC8 /* TSLLicenceKeyViewController.h */,
+				2D17860F19B5F501007BABC8 /* TSLLicenceKeyViewController.m */,
+				2D17861119B5F501007BABC8 /* Images.xcassets */,
+				2D17860019B5F501007BABC8 /* Supporting Files */,
+			);
+			path = "Licence Key";
+			sourceTree = "<group>";
+		};
+		2D17860019B5F501007BABC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D17860119B5F501007BABC8 /* Licence Key-Info.plist */,
+				2D17860219B5F501007BABC8 /* InfoPlist.strings */,
+				2D17860519B5F501007BABC8 /* main.m */,
+				2D17860719B5F501007BABC8 /* Licence Key-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D17863819B5F98A007BABC8 /* Select Reader */ = {
+			isa = PBXGroup;
+			children = (
+				2D17863419B5F986007BABC8 /* TSLSelectReaderProtocol.h */,
+				2D17863519B5F986007BABC8 /* TSLSelectReaderViewController.h */,
+				2D17863619B5F986007BABC8 /* TSLSelectReaderViewController.m */,
+			);
+			name = "Select Reader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1785F519B5F501007BABC8 /* Licence Key */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D17862819B5F502007BABC8 /* Build configuration list for PBXNativeTarget "Licence Key" */;
+			buildPhases = (
+				2D1785F219B5F501007BABC8 /* Sources */,
+				2D1785F319B5F501007BABC8 /* Frameworks */,
+				2D1785F419B5F501007BABC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Licence Key";
+			productName = "Licence Key";
+			productReference = 2D1785F619B5F501007BABC8 /* Licence Key.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1785EE19B5F501007BABC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TSL;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Technology Solutions (UK) Ltd";
+				TargetAttributes = {
+					2D1785F519B5F501007BABC8 = {
+						DevelopmentTeam = 3Y6YXCNZ5L;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2D1785F119B5F501007BABC8 /* Build configuration list for PBXProject "Licence Key" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1785ED19B5F501007BABC8;
+			productRefGroup = 2D1785F719B5F501007BABC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1785F519B5F501007BABC8 /* Licence Key */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1785F419B5F501007BABC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D17861219B5F501007BABC8 /* Images.xcassets in Resources */,
+				2D17862F19B5F721007BABC8 /* Version History.txt in Resources */,
+				2D17860419B5F501007BABC8 /* InfoPlist.strings in Resources */,
+				2D17860D19B5F501007BABC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1785F219B5F501007BABC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D17860A19B5F501007BABC8 /* TSLAppDelegate.m in Sources */,
+				2D17861019B5F501007BABC8 /* TSLLicenceKeyViewController.m in Sources */,
+				2D17860619B5F501007BABC8 /* main.m in Sources */,
+				2D17863719B5F986007BABC8 /* TSLSelectReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D17860219B5F501007BABC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D17860319B5F501007BABC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D17860B19B5F501007BABC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D17860C19B5F501007BABC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D17862619B5F502007BABC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D17862719B5F502007BABC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D17862919B5F502007BABC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Licence Key/Licence Key-Prefix.pch";
+				INFOPLIST_FILE = "Licence Key/Licence Key-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uk.tsl.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Licence Key/Licence Key-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D17862A19B5F502007BABC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Licence Key/Licence Key-Prefix.pch";
+				INFOPLIST_FILE = "Licence Key/Licence Key-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uk.tsl.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Licence Key/Licence Key-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1785F119B5F501007BABC8 /* Build configuration list for PBXProject "Licence Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D17862619B5F502007BABC8 /* Debug */,
+				2D17862719B5F502007BABC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D17862819B5F502007BABC8 /* Build configuration list for PBXNativeTarget "Licence Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D17862919B5F502007BABC8 /* Debug */,
+				2D17862A19B5F502007BABC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1785EE19B5F501007BABC8 /* Project object */;
+}

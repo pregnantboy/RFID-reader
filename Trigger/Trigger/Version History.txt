@@ -1,0 +1,21 @@
+
+Trigger
+=======
+
+v1.1 - 02/09/2014
+-----------------
+
+Updated reader selection UI.
+
+Uses the v1.1.0 TSLAsciiCommands.framework
+
+
+
+v1.0 - 11/10/2013
+-----------------
+
+Changed editable UITextView to a UILabel for the 'Trigger Status' heading.
+
+Uses the v1.0 TSLAsciiCommands.framework
+
+

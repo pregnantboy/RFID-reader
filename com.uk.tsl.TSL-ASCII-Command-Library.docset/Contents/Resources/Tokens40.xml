@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSwitchDoublePressUserActionCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSwitchDoublePressUserActionCommand</TokenIdentifier>
+			<Abstract type="html">A command to configure the user-defined, single-press switch action</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchDoublePressUserActionCommand/setValue:</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be executed when the switch is double pressed as an NSString</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchDoublePressUserActionCommand/value</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be executed when the switch is double pressed as an NSString</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchDoublePressUserActionCommand/value</TokenIdentifier>
+			<Abstract type="html">The ASCII command to be executed when the switch is double pressed as an NSString</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchDoublePressUserActionCommand/setActionCommand:</TokenIdentifier>
+			<Abstract type="html">The command to be executed when the switch is double pressed as an idTSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLAsciiCommand&gt; actionCommand</Declaration>
+			
+			
+			<Anchor>//api/name/actionCommand</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchDoublePressUserActionCommand/actionCommand</TokenIdentifier>
+			<Abstract type="html">The command to be executed when the switch is double pressed as an idTSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLAsciiCommand&gt; actionCommand</Declaration>
+			
+			
+			<Anchor>//api/name/actionCommand</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchDoublePressUserActionCommand/actionCommand</TokenIdentifier>
+			<Abstract type="html">The command to be executed when the switch is double pressed as an idTSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLAsciiCommand&gt; actionCommand</Declaration>
+			
+			
+			<Anchor>//api/name/actionCommand</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchDoublePressUserActionCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchDoublePressUserActionCommand</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressUserActionCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchDoublePressUserActionCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+	</File>
+</Tokens>

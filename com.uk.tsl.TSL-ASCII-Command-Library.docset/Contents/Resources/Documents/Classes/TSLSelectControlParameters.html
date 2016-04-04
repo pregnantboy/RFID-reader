@@ -1,0 +1,679 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLSelectControlParameters Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLSelectControlParameters Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/descriptionForSelectAction:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForSelectAction:</option>
+	
+	<option value="//api/name/descriptionForSelectTarget:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForSelectTarget:</option>
+	
+	<option value="//api/name/isValidSelectAction:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidSelectAction:</option>
+	
+	<option value="//api/name/isValidSelectTarget:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidSelectTarget:</option>
+	
+	<option value="//api/name/parameterValueForSelectTarget:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForSelectTarget:</option>
+	
+	<option value="//api/name/selectTargetForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ selectTargetForParameterValue:</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Select Target helper methods">Select Target helper methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Select Action helper methods">Select Action helper methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForSelectAction:">descriptionForSelectAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForSelectTarget:">descriptionForSelectTarget:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidSelectAction:">isValidSelectAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidSelectTarget:">isValidSelectTarget:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForSelectTarget:">parameterValueForSelectTarget:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectTargetForParameterValue:">selectTargetForParameterValue:</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLSelectControlParameters Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLSelectControlParameters Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/TSLParametersProtocol.html">TSLParametersProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLSelectControlParameters.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Helper class for implementing <a href="../Protocols/TSLSelectControlParametersProtocol.html">TSLSelectControlParametersProtocol</a></p>
+
+<p>The <code>TSL_SelectTarget</code> enum is used to specify values for the <code>selectTarget</code> parameter.</p>
+
+<p>When issuing a command to the reader the values are interpreted as follows:</p>
+
+<ul>
+<li><code>TSL_SelectTarget_NOT_SPECIFIED</code> - <em>The value has not been specified and the <code>selectTarget</code> parameter will not be sent</em></li>
+<li><code>TSL_SelectTarget_S0</code> - <em>Session 0 has been specified and is sent as <code>'s0'</code></em></li>
+<li><code>TSL_SelectTarget_S1</code> - <em>Session 1 has been specified and is sent as <code>'s1'</code></em></li>
+<li><code>TSL_SelectTarget_S2</code> - <em>Session 2 has been specified and is sent as <code>'s2'</code></em></li>
+<li><code>TSL_SelectTarget_S3</code> - <em>Session 3 has been specified and is sent as <code>'s3'</code></em></li>
+<li><code>TSL_SelectTarget_SL</code> - <em>Select has been specified and is sent as <code>'sl'</code></em></li>
+</ul>
+
+
+<p>When a command includes the &lsquo;-p&rsquo; option the <code>selectTarget</code> parameter will be set according to the reader&rsquo;s current value</p>
+
+<p>The <code>TSL_SelectAction</code> enum is used to specify values for the selectAction parameter.</p>
+
+<p>When issuing a command to the reader the values are interpreted as follows:</p>
+
+<ul>
+<li><code>TSL_SelectAction_NOT_SPECIFIED</code> - <em>The value has not been specified and the <code>selectAction</code> parameter will not be sent</em></li>
+<li><code>TSL_SelectAction_AssertSetA_DeassertSetB</code> - <em>Match: Assert Select / Set Session A  Non Match: Deassert Select / Set Session B</em></li>
+<li><code>TSL_SelectAction_AssertSetA_NothingNothing</code> - <em>Match: Assert Select / Set Session A  Non Match: Nothing / Nothing</em></li>
+<li><code>TSL_SelectAction_NothingNothing_DeassertSetB</code> - <em>Match: Nothing / Nothing  Non Match: Deassert Select / Set Session B</em></li>
+<li><code>TSL_SelectAction_ToggleToggle_NothingNothing</code> - <em>Match: Toggle / Toggle  Non Match: Nothing / Nothing</em></li>
+<li><code>TSL_SelectAction_DeassertSetB_AssertSetA</code> - <em>Match: Deassert Select / Set Session B  Non Match: Assert Select / Set Session A</em></li>
+<li><code>TSL_SelectAction_DeassertSetB_NothingNothing</code> - <em>Match: Deassert Select / Set Session B  Non Match: Nothing / Nothing</em></li>
+<li><code>TSL_SelectAction_NothingNothing_AssertSetA</code> - <em>Match: Nothing / Nothing  Non Match: Assert Select / Set Session A</em></li>
+<li><code>TSL_SelectAction_NothingNothing_ToggleToggle</code> - <em>Match: Nothing / Nothing  Non Match: Toggle / Toggle</em></li>
+</ul>
+
+
+<p>When a command includes the &lsquo;-p&rsquo; option the <code>selectAction</code> parameter will be set according to the reader&rsquo;s current value</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Select Target helper methods" name="task_Select Target helper methods"></a>
+						<h3 class="subsubtitle task-title">Select Target helper methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectTargetForParameterValue:">+&nbsp;selectTargetForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given parameter value string and determine the corresponding TSL_SelectTarget</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForSelectTarget:">+&nbsp;parameterValueForSelectTarget:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_SelectTarget</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForSelectTarget:">+&nbsp;descriptionForSelectTarget:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_SelectTarget</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidSelectTarget:">+&nbsp;isValidSelectTarget:</a></code>
+		<span class="tooltip"><p>Test the given TSL_SelectTarget for validity</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Select Action helper methods" name="task_Select Action helper methods"></a>
+						<h3 class="subsubtitle task-title">Select Action helper methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForSelectAction:">+&nbsp;descriptionForSelectAction:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_SelectAction</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidSelectAction:">+&nbsp;isValidSelectAction:</a></code>
+		<span class="tooltip"><p>Test the given TSL_SelectAction for validity</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForSelectAction:" title="descriptionForSelectAction:"></a>
+	<h3 class="subsubtitle method-title">descriptionForSelectAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_SelectAction</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForSelectAction:(TSL_SelectAction)<em>action</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>action</em></dt>
+			<dd><p>The TSL_SelectAction value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_SelectAction or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSelectControlParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForSelectTarget:" title="descriptionForSelectTarget:"></a>
+	<h3 class="subsubtitle method-title">descriptionForSelectTarget:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_SelectTarget</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForSelectTarget:(TSL_SelectTarget)<em>target</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>target</em></dt>
+			<dd><p>The TSL_SelectTarget value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_SelectTarget or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSelectControlParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidSelectAction:" title="isValidSelectAction:"></a>
+	<h3 class="subsubtitle method-title">isValidSelectAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_SelectAction for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidSelectAction:(TSL_SelectAction)<em>action</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>action</em></dt>
+			<dd><p>The TSL_SelectAction value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_SelectAction is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSelectControlParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidSelectTarget:" title="isValidSelectTarget:"></a>
+	<h3 class="subsubtitle method-title">isValidSelectTarget:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_SelectTarget for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidSelectTarget:(TSL_SelectTarget)<em>target</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>target</em></dt>
+			<dd><p>The TSL_SelectTarget value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_SelectTarget is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSelectControlParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForSelectTarget:" title="parameterValueForSelectTarget:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForSelectTarget:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_SelectTarget</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForSelectTarget:(TSL_SelectTarget)<em>target</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>target</em></dt>
+			<dd><p>The TSL_SelectTarget value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_SelectTarget or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSelectControlParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectTargetForParameterValue:" title="selectTargetForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">selectTargetForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given parameter value string and determine the corresponding TSL_SelectTarget</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_SelectTarget)selectTargetForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_SelectTarget corresponding to the given string. Invalid parameter values return TSL_SelectTarget_NotSpecified</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSelectControlParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

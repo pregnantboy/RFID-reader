@@ -1,0 +1,661 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLAsciiCommandExecuting Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLAsciiCommandExecuting Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/responderChain">&nbsp;&nbsp;&nbsp;&nbsp;responderChain</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addResponder:">&nbsp;&nbsp;&nbsp;&nbsp;- addResponder:</option>
+	
+	<option value="//api/name/addSynchronousResponder">&nbsp;&nbsp;&nbsp;&nbsp;- addSynchronousResponder</option>
+	
+	<option value="//api/name/clearResponders">&nbsp;&nbsp;&nbsp;&nbsp;- clearResponders</option>
+	
+	<option value="//api/name/executeCommand:">&nbsp;&nbsp;&nbsp;&nbsp;- executeCommand:</option>
+	
+	<option value="//api/name/removeResponder:">&nbsp;&nbsp;&nbsp;&nbsp;- removeResponder:</option>
+	
+	<option value="//api/name/removeSynchronousResponder">&nbsp;&nbsp;&nbsp;&nbsp;- removeSynchronousResponder</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Executing commands">Executing commands</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing the responder chain">Managing the responder chain</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/responderChain">responderChain</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addResponder:">addResponder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addSynchronousResponder">addSynchronousResponder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearResponders">clearResponders</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/executeCommand:">executeCommand:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeResponder:">removeResponder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeSynchronousResponder">removeSynchronousResponder</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLAsciiCommandExecuting Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLAsciiCommandExecuting Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLAsciiCommandExecuting.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Defines the responsibilities of classes that can execute and respond to a <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a></p>
+
+<p>Responses to an executed <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> (see <a href="#//api/name/executeCommand:"><code>executeCommand:</code></a>) are handled through a responder chain (see <a href="#//api/name/responderChain"><code>responderChain</code></a>)<br/>
+The responder chain is an ordered list of <a href="../Protocols/TSLAsciiCommandResponder.html">TSLAsciiCommandResponder</a> that is traversed from the first responder added to the last.<br/>
+Each correctly terminated response line that has been received is passed to the TSLAsciiCommandResponder&rsquo;s processReceivedLine: method.<br/>
+If a responder returns YES from the processReceivedLine method then the traversal ends otherwise it continues until all responders have been<br/>
+visited.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Executing commands" name="task_Executing commands"></a>
+						<h3 class="subsubtitle task-title">Executing commands</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/executeCommand:">&ndash;&nbsp;executeCommand:</a></code>
+		<span class="tooltip"><p>Execute the given command.</p></span>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+						
+						<a title="Managing the responder chain" name="task_Managing the responder chain"></a>
+						<h3 class="subsubtitle task-title">Managing the responder chain</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/responderChain">&nbsp;&nbsp;responderChain</a></code>
+		<span class="tooltip"><p>The chain of TSLAsciiCommandResponders</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addResponder:">&ndash;&nbsp;addResponder:</a></code>
+		<span class="tooltip"><p>Add a responder to the responder chain</p></span>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeResponder:">&ndash;&nbsp;removeResponder:</a></code>
+		<span class="tooltip"><p>Remove a responder from the responder chain</p></span>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addSynchronousResponder">&ndash;&nbsp;addSynchronousResponder</a></code>
+		<span class="tooltip"><p>Add the synchronous responder into the chain</p></span>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeSynchronousResponder">&ndash;&nbsp;removeSynchronousResponder</a></code>
+		<span class="tooltip"><p>Remove the synchronous responder from the chain</p></span>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clearResponders">&ndash;&nbsp;clearResponders</a></code>
+		<span class="tooltip"><p>Clear all responders from the responder chain</p></span>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/responderChain" title="responderChain"></a>
+	<h3 class="subsubtitle method-title">responderChain</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The chain of TSLAsciiCommandResponders</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) id&lt;NSFastEnumeration&gt; responderChain</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addResponder:" title="addResponder:"></a>
+	<h3 class="subsubtitle method-title">addResponder:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add a responder to the responder chain</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addResponder:(id&lt;TSLAsciiCommandResponder&gt;)<em>responder</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>responder</em></dt>
+			<dd><p>The responder to add to the chain</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addSynchronousResponder" title="addSynchronousResponder"></a>
+	<h3 class="subsubtitle method-title">addSynchronousResponder</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add the synchronous responder into the chain</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addSynchronousResponder</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This is a special responder that despatches responses through a command&rsquo;s <code>synchronousCommandResponder</code> property<br/>
+There will only ever be one of these in the command chain</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/clearResponders" title="clearResponders"></a>
+	<h3 class="subsubtitle method-title">clearResponders</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Clear all responders from the responder chain</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)clearResponders</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/executeCommand:" title="executeCommand:"></a>
+	<h3 class="subsubtitle method-title">executeCommand:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Execute the given command.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)executeCommand:(id&lt;TSLAsciiCommand&gt;)<em>command</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>command</em></dt>
+			<dd><p>The command to be executed</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Command execution is asynchronous unless the command has a (non-nil) synchronousCommandResponder then<br/>
+the command will be executed synchronously. Synchronous behaviour requires prior call to <a href="#//api/name/addSynchronousResponder">addSynchronousResponder</a>.</p>
+
+<p><em>Warning:</em> derived classes must call the base implementation to ensure synchronous commands work correctly</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeResponder:" title="removeResponder:"></a>
+	<h3 class="subsubtitle method-title">removeResponder:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove a responder from the responder chain</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeResponder:(id&lt;TSLAsciiCommandResponder&gt;)<em>responder</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>responder</em></dt>
+			<dd><p>The responder to remove from the chain</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeSynchronousResponder" title="removeSynchronousResponder"></a>
+	<h3 class="subsubtitle method-title">removeSynchronousResponder</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove the synchronous responder from the chain</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeSynchronousResponder</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAsciiCommandExecuting.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

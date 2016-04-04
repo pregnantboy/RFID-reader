@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLBarcodeCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLBarcodeCommand</TokenIdentifier>
+			<Abstract type="html">A command to read a barcode</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/setUseEscapeCharacter:</TokenIdentifier>
+			<Abstract type="html">Turn the escape character on/off</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useEscapeCharacter</Declaration>
+			
+			
+			<Anchor>//api/name/useEscapeCharacter</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/useEscapeCharacter</TokenIdentifier>
+			<Abstract type="html">Turn the escape character on/off</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useEscapeCharacter</Declaration>
+			
+			
+			<Anchor>//api/name/useEscapeCharacter</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLBarcodeCommand/useEscapeCharacter</TokenIdentifier>
+			<Abstract type="html">Turn the escape character on/off</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useEscapeCharacter</Declaration>
+			
+			
+			<Anchor>//api/name/useEscapeCharacter</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/setScanTime:</TokenIdentifier>
+			<Abstract type="html">Specify the scan duration in seconds (1-9)</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int scanTime</Declaration>
+			
+			
+			<Anchor>//api/name/scanTime</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/scanTime</TokenIdentifier>
+			<Abstract type="html">Specify the scan duration in seconds (1-9)</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int scanTime</Declaration>
+			
+			
+			<Anchor>//api/name/scanTime</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLBarcodeCommand/scanTime</TokenIdentifier>
+			<Abstract type="html">Specify the scan duration in seconds (1-9)</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int scanTime</Declaration>
+			
+			
+			<Anchor>//api/name/scanTime</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/setBarcodeReceivedDelegate:</TokenIdentifier>
+			<Abstract type="html">A TSLBarcodeCommandBarcodeReceivedDelegate to inform when barcode data is received</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLBarcodeCommandBarcodeReceivedDelegate&gt; barcodeReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeReceivedDelegate</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/barcodeReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">A TSLBarcodeCommandBarcodeReceivedDelegate to inform when barcode data is received</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLBarcodeCommandBarcodeReceivedDelegate&gt; barcodeReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeReceivedDelegate</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLBarcodeCommand/barcodeReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">A TSLBarcodeCommandBarcodeReceivedDelegate to inform when barcode data is received</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLBarcodeCommandBarcodeReceivedDelegate&gt; barcodeReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeReceivedDelegate</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/setData:</TokenIdentifier>
+			<Abstract type="html">The data received from the barcode scan</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBarcodeCommand/data</TokenIdentifier>
+			<Abstract type="html">The data received from the barcode scan</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLBarcodeCommand/data</TokenIdentifier>
+			<Abstract type="html">The data received from the barcode scan</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBarcodeCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLBarcodeCommand</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLBarcodeCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBarcodeCommand/synchronousCommandWithTimeout:</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLBarcodeCommand for the given scan timeout</Abstract>
+			<DeclaredIn>TSLBarcodeCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLBarcodeCommand *)synchronousCommandWithTimeout:(int)timeout</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>timeout</Name>
+					<Abstract type="html">the timeout in seconds (1-9)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/synchronousCommandWithTimeout:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+	</File>
+</Tokens>

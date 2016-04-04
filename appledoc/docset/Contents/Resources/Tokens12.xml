@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLBatteryStatusCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLBatteryStatusCommand</TokenIdentifier>
+			<Abstract type="html">A command to query the reader for battery status information</Abstract>
+			<DeclaredIn>TSLBatteryStatusCommand.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBatteryStatusCommand/setBatteryLevel:</TokenIdentifier>
+			<Abstract type="html">The battery level retrieved from the reader</Abstract>
+			<DeclaredIn>TSLBatteryStatusCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLBatteryStatusCommand/batteryLevel</TokenIdentifier>
+			<Abstract type="html">The battery level retrieved from the reader</Abstract>
+			<DeclaredIn>TSLBatteryStatusCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLBatteryStatusCommand/batteryLevel</TokenIdentifier>
+			<Abstract type="html">The battery level retrieved from the reader</Abstract>
+			<DeclaredIn>TSLBatteryStatusCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBatteryStatusCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLBatteryStatusCommand</Abstract>
+			<DeclaredIn>TSLBatteryStatusCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLBatteryStatusCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+	</File>
+</Tokens>

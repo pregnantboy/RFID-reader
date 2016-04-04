@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLQAlgorithmParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLQAlgorithmParameters</TokenIdentifier>
+			<Abstract type="html">Helper class for implementing TSLQAlgorithmParametersProtocol</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQAlgorithmParameters/commandLine:includeAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Constructs the partial command line required for a TSL ASCII 2.0 Reader based on the properties of the given source object</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)commandLine:(id&lt;TSLQAlgorithmParametersProtocol&gt;)source includeAlgorithm:(BOOL)includeAlgorithm</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">The object whose properties are to be encoded</Abstract>
+				</Parameter><Parameter>
+					<Name>includeAlgorithm</Name>
+					<Abstract type="html">YES if the Q algorithm parameter is to be included in the command line</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command line fragment built from the source objects properties</Abstract></ReturnValue>
+			<Anchor>//api/name/commandLine:includeAlgorithm:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQAlgorithmParameters/qAlgorithmForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_QAlgorithm</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_QAlgorithm)qAlgorithmForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLQAlgorithm corresponding to the given string. Invalid parameter values return TSLQAlgorithm _NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/qAlgorithmForParameterValue:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQAlgorithmParameters/parameterValueForQAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_QAlgorithm</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForQAlgorithm:(TSL_QAlgorithm)algorithm</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>algorithm</Name>
+					<Abstract type="html">The TSL_QAlgorithm value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_QAlgorithm or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForQAlgorithm:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQAlgorithmParameters/descriptionForQAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_QAlgorithm</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForQAlgorithm:(TSL_QAlgorithm)algorithm</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>algorithm</Name>
+					<Abstract type="html">The TSL_QAlgorithm value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_QAlgorithm or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForQAlgorithm:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQAlgorithmParameters/isValidQAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_QAlgorithm for validity</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidQAlgorithm:(TSL_QAlgorithm)algorithm</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>algorithm</Name>
+					<Abstract type="html">The TSL_QAlgorithm value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_QAlgorithm is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidQAlgorithm:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+	</File>
+</Tokens>

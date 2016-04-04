@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLLibraryConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLLibraryConfiguration</TokenIdentifier>
+			<Abstract type="html">Configuration values for the TSLAsciiCommand library</Abstract>
+			<DeclaredIn>TSLLibraryConfiguration.h</DeclaredIn>
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLLibraryConfiguration/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Returns the library configuration</Abstract>
+			<DeclaredIn>TSLLibraryConfiguration.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLLibraryConfiguration *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLibraryConfiguration/setUseUTF8:</TokenIdentifier>
+			<Abstract type="html">Control UTF8 support - off by default (introduced in SDK 1.2)
+YES: data to and from the reader is treated as NSUTF8Encoding - if data is not valid UTF8 then it will be treated as NSASCIIEncoding
+  NO: data to and from the reader is treated as NSASCIIEncoding (this is identical to frameworks &lt; v1.2)</Abstract>
+			<DeclaredIn>TSLLibraryConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) bool useUTF8</Declaration>
+			
+			
+			<Anchor>//api/name/useUTF8</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLibraryConfiguration/useUTF8</TokenIdentifier>
+			<Abstract type="html">Control UTF8 support - off by default (introduced in SDK 1.2)
+YES: data to and from the reader is treated as NSUTF8Encoding - if data is not valid UTF8 then it will be treated as NSASCIIEncoding
+  NO: data to and from the reader is treated as NSASCIIEncoding (this is identical to frameworks &lt; v1.2)</Abstract>
+			<DeclaredIn>TSLLibraryConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) bool useUTF8</Declaration>
+			
+			
+			<Anchor>//api/name/useUTF8</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLibraryConfiguration/useUTF8</TokenIdentifier>
+			<Abstract type="html">Control UTF8 support - off by default (introduced in SDK 1.2)
+YES: data to and from the reader is treated as NSUTF8Encoding - if data is not valid UTF8 then it will be treated as NSASCIIEncoding
+  NO: data to and from the reader is treated as NSASCIIEncoding (this is identical to frameworks &lt; v1.2)</Abstract>
+			<DeclaredIn>TSLLibraryConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) bool useUTF8</Declaration>
+			
+			
+			<Anchor>//api/name/useUTF8</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+	</File>
+</Tokens>

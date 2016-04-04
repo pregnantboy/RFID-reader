@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSleepTimeoutCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSleepTimeoutCommand</TokenIdentifier>
+			<Abstract type="html">A command to change the reader sleep timeout</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSleepTimeoutCommand/minimumDuration</TokenIdentifier>
+			<Abstract type="html">the minimum valid value for the duration parameter</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)minimumDuration</Declaration>
+			
+			<ReturnValue><Abstract type="html">the minimum valid value for the duration parameter</Abstract></ReturnValue>
+			<Anchor>//api/name/minimumDuration</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSleepTimeoutCommand/maximumDuration</TokenIdentifier>
+			<Abstract type="html">the maximum valid value for the duration parameter</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)maximumDuration</Declaration>
+			
+			<ReturnValue><Abstract type="html">the maximum valid value for the duration parameter</Abstract></ReturnValue>
+			<Anchor>//api/name/maximumDuration</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSleepTimeoutCommand/setDuration:</TokenIdentifier>
+			<Abstract type="html">The duration for the sleep timeout in the range (minimumDuration - maximumDuration</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSleepTimeoutCommand/duration</TokenIdentifier>
+			<Abstract type="html">The duration for the sleep timeout in the range (minimumDuration - maximumDuration</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSleepTimeoutCommand/duration</TokenIdentifier>
+			<Abstract type="html">The duration for the sleep timeout in the range (minimumDuration - maximumDuration</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSleepTimeoutCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSleepTimeoutCommand</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSleepTimeoutCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSleepTimeoutCommand/synchronousCommandWithDuration:</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSleepTimeoutCommand configured for the given duration</Abstract>
+			<DeclaredIn>TSLSleepTimeoutCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSleepTimeoutCommand *)synchronousCommandWithDuration:(int)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The duration for the sleep timeout (15-999) in seconds</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/synchronousCommandWithDuration:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+	</File>
+</Tokens>

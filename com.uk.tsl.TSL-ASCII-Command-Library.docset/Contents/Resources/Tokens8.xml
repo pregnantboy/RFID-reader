@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAsciiCommander.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAsciiCommander</TokenIdentifier>
+			<Abstract type="html">TSLAsciiCommander provides methods to communicate with TSL devices that use the TSL ASCII 2.0 Protocol</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/setConnectedAccessory:</TokenIdentifier>
+			<Abstract type="html">The EAAccessory for the currently connected TSL Device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) EAAccessory *connectedAccessory</Declaration>
+			
+			
+			<Anchor>//api/name/connectedAccessory</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/connectedAccessory</TokenIdentifier>
+			<Abstract type="html">The EAAccessory for the currently connected TSL Device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) EAAccessory *connectedAccessory</Declaration>
+			
+			
+			<Anchor>//api/name/connectedAccessory</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommander/connectedAccessory</TokenIdentifier>
+			<Abstract type="html">The EAAccessory for the currently connected TSL Device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) EAAccessory *connectedAccessory</Declaration>
+			
+			
+			<Anchor>//api/name/connectedAccessory</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/setIsConnected:</TokenIdentifier>
+			<Abstract type="html">YES if the TSLAsciiCommander is connected to a TSL device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/isConnected</TokenIdentifier>
+			<Abstract type="html">YES if the TSLAsciiCommander is connected to a TSL device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommander/isConnected</TokenIdentifier>
+			<Abstract type="html">YES if the TSLAsciiCommander is connected to a TSL device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/setIsResponsive:</TokenIdentifier>
+			<Abstract type="html">YES if the last command completed as expected i.e. did not timeout</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isResponsive</Declaration>
+			
+			
+			<Anchor>//api/name/isResponsive</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/isResponsive</TokenIdentifier>
+			<Abstract type="html">YES if the last command completed as expected i.e. did not timeout</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isResponsive</Declaration>
+			
+			
+			<Anchor>//api/name/isResponsive</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommander/isResponsive</TokenIdentifier>
+			<Abstract type="html">YES if the last command completed as expected i.e. did not timeout</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isResponsive</Declaration>
+			
+			
+			<Anchor>//api/name/isResponsive</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/setLastActivityTime:</TokenIdentifier>
+			<Abstract type="html">The time of the readers last activity (send or receive)</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, readonly) NSDate *lastActivityTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastActivityTime</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/lastActivityTime</TokenIdentifier>
+			<Abstract type="html">The time of the readers last activity (send or receive)</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, readonly) NSDate *lastActivityTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastActivityTime</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommander/lastActivityTime</TokenIdentifier>
+			<Abstract type="html">The time of the readers last activity (send or receive)</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, readonly) NSDate *lastActivityTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastActivityTime</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/setLastCommandLine:</TokenIdentifier>
+			<Abstract type="html">The last command line sent</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *lastCommandLine</Declaration>
+			
+			
+			<Anchor>//api/name/lastCommandLine</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/lastCommandLine</TokenIdentifier>
+			<Abstract type="html">The last command line sent</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *lastCommandLine</Declaration>
+			
+			
+			<Anchor>//api/name/lastCommandLine</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommander/lastCommandLine</TokenIdentifier>
+			<Abstract type="html">The last command line sent</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *lastCommandLine</Declaration>
+			
+			
+			<Anchor>//api/name/lastCommandLine</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/setSupportedDeviceDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate used to test for supported devices</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) Class&lt;TSLAsciiCommanderSupportedDeviceDelegate&gt; supportedDeviceDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/supportedDeviceDelegate</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/supportedDeviceDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate used to test for supported devices</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) Class&lt;TSLAsciiCommanderSupportedDeviceDelegate&gt; supportedDeviceDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/supportedDeviceDelegate</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommander/supportedDeviceDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate used to test for supported devices</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) Class&lt;TSLAsciiCommanderSupportedDeviceDelegate&gt; supportedDeviceDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/supportedDeviceDelegate</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/connect:</TokenIdentifier>
+			<Abstract type="html">Connect the TSLAsciiCommander to the given TSL Device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)connect:(EAAccessory *)accessory</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>accessory</Name>
+					<Abstract type="html">The TSL Device, as an EAAccessory, with which to connect to or nil.
+  If nil then a connection is attempted with the last, successfully connected device.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if successfully connected</Abstract></ReturnValue>
+			<Anchor>//api/name/connect:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/disconnect</TokenIdentifier>
+			<Abstract type="html">Disconnects from the current device - this allows reconnections using connect:</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>- (void)disconnect</Declaration>
+			
+			
+			<Anchor>//api/name/disconnect</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/permanentlyDisconnect</TokenIdentifier>
+			<Abstract type="html">Sends the signal to the accessory to permanently disconnect</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>- (void)permanentlyDisconnect</Declaration>
+			
+			
+			<Anchor>//api/name/permanentlyDisconnect</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/send:</TokenIdentifier>
+			<Abstract type="html">Send the given string as a \&lt;CR\&gt;\&lt;LF\&gt; terminated string, to the TSL device</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>- (void)send:(NSString *)line</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>line</Name>
+					<Abstract type="html">The ASCII string to send to the device</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/send:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/halt</TokenIdentifier>
+			<Abstract type="html">Stops the TSLAsciiCommander</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>- (void)halt</Declaration>
+			
+			
+			<Anchor>//api/name/halt</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommander/abortSynchronousCommand</TokenIdentifier>
+			<Abstract type="html">Aborts any currently running synchronous command</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>- (void)abortSynchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/abortSynchronousCommand</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+	</File>
+</Tokens>

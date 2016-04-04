@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLQAlgorithmParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLQAlgorithmParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters for Q Algorithm in commands and responses</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQAlgorithmParametersProtocol/setQAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Q algorithm type</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QAlgorithm qAlgorithm</Declaration>
+			
+			
+			<Anchor>//api/name/qAlgorithm</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQAlgorithmParametersProtocol/qAlgorithm</TokenIdentifier>
+			<Abstract type="html">Q algorithm type</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QAlgorithm qAlgorithm</Declaration>
+			
+			
+			<Anchor>//api/name/qAlgorithm</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLQAlgorithmParametersProtocol/qAlgorithm</TokenIdentifier>
+			<Abstract type="html">Q algorithm type</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QAlgorithm qAlgorithm</Declaration>
+			
+			
+			<Anchor>//api/name/qAlgorithm</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQAlgorithmParametersProtocol/setQValue:</TokenIdentifier>
+			<Abstract type="html">Q value for fixed Q operations (0-15)</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int qValue</Declaration>
+			
+			
+			<Anchor>//api/name/qValue</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQAlgorithmParametersProtocol/qValue</TokenIdentifier>
+			<Abstract type="html">Q value for fixed Q operations (0-15)</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int qValue</Declaration>
+			
+			
+			<Anchor>//api/name/qValue</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLQAlgorithmParametersProtocol/qValue</TokenIdentifier>
+			<Abstract type="html">Q value for fixed Q operations (0-15)</Abstract>
+			<DeclaredIn>TSLQAlgorithmParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int qValue</Declaration>
+			
+			
+			<Anchor>//api/name/qValue</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+	</File>
+</Tokens>

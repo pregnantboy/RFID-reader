@@ -1,0 +1,1064 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLAlertCommand Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLAlertCommand Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/duration">&nbsp;&nbsp;&nbsp;&nbsp;duration</option>
+	
+	<option value="//api/name/enableBuzzer">&nbsp;&nbsp;&nbsp;&nbsp;enableBuzzer</option>
+	
+	<option value="//api/name/enableVibrator">&nbsp;&nbsp;&nbsp;&nbsp;enableVibrator</option>
+	
+	<option value="//api/name/tone">&nbsp;&nbsp;&nbsp;&nbsp;tone</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/alertDurationForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ alertDurationForParameterValue:</option>
+	
+	<option value="//api/name/buzzerToneForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ buzzerToneForParameterValue:</option>
+	
+	<option value="//api/name/descriptionForAlertDuration:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForAlertDuration:</option>
+	
+	<option value="//api/name/descriptionForBuzzerTone:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForBuzzerTone:</option>
+	
+	<option value="//api/name/isValidAlertDuration:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidAlertDuration:</option>
+	
+	<option value="//api/name/isValidBuzzerTone:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidBuzzerTone:</option>
+	
+	<option value="//api/name/parameterValueForAlertDuration:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForAlertDuration:</option>
+	
+	<option value="//api/name/parameterValueForBuzzerTone:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForBuzzerTone:</option>
+	
+	<option value="//api/name/synchronousCommand">&nbsp;&nbsp;&nbsp;&nbsp;+ synchronousCommand</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Properties">Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Alert duration methods">Alert duration methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Buzzer tone methods">Buzzer tone methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/duration">duration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableBuzzer">enableBuzzer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableVibrator">enableVibrator</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tone">tone</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alertDurationForParameterValue:">alertDurationForParameterValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buzzerToneForParameterValue:">buzzerToneForParameterValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForAlertDuration:">descriptionForAlertDuration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForBuzzerTone:">descriptionForBuzzerTone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidAlertDuration:">isValidAlertDuration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidBuzzerTone:">isValidBuzzerTone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForAlertDuration:">parameterValueForAlertDuration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForBuzzerTone:">parameterValueForBuzzerTone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/synchronousCommand">synchronousCommand</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLAlertCommand Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLAlertCommand Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TSLAsciiSelfResponderCommandBase.html">TSLAsciiSelfResponderCommandBase</a> : <a href="../Classes/TSLAsciiCommandLibraryResponderBase.html">TSLAsciiCommandLibraryResponderBase</a> : <a href="../Classes/TSLAsciiCommandResponderBase.html">TSLAsciiCommandResponderBase</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/TSLCommandParametersProtocol.html">TSLCommandParametersProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLAlertCommand.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A command to configure and query the reader&rsquo;s alert options</p>
+
+<p>The <code>TSL_AlertDuration</code> enum is used to specify values for the <a href="#//api/name/duration"><code>duration</code></a> parameter.</p>
+
+<p>When issuing a command to the reader the values are interpreted as follows:</p>
+
+<ul>
+<li><code>TSL_AlertDuration_NOT_SPECIFIED</code> - <em>The value has not been specified and the <code>duration</code> parameter will not be sent</em></li>
+<li><code>TSL_AlertDuration_Short</code> - <em>a short <a href="#//api/name/duration">duration</a> has been specified and is sent as <code>'sho'</code></em></li>
+<li><code>TSL_AlertDuration_Medium</code> - <em>a medium <a href="#//api/name/duration">duration</a> has been specified and is sent as <code>'med'</code></em></li>
+<li><code>TSL_AlertDuration_Long</code> - <em>a long <a href="#//api/name/duration">duration</a> has been specified and is sent as <code>'lon'</code></em></li>
+</ul>
+
+
+<p>When a command includes the &lsquo;-p&rsquo; option the <a href="#//api/name/duration"><code>duration</code></a> parameter will be set to the reader&rsquo;s current value</p>
+
+<p>The <code>TSL_BuzzerTone</code> enum is used to specify values for the <a href="#//api/name/tone"><code>tone</code></a> parameter.</p>
+
+<p>When issuing a command to the reader the values are interpreted as follows:</p>
+
+<ul>
+<li><code>TSL_BuzzerTone_NOT_SPECIFIED</code> - <em>The value has not been specified and the <code>tone</code> parameter will not be sent</em></li>
+<li><code>TSL_BuzzerTone_Low</code> - <em>a low <a href="#//api/name/tone">tone</a> has been specified and is sent as <code>'low'</code></em></li>
+<li><code>TSL_BuzzerTone_Medium</code> - <em>a medium <a href="#//api/name/tone">tone</a> has been specified and is sent as <code>'med'</code></em></li>
+<li><code>TSL_BuzzerTone_High</code> - <em>a high <a href="#//api/name/tone">tone</a> has been specified and is sent as <code>'hig'</code></em></li>
+</ul>
+
+
+<p>When a command includes the &lsquo;-p&rsquo; option the <a href="#//api/name/tone"><code>tone</code></a> parameter will be set to the reader&rsquo;s current value</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Properties" name="task_Properties"></a>
+						<h3 class="subsubtitle task-title">Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableBuzzer">&nbsp;&nbsp;enableBuzzer</a></code>
+		<span class="tooltip"><p>Turn the buzzer on or off</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/duration">&nbsp;&nbsp;duration</a></code>
+		<span class="tooltip"><p>Set the Buzzer &amp; Vibrator duration</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tone">&nbsp;&nbsp;tone</a></code>
+		<span class="tooltip"><p>Set the Buzzer tone</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableVibrator">&nbsp;&nbsp;enableVibrator</a></code>
+		<span class="tooltip"><p>Turn the vibrator on or off</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Alert duration methods" name="task_Alert duration methods"></a>
+						<h3 class="subsubtitle task-title">Alert duration methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alertDurationForParameterValue:">+&nbsp;alertDurationForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given parameter value string and determine the corresponding TSL_AlertDuration</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForAlertDuration:">+&nbsp;parameterValueForAlertDuration:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_AlertDuration</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForAlertDuration:">+&nbsp;descriptionForAlertDuration:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_AlertDuration</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidAlertDuration:">+&nbsp;isValidAlertDuration:</a></code>
+		<span class="tooltip"><p>Test the given TSL_AlertDuration for validity</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Buzzer tone methods" name="task_Buzzer tone methods"></a>
+						<h3 class="subsubtitle task-title">Buzzer tone methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buzzerToneForParameterValue:">+&nbsp;buzzerToneForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given parameter value string and determine the corresponding TSL_BuzzerTone</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForBuzzerTone:">+&nbsp;parameterValueForBuzzerTone:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_BuzzerTone</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForBuzzerTone:">+&nbsp;descriptionForBuzzerTone:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_BuzzerTone</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidBuzzerTone:">+&nbsp;isValidBuzzerTone:</a></code>
+		<span class="tooltip"><p>Test the given TSL_BuzzerTone for validity</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/synchronousCommand">+&nbsp;synchronousCommand</a></code>
+		<span class="tooltip"><p>Returns a synchronous TSLAlertCommand</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/duration" title="duration"></a>
+	<h3 class="subsubtitle method-title">duration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the Buzzer &amp; Vibrator duration</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_AlertDuration duration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableBuzzer" title="enableBuzzer"></a>
+	<h3 class="subsubtitle method-title">enableBuzzer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Turn the buzzer on or off</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState enableBuzzer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableVibrator" title="enableVibrator"></a>
+	<h3 class="subsubtitle method-title">enableVibrator</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Turn the vibrator on or off</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState enableVibrator</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tone" title="tone"></a>
+	<h3 class="subsubtitle method-title">tone</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the Buzzer tone</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_BuzzerTone tone</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/alertDurationForParameterValue:" title="alertDurationForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">alertDurationForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given parameter value string and determine the corresponding TSL_AlertDuration</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_AlertDuration)alertDurationForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_AlertDuration corresponding to the given string. Invalid parameter values return TSL_AlertDuration_NotSpecified</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buzzerToneForParameterValue:" title="buzzerToneForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">buzzerToneForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given parameter value string and determine the corresponding TSL_BuzzerTone</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_BuzzerTone)buzzerToneForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_BuzzerTone corresponding to the given string. Invalid parameter values return TSL_BuzzerTone_NotSpecified</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForAlertDuration:" title="descriptionForAlertDuration:"></a>
+	<h3 class="subsubtitle method-title">descriptionForAlertDuration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_AlertDuration</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForAlertDuration:(TSL_AlertDuration)<em>duration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>duration</em></dt>
+			<dd><p>The TSL_AlertDuration value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_AlertDuration or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForBuzzerTone:" title="descriptionForBuzzerTone:"></a>
+	<h3 class="subsubtitle method-title">descriptionForBuzzerTone:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_BuzzerTone</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForBuzzerTone:(TSL_BuzzerTone)<em>tone</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tone</em></dt>
+			<dd><p>The TSL_BuzzerTone value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_BuzzerTone or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidAlertDuration:" title="isValidAlertDuration:"></a>
+	<h3 class="subsubtitle method-title">isValidAlertDuration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_AlertDuration for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidAlertDuration:(TSL_AlertDuration)<em>duration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>duration</em></dt>
+			<dd><p>The TSL_AlertDuration value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_AlertDuration is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidBuzzerTone:" title="isValidBuzzerTone:"></a>
+	<h3 class="subsubtitle method-title">isValidBuzzerTone:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_BuzzerTone for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidBuzzerTone:(TSL_BuzzerTone)<em>tone</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tone</em></dt>
+			<dd><p>The TSL_BuzzerTone value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_BuzzerTone is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForAlertDuration:" title="parameterValueForAlertDuration:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForAlertDuration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_AlertDuration</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForAlertDuration:(TSL_AlertDuration)<em>duration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>duration</em></dt>
+			<dd><p>The TSL_AlertDuration value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_AlertDuration or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForBuzzerTone:" title="parameterValueForBuzzerTone:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForBuzzerTone:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_BuzzerTone</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForBuzzerTone:(TSL_BuzzerTone)<em>tone</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tone</em></dt>
+			<dd><p>The TSL_BuzzerTone value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_BuzzerTone or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/synchronousCommand" title="synchronousCommand"></a>
+	<h3 class="subsubtitle method-title">synchronousCommand</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a synchronous TSLAlertCommand</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSLAlertCommand *)synchronousCommand</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLAlertCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

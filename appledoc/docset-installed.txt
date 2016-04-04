@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/scrith/Library/Developer/Shared/Documentation/DocSets/com.uk.tsl.TSL-ASCII-Command-Library.docset
+Time: 2015-11-20 16:00:37 +0000

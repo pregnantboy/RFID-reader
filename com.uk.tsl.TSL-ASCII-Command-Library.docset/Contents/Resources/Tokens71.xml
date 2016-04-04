@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLSelectControlParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLSelectControlParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters for Select Control operations in commands and responses</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>
+			
+			<NodeRef refid="71"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLSelectControlParametersProtocol/setSelectTarget:</TokenIdentifier>
+			<Abstract type="html">The target flag for the Select operation</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SelectTarget selectTarget</Declaration>
+			
+			
+			<Anchor>//api/name/selectTarget</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLSelectControlParametersProtocol/selectTarget</TokenIdentifier>
+			<Abstract type="html">The target flag for the Select operation</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SelectTarget selectTarget</Declaration>
+			
+			
+			<Anchor>//api/name/selectTarget</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLSelectControlParametersProtocol/selectTarget</TokenIdentifier>
+			<Abstract type="html">The target flag for the Select operation</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SelectTarget selectTarget</Declaration>
+			
+			
+			<Anchor>//api/name/selectTarget</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLSelectControlParametersProtocol/setSelectAction:</TokenIdentifier>
+			<Abstract type="html">The action to perform in the Select operation</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SelectAction selectAction</Declaration>
+			
+			
+			<Anchor>//api/name/selectAction</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLSelectControlParametersProtocol/selectAction</TokenIdentifier>
+			<Abstract type="html">The action to perform in the Select operation</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SelectAction selectAction</Declaration>
+			
+			
+			<Anchor>//api/name/selectAction</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLSelectControlParametersProtocol/selectAction</TokenIdentifier>
+			<Abstract type="html">The action to perform in the Select operation</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_SelectAction selectAction</Declaration>
+			
+			
+			<Anchor>//api/name/selectAction</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLLicenceKeyCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLLicenceKeyCommand</TokenIdentifier>
+			<Abstract type="html">A command to read, write and delete the licence key stored in the reader&apos;s non-volatile memory.</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLLicenceKeyCommand/maximumLicenceKeyLength</TokenIdentifier>
+			<Abstract type="html">The maximum allowed licence key length</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)maximumLicenceKeyLength</Declaration>
+			
+			
+			<Anchor>//api/name/maximumLicenceKeyLength</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLicenceKeyCommand/setLicenceKey:</TokenIdentifier>
+			<Abstract type="html">Set the licence key for the device</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *licenceKey</Declaration>
+			
+			
+			<Anchor>//api/name/licenceKey</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLicenceKeyCommand/licenceKey</TokenIdentifier>
+			<Abstract type="html">Set the licence key for the device</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *licenceKey</Declaration>
+			
+			
+			<Anchor>//api/name/licenceKey</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLicenceKeyCommand/licenceKey</TokenIdentifier>
+			<Abstract type="html">Set the licence key for the device</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *licenceKey</Declaration>
+			
+			
+			<Anchor>//api/name/licenceKey</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLicenceKeyCommand/setDeleteLicenceKey:</TokenIdentifier>
+			<Abstract type="html">Set to TSLDeleteConfirmationYES to delete the existing licence key from the device</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DeleteConfirmation deleteLicenceKey</Declaration>
+			
+			
+			<Anchor>//api/name/deleteLicenceKey</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLicenceKeyCommand/deleteLicenceKey</TokenIdentifier>
+			<Abstract type="html">Set to TSLDeleteConfirmationYES to delete the existing licence key from the device</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DeleteConfirmation deleteLicenceKey</Declaration>
+			
+			
+			<Anchor>//api/name/deleteLicenceKey</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLicenceKeyCommand/deleteLicenceKey</TokenIdentifier>
+			<Abstract type="html">Set to TSLDeleteConfirmationYES to delete the existing licence key from the device</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DeleteConfirmation deleteLicenceKey</Declaration>
+			
+			
+			<Anchor>//api/name/deleteLicenceKey</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLLicenceKeyCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLLicenceKeyCommand</Abstract>
+			<DeclaredIn>TSLLicenceKeyCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLLicenceKeyCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+	</File>
+</Tokens>

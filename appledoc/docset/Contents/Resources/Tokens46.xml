@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLTimeCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLTimeCommand</TokenIdentifier>
+			<Abstract type="html">A command to obtain or set the time of the reader&apos;s realtime clock</Abstract>
+			<DeclaredIn>TSLTimeCommand.h</DeclaredIn>
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTimeCommand/setTime:</TokenIdentifier>
+			<Abstract type="html">Set time to nil to read the device&apos;s time
+Set time to a valid NSDate to set the device&apos;s time</Abstract>
+			<DeclaredIn>TSLTimeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTimeCommand/time</TokenIdentifier>
+			<Abstract type="html">Set time to nil to read the device&apos;s time
+Set time to a valid NSDate to set the device&apos;s time</Abstract>
+			<DeclaredIn>TSLTimeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLTimeCommand/time</TokenIdentifier>
+			<Abstract type="html">Set time to nil to read the device&apos;s time
+Set time to a valid NSDate to set the device&apos;s time</Abstract>
+			<DeclaredIn>TSLTimeCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLTimeCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLTimeCommand</Abstract>
+			<DeclaredIn>TSLTimeCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLTimeCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLTimeCommand/synchronousCommandWithDate:</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLTimeCommand set to the time of the given NSDate</Abstract>
+			<DeclaredIn>TSLTimeCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLTimeCommand *)synchronousCommandWithDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The value for the command&apos;s time property - only the time is used</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/synchronousCommandWithDate:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+	</File>
+</Tokens>

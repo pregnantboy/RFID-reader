@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAsciiCommandLibraryResponderBase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAsciiCommandLibraryResponderBase</TokenIdentifier>
+			<Abstract type="html">Base class for library commands</Abstract>
+			<DeclaredIn>TSLAsciiCommandLibraryResponderBase.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommandLibraryResponderBase/setCaptureNonLibraryResponses:</TokenIdentifier>
+			<Abstract type="html">Enable/disable capture of non-library responses</Abstract>
+			<DeclaredIn>TSLAsciiCommandLibraryResponderBase.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL captureNonLibraryResponses</Declaration>
+			
+			
+			<Anchor>//api/name/captureNonLibraryResponses</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommandLibraryResponderBase/captureNonLibraryResponses</TokenIdentifier>
+			<Abstract type="html">Enable/disable capture of non-library responses</Abstract>
+			<DeclaredIn>TSLAsciiCommandLibraryResponderBase.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL captureNonLibraryResponses</Declaration>
+			
+			
+			<Anchor>//api/name/captureNonLibraryResponses</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommandLibraryResponderBase/captureNonLibraryResponses</TokenIdentifier>
+			<Abstract type="html">Enable/disable capture of non-library responses</Abstract>
+			<DeclaredIn>TSLAsciiCommandLibraryResponderBase.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL captureNonLibraryResponses</Declaration>
+			
+			
+			<Anchor>//api/name/captureNonLibraryResponses</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+	</File>
+</Tokens>

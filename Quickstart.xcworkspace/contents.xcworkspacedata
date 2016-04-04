@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Licence Key/Licence Key.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Trigger/Trigger.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TSLTerm/TSLTerm.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ReadWrite/ReadWrite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Inventory/Inventory.xcodeproj">
+   </FileRef>
+</Workspace>

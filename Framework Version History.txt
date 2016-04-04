@@ -1,0 +1,61 @@
+
+TSL AsciiCommands Framework
+===========================
+
+v1.3 - 17/11/15
+---------------
+
+Framework supports ASCII Protocol 2.2.
+
+This release provides the TSLLibraryConfiguration class to allow the UTF8 support to be enabled/disabled.
+UTF8 support is now OFF by default for maximum backwards compatibility and can be turned on using the [TSLLibraryConfiguration sharedInstance].useUTF8 property.
+
+BugFixes:
+
+Fixed the fallback to ASCII when interpretation as UTF8 encoding fails.
+
+
+v1.2 - 02/11/15
+---------------
+
+Framework supports ASCII Protocol 2.2.
+
+This release provides no new features but be aware that error behaviour for command Select parameters has changed.
+
+BugFixes:
+
+TSLAsciiCommander now correctly handles UTF8 data to/from the reader - fixes issue reported with Chinese Unicode chars in Data Matrix.
+Fixed an issue that could cause a crash when halting or deallocing TSLAsciiCommander
+Invalid select length and offset parameters now throw TSLArgumentOutOfRangeExceptions
+Added protection against a deadlock that may occur when a synchronous command is being aborted just as the command naturally finishes.
+Issuing a synchronous command immediately after aborting a previous synchronous command no longer throws an exception for "already executing command"
+Removed call to delegate when the end of log is detected because delegate already called when end of command detected.
+Fixed bug in read log and auto run commands where moreAvailable flag was incorrect
+Prevented lifecycle responseBegan from being called for non library responses when they are being ignored
+
+
+v1.1 - 16/09/2014
+-----------------
+
+Framework supports ASCII Protocol 2.2:
+
+Added TSLLicenceKeyCommand - allows a user-defined licence key to be stored on the reader.
+Added TSLSleepTimeoutCommand - this sets the timeout before the reader sleeps if there are no connections to the reader
+
+Framework now supports 64-bit platforms.
+
+Antenna power limits are now dependent upon the currently connected device - commands with power parameters will throw an exception for invalid values
+
+BugFixes:
+
+TSLSwitchSinglePressCommand and TSLSwitchDoublePressCommand now correctly implements the '-x', '-p' and '-n' parameters
+TSLSwitchSinglePressCommand and TSLSwitchDoublePressCommand now throw exceptions for invalid duration parameters
+
+
+
+
+v1.0
+----
+
+Initial release supporting ASCII Protocol 2.1
+

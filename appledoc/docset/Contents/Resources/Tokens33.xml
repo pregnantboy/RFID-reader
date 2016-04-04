@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLResponseParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLResponseParameters</TokenIdentifier>
+			<Abstract type="html">Helper class for implementing TSLResponseParametersProtocol</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLResponseParameters/commandLine:includeAlert:</TokenIdentifier>
+			<Abstract type="html">Constructs the partial command line required for a TSL ASCII 2.0 Reader based on the properties of the given source object</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)commandLine:(id&lt;TSLResponseParametersProtocol&gt;)source includeAlert:(BOOL)includeAlert</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">The object whose properties are to be encoded</Abstract>
+				</Parameter><Parameter>
+					<Name>includeAlert</Name>
+					<Abstract type="html">YES if the alert parameter is to be included in the command line</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command line fragment built from the source objects properties</Abstract></ReturnValue>
+			<Anchor>//api/name/commandLine:includeAlert:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+	</File>
+</Tokens>

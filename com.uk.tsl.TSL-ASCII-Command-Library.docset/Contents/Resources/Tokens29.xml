@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLQueryParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLQueryParameters</TokenIdentifier>
+			<Abstract type="html">Helper class for implementing TSLQueryParametersProtocol</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/querySelectForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_QuerySelect</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_QuerySelect)querySelectForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLQuerySelect corresponding to the given string. Invalid parameter values return TSLQuerySelect_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/querySelectForParameterValue:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/parameterValueForQuerySelect:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_QuerySelect</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForQuerySelect:(TSL_QuerySelect)select</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>select</Name>
+					<Abstract type="html">The TSL_QuerySelect value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_QuerySelect or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForQuerySelect:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/descriptionForQuerySelect:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_QuerySelect</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForQuerySelect:(TSL_QuerySelect)select</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>select</Name>
+					<Abstract type="html">The TSL_QuerySelect value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_QuerySelect or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForQuerySelect:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/isValidQuerySelect:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_QuerySelect for validity</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidQuerySelect:(TSL_QuerySelect)select</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>select</Name>
+					<Abstract type="html">The TSL_QuerySelect value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_QuerySelect is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidQuerySelect:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/querySessionForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_QuerySession</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_QuerySession)querySessionForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLQuerySession corresponding to the given string. Invalid parameter values return TSLQuerySession_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/querySessionForParameterValue:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/parameterValueForQuerySession:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_QuerySession</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForQuerySession:(TSL_QuerySession)session</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>session</Name>
+					<Abstract type="html">The TSL_QuerySession value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_QuerySession or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForQuerySession:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/descriptionForQuerySession:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_QuerySession</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForQuerySession:(TSL_QuerySession)session</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>session</Name>
+					<Abstract type="html">The TSL_QuerySession value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_QuerySession or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForQuerySession:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/isValidQuerySession:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_QuerySession for validity</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidQuerySession:(TSL_QuerySession)session</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>session</Name>
+					<Abstract type="html">The TSL_QuerySession value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_QuerySession is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidQuerySession:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/queryTargetForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_QueryTarget</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_QueryTarget)queryTargetForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLQueryTarget corresponding to the given string. Invalid parameter values return TSLQueryTarget_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/queryTargetForParameterValue:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/parameterValueForQueryTarget:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_QueryTarget</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForQueryTarget:(TSL_QueryTarget)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The TSL_QueryTarget value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_QueryTarget or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForQueryTarget:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/descriptionForQueryTarget:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_QueryTarget</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForQueryTarget:(TSL_QueryTarget)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The TSL_QueryTarget value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_QueryTarget or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForQueryTarget:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLQueryParameters/isValidQueryTarget:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_QueryTarget for validity</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidQueryTarget:(TSL_QueryTarget)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The TSL_QueryTarget value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_QueryTarget is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidQueryTarget:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,956 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLSwitchActionCommand Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLSwitchActionCommand Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/asynchronousReportingEnabled">&nbsp;&nbsp;&nbsp;&nbsp;asynchronousReportingEnabled</option>
+	
+	<option value="//api/name/doublePressAction">&nbsp;&nbsp;&nbsp;&nbsp;doublePressAction</option>
+	
+	<option value="//api/name/doublePressRepeatDelay">&nbsp;&nbsp;&nbsp;&nbsp;doublePressRepeatDelay</option>
+	
+	<option value="//api/name/singlePressAction">&nbsp;&nbsp;&nbsp;&nbsp;singlePressAction</option>
+	
+	<option value="//api/name/singlePressRepeatDelay">&nbsp;&nbsp;&nbsp;&nbsp;singlePressRepeatDelay</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/descriptionForSwitchAction:">&nbsp;&nbsp;&nbsp;&nbsp;+ descriptionForSwitchAction:</option>
+	
+	<option value="//api/name/isValidSwitchAction:">&nbsp;&nbsp;&nbsp;&nbsp;+ isValidSwitchAction:</option>
+	
+	<option value="//api/name/maximumRepeatDelay">&nbsp;&nbsp;&nbsp;&nbsp;+ maximumRepeatDelay</option>
+	
+	<option value="//api/name/minimumRepeatDelay">&nbsp;&nbsp;&nbsp;&nbsp;+ minimumRepeatDelay</option>
+	
+	<option value="//api/name/parameterValueForSwitchAction:">&nbsp;&nbsp;&nbsp;&nbsp;+ parameterValueForSwitchAction:</option>
+	
+	<option value="//api/name/switchActionForParameterValue:">&nbsp;&nbsp;&nbsp;&nbsp;+ switchActionForParameterValue:</option>
+	
+	<option value="//api/name/synchronousCommand">&nbsp;&nbsp;&nbsp;&nbsp;+ synchronousCommand</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Properties">Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/asynchronousReportingEnabled">asynchronousReportingEnabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doublePressAction">doublePressAction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doublePressRepeatDelay">doublePressRepeatDelay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/singlePressAction">singlePressAction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/singlePressRepeatDelay">singlePressRepeatDelay</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionForSwitchAction:">descriptionForSwitchAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidSwitchAction:">isValidSwitchAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maximumRepeatDelay">maximumRepeatDelay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minimumRepeatDelay">minimumRepeatDelay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parameterValueForSwitchAction:">parameterValueForSwitchAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/switchActionForParameterValue:">switchActionForParameterValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/synchronousCommand">synchronousCommand</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLSwitchActionCommand Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLSwitchActionCommand Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TSLAsciiSelfResponderCommandBase.html">TSLAsciiSelfResponderCommandBase</a> : <a href="../Classes/TSLAsciiCommandLibraryResponderBase.html">TSLAsciiCommandLibraryResponderBase</a> : <a href="../Classes/TSLAsciiCommandResponderBase.html">TSLAsciiCommandResponderBase</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/TSLCommandParametersProtocol.html">TSLCommandParametersProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLSwitchActionCommand.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A command to set the action of the reader&rsquo;s switch</p>
+
+<p>The <code>TSL_SwitchAction</code> enum is used to specify values for the <a href="#//api/name/singlePressAction"><code>singlePressAction</code></a> and <a href="#//api/name/doublePressAction"><code>doublePressAction</code></a> parameters</p>
+
+<p>When issuing a command to the reader the values are interpreted as follows:</p>
+
+<ul>
+<li><code>TSL_SwitchAction_NO_CHANGE</code> - <em>The value has not been specified and the parameter will not be sent</em></li>
+<li><code>TSL_SwitchAction_off</code> - <em>&lsquo;do nothing&rsquo; has been specified and is sent as <code>'off'</code></em></li>
+<li><code>TSL_SwitchAction_read</code> - <em>&lsquo;.rd&rsquo; command has been specified and is sent as <code>'rd'</code></em></li>
+<li><code>TSL_SwitchAction_write</code> - <em>&lsquo;.wr&rsquo; command has been specified and is sent as <code>'wr'</code></em></li>
+<li><code>TSL_SwitchAction_inventory</code> - <em>&lsquo;.iv&rsquo; command has been specified and is sent as <code>'inv'</code></em></li>
+<li><code>TSL_SwitchAction_barcode</code> - <em>&lsquo;.bc&rsquo; command has been specified and is sent as <code>'bar'</code></em></li>
+<li><code>TSL_SwitchAction_user</code> - <em>a &lsquo;user-defined&rsquo; command has been specified and is sent as <code>'usr'</code></em></li>
+</ul>
+
+
+<p>When a command includes the &lsquo;-p&rsquo; option the <a href="#//api/name/singlePressAction"><code>singlePressAction</code></a> and <a href="#//api/name/doublePressAction"><code>doublePressAction</code></a> parameters will be set to the reader&rsquo;s current values</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Properties" name="task_Properties"></a>
+						<h3 class="subsubtitle task-title">Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/asynchronousReportingEnabled">&nbsp;&nbsp;asynchronousReportingEnabled</a></code>
+		<span class="tooltip"><p>Set to <code>TSL_TriState_YES</code> to start the generation of asynchronous switch status reports<br/>
+Set to <code>TSL_TriState_NO</code> to stop the generation of asynchronous switch status reports<br/>
+Set to <code>TSL_TriState_NOT_SPECIFIED</code> to leave the asynchronous reporting state unchanged</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/singlePressAction">&nbsp;&nbsp;singlePressAction</a></code>
+		<span class="tooltip"><p>Set the Single press action</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doublePressAction">&nbsp;&nbsp;doublePressAction</a></code>
+		<span class="tooltip"><p>Set the Double press action</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/singlePressRepeatDelay">&nbsp;&nbsp;singlePressRepeatDelay</a></code>
+		<span class="tooltip"><p>The minimum delay, in the range [1-999], before the single press trigger action repeats<br/>
+Negative values are ignored and the delay is not set (the default value)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doublePressRepeatDelay">&nbsp;&nbsp;doublePressRepeatDelay</a></code>
+		<span class="tooltip"><p>The minimum delay, in the range [1-999], before the double press trigger action repeats<br/>
+Negative values are ignored and the delay is not set (the default value)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/synchronousCommand">+&nbsp;synchronousCommand</a></code>
+		<span class="tooltip"><p>Returns a synchronous TSLSwitchActionCommand</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minimumRepeatDelay">+&nbsp;minimumRepeatDelay</a></code>
+		<span class="tooltip"><p>the minimum valid value for the repeat delay parameter</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maximumRepeatDelay">+&nbsp;maximumRepeatDelay</a></code>
+		<span class="tooltip"><p>the maximum valid value for the repeat delay parameter</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/switchActionForParameterValue:">+&nbsp;switchActionForParameterValue:</a></code>
+		<span class="tooltip"><p>Parse the given string and determine the corresponding TSL_SwitchAction<br/>
+@param value</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parameterValueForSwitchAction:">+&nbsp;parameterValueForSwitchAction:</a></code>
+		<span class="tooltip"><p>Get the parameter value corresponding to the given TSL_SwitchAction</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionForSwitchAction:">+&nbsp;descriptionForSwitchAction:</a></code>
+		<span class="tooltip"><p>Get the description corresponding to the given TSL_SwitchAction</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidSwitchAction:">+&nbsp;isValidSwitchAction:</a></code>
+		<span class="tooltip"><p>Test the given TSL_SwitchAction for validity</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/asynchronousReportingEnabled" title="asynchronousReportingEnabled"></a>
+	<h3 class="subsubtitle method-title">asynchronousReportingEnabled</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set to <code>TSL_TriState_YES</code> to start the generation of asynchronous switch status reports<br/>
+Set to <code>TSL_TriState_NO</code> to stop the generation of asynchronous switch status reports<br/>
+Set to <code>TSL_TriState_NOT_SPECIFIED</code> to leave the asynchronous reporting state unchanged</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState asynchronousReportingEnabled</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>if <code>readParameters</code> is specified then after execution this property will reflect the current state</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doublePressAction" title="doublePressAction"></a>
+	<h3 class="subsubtitle method-title">doublePressAction</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the Double press action</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_SwitchAction doublePressAction</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doublePressRepeatDelay" title="doublePressRepeatDelay"></a>
+	<h3 class="subsubtitle method-title">doublePressRepeatDelay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The minimum delay, in the range [1-999], before the double press trigger action repeats<br/>
+Negative values are ignored and the delay is not set (the default value)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int doublePressRepeatDelay</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/singlePressAction" title="singlePressAction"></a>
+	<h3 class="subsubtitle method-title">singlePressAction</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the Single press action</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_SwitchAction singlePressAction</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/singlePressRepeatDelay" title="singlePressRepeatDelay"></a>
+	<h3 class="subsubtitle method-title">singlePressRepeatDelay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The minimum delay, in the range [1-999], before the single press trigger action repeats<br/>
+Negative values are ignored and the delay is not set (the default value)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int singlePressRepeatDelay</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionForSwitchAction:" title="descriptionForSwitchAction:"></a>
+	<h3 class="subsubtitle method-title">descriptionForSwitchAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the description corresponding to the given TSL_SwitchAction</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)descriptionForSwitchAction:(TSL_SwitchAction)<em>action</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>action</em></dt>
+			<dd><p>The TSL_SwitchAction value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The user friendly name for the given TSL_SwitchAction or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidSwitchAction:" title="isValidSwitchAction:"></a>
+	<h3 class="subsubtitle method-title">isValidSwitchAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Test the given TSL_SwitchAction for validity</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isValidSwitchAction:(TSL_SwitchAction)<em>action</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>action</em></dt>
+			<dd><p>The TSL_SwitchAction value to be tested</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the given TSL_SwitchAction is valid otherwise NO</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maximumRepeatDelay" title="maximumRepeatDelay"></a>
+	<h3 class="subsubtitle method-title">maximumRepeatDelay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>the maximum valid value for the repeat delay parameter</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (int)maximumRepeatDelay</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the maximum valid value for the repeat delay parameter</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minimumRepeatDelay" title="minimumRepeatDelay"></a>
+	<h3 class="subsubtitle method-title">minimumRepeatDelay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>the minimum valid value for the repeat delay parameter</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (int)minimumRepeatDelay</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the minimum valid value for the repeat delay parameter</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parameterValueForSwitchAction:" title="parameterValueForSwitchAction:"></a>
+	<h3 class="subsubtitle method-title">parameterValueForSwitchAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the parameter value corresponding to the given TSL_SwitchAction</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)parameterValueForSwitchAction:(TSL_SwitchAction)<em>action</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>action</em></dt>
+			<dd><p>The TSL_SwitchAction value to be converted</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The command parameter value for the given TSL_SwitchAction or nil if invalid</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/switchActionForParameterValue:" title="switchActionForParameterValue:"></a>
+	<h3 class="subsubtitle method-title">switchActionForParameterValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse the given string and determine the corresponding TSL_SwitchAction<br/>
+@param value</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSL_SwitchAction)switchActionForParameterValue:(NSString *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The parameter value as NSString</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The TSL_SwitchAction corresponding to the given string. Invalid parameter values return TSL_SwitchAction_NO_CHANGE</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Parse the given parameter value string and determine the corresponding TSL_SwitchAction</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/synchronousCommand" title="synchronousCommand"></a>
+	<h3 class="subsubtitle method-title">synchronousCommand</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a synchronous TSLSwitchActionCommand</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (TSLSwitchActionCommand *)synchronousCommand</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLSwitchActionCommand.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

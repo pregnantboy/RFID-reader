@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLReadCommandTransponderReceivedDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLReadCommandTransponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for objects wishing to receive asynchronous notification of each transponder received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLReadCommandTransponderReceivedDelegate/transponderReceivedFromRead:crc:pc:rssi:index:data:moreAvailable:</TokenIdentifier>
+			<Abstract type="html">The transponder information received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>- (void)transponderReceivedFromRead:(NSString *)epc crc:(NSNumber *)crc pc:(NSNumber *)pc rssi:(NSNumber *)rssi index:(NSNumber *)index data:(NSData *)data moreAvailable:(BOOL)moreAvailable</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>epc</Name>
+					<Abstract type="html">- the transponder identifier as hex-encoded, ascii string</Abstract>
+				</Parameter><Parameter>
+					<Name>crc</Name>
+					<Abstract type="html">- the transponder CRC as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>pc</Name>
+					<Abstract type="html">- the transponder program control word as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>rssi</Name>
+					<Abstract type="html">- the transponders RSSI value (in dBm) as int encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">- the index value as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">- the data retrieved from the transponder or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>moreAvailable</Name>
+					<Abstract type="html">- YES if there are more transponders to be delivered</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/transponderReceivedFromRead:crc:pc:rssi:index:data:moreAvailable:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+	</File>
+</Tokens>

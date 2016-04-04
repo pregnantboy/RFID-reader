@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Protocol for implementing TSLAsciiCommand properties</Abstract>
+			<DeclaredIn>TSLParametersProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLParametersProtocol/commandLine:</TokenIdentifier>
+			<Abstract type="html">Constructs the partial command line required for a TSL ASCII 2.0 Reader based on the properties of the given source object</Abstract>
+			<DeclaredIn>TSLParametersProtocol.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)commandLine:(id)source</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">The object whose properties are to be encoded</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command line fragment built from the source objects properties</Abstract></ReturnValue>
+			<Anchor>//api/name/commandLine:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLParametersProtocol/parseParameter:forObject:</TokenIdentifier>
+			<Abstract type="html">Examines the parameter string and, if recognised, sets the corresponding property on the object</Abstract>
+			<DeclaredIn>TSLParametersProtocol.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)parseParameter:(NSString *)parameter forObject:(id)object</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>parameter</Name>
+					<Abstract type="html">The TSL ASCII 2.0 parameter (without leading &apos;-&apos; e.g. &apos;b on&apos;)</Abstract>
+				</Parameter><Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object whose parameters are to be set</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if property was recognised</Abstract></ReturnValue>
+			<Anchor>//api/name/parseParameter:forObject:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLParametersProtocol/setDefaultParametersForObject:</TokenIdentifier>
+			<Abstract type="html">Sets the given objects parameters to default values</Abstract>
+			<DeclaredIn>TSLParametersProtocol.h</DeclaredIn>			
+			
+			<Declaration>+ (void)setDefaultParametersForObject:(id)object</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object whose parameters are to be set</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDefaultParametersForObject:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAsciiCommandResponseNotifying.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAsciiCommandResponseNotifying</TokenIdentifier>
+			<Abstract type="html">The protocol for notifying the command response lifecycle events</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponseNotifying/setResponseBeganBlock:</TokenIdentifier>
+			<Abstract type="html">Invoked when the command response began</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLCommandResponseLifecycleBlock responseBeganBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseBeganBlock</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponseNotifying/responseBeganBlock</TokenIdentifier>
+			<Abstract type="html">Invoked when the command response began</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLCommandResponseLifecycleBlock responseBeganBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseBeganBlock</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponseNotifying/responseBeganBlock</TokenIdentifier>
+			<Abstract type="html">Invoked when the command response began</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLCommandResponseLifecycleBlock responseBeganBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseBeganBlock</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponseNotifying/setResponseEndedBlock:</TokenIdentifier>
+			<Abstract type="html">Invoked when the command response ended</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLCommandResponseLifecycleBlock responseEndedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseEndedBlock</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponseNotifying/responseEndedBlock</TokenIdentifier>
+			<Abstract type="html">Invoked when the command response ended</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLCommandResponseLifecycleBlock responseEndedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseEndedBlock</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponseNotifying/responseEndedBlock</TokenIdentifier>
+			<Abstract type="html">Invoked when the command response ended</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponseNotifying.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLCommandResponseLifecycleBlock responseEndedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseEndedBlock</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+	</File>
+</Tokens>

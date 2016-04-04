@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLTransponderParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLTransponderParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters related to the Transponder information in command responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/setIncludeChecksum:</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of checksum information in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeChecksum</Declaration>
+			
+			
+			<Anchor>//api/name/includeChecksum</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/includeChecksum</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of checksum information in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeChecksum</Declaration>
+			
+			
+			<Anchor>//api/name/includeChecksum</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLTransponderParametersProtocol/includeChecksum</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of checksum information in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeChecksum</Declaration>
+			
+			
+			<Anchor>//api/name/includeChecksum</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/setIncludePC:</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of the EPC PC value in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includePC</Declaration>
+			
+			
+			<Anchor>//api/name/includePC</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/includePC</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of the EPC PC value in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includePC</Declaration>
+			
+			
+			<Anchor>//api/name/includePC</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLTransponderParametersProtocol/includePC</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of the EPC PC value in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includePC</Declaration>
+			
+			
+			<Anchor>//api/name/includePC</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/setIncludeTransponderRSSI:</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of RSSI value in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeTransponderRSSI</Declaration>
+			
+			
+			<Anchor>//api/name/includeTransponderRSSI</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/includeTransponderRSSI</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of RSSI value in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeTransponderRSSI</Declaration>
+			
+			
+			<Anchor>//api/name/includeTransponderRSSI</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLTransponderParametersProtocol/includeTransponderRSSI</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of RSSI value in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeTransponderRSSI</Declaration>
+			
+			
+			<Anchor>//api/name/includeTransponderRSSI</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/setIncludeIndex:</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of index numbers for multiple values in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/includeIndex</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/includeIndex</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of index numbers for multiple values in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/includeIndex</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLTransponderParametersProtocol/includeIndex</TokenIdentifier>
+			<Abstract type="html">Control the inclusion of index numbers for multiple values in reader responses</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/includeIndex</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/setAccessPassword:</TokenIdentifier>
+			<Abstract type="html">The password required to access transponders - defaults to nil</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *accessPassword</Declaration>
+			
+			
+			<Anchor>//api/name/accessPassword</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLTransponderParametersProtocol/accessPassword</TokenIdentifier>
+			<Abstract type="html">The password required to access transponders - defaults to nil</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *accessPassword</Declaration>
+			
+			
+			<Anchor>//api/name/accessPassword</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLTransponderParametersProtocol/accessPassword</TokenIdentifier>
+			<Abstract type="html">The password required to access transponders - defaults to nil</Abstract>
+			<DeclaredIn>TSLTransponderParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *accessPassword</Declaration>
+			
+			
+			<Anchor>//api/name/accessPassword</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+	</File>
+</Tokens>

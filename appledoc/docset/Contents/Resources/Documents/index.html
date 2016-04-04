@@ -1,0 +1,505 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>TSL ASCII Command Library Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSL ASCII Command Library Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSL ASCII Command Library Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<p>The library provides developers with a set of easy-to-configure commands that encapsulate the <em>TSL ASCII 2 Protocol</em> and a helper object to communicate with any compatible TSL Device.</p>
+
+<h2>Getting Started  </h2>
+
+<p>This guide will outline the steps required to communicate with a TSL ASCII 2 compatible device.</p>
+
+<h2>Set up the Xcode project  </h2>
+
+<p>The TSL Ascii Command library is supplied as a static framework that bundles together the library code and its associated header files. It requires Foundation.framework and ExternalAccessory.framework.</p>
+
+<p><em>Add the TSLAsciiCommands framework to the project:</em></p>
+
+<ul>
+<li>Drag &lsquo;TSLAsciiCommands.framework&rsquo; into the Frameworks group</li>
+<li>In the dialog that appears
+
+<ul>
+<li>Ensure your project is checked in the &lsquo;Add To Targets&rsquo; section</li>
+<li><em>(Optional)</em> Check &lsquo;Copy items into destination groups folder (if needed)&rsquo; to copy the framework into the project</li>
+</ul>
+</li>
+</ul>
+
+
+<p><em>In the project target > Build Phases:</em></p>
+
+<ul>
+<li>Add ExternalAccessory.Framework to the &lsquo;Link binaries With Libraries&rsquo; section</li>
+</ul>
+
+
+<p>The &lsquo;LinkBinary with Libraries&rsquo; should be similar to the project below:</p>
+
+<p><img src="./docs/Introduction%20images/LinkBinaries.png" title="The 'link binaries...' settings" alt="The 'link binaries...' settings" /></p>
+
+<p>To receive External Accessory Framework notifications for TSL Devices the App must declare support for the &lsquo;com.uk.tsl.rfid&rsquo; accessory protocol:</p>
+
+<p>In the &lsquo;project&rsquo;-Info.plist (in Supporting Files group)</p>
+
+<ul>
+<li>Add the &lsquo;Suppported external accessory protocol&rsquo; key</li>
+<li>Set the value of &lsquo;Item 0&rsquo; to &lsquo;com.uk.tsl.rfid&rsquo;</li>
+</ul>
+
+
+<p>The &lsquo;project&rsquo;-Info.plist should look similar to this:</p>
+
+<p><img src="./docs/Introduction%20images/ExternalAccessoryProtocolSupport.png" title="The 'Suppported external accessory protocol' settings" alt="The 'Suppported external accessory protocol' settings" /></p>
+
+<h2>Configuring the Library  </h2>
+
+<p>The TSLAsciiCommands library uses <code>NSASCIIEncoding</code> for <code>NSStrings</code> but is capable of operation in UTF8 mode where <em>incoming</em> data from the reader can be interpreted as UTF8 characters - this is particularly useful with Barcode data. To enable this mode use the <code>useUTF8</code> property on the <a href="Classes/TSLLibraryConfiguration.html"><code>TSLLibraryConfiguration</code></a> class as follows:</p>
+
+<pre><code>[TSLLibraryConfiguration sharedInstance].useUTF8 = YES;  
+</code></pre>
+
+<p>This option need only be set once at App launch.</p>
+
+<h2>Connecting to the TSL Device  </h2>
+
+<p>All iOS compatible TSL devices are accessed using the <a href="https://developer.apple.com/library/ios/navigation/#section=Frameworks&amp;topic=ExternalAccessory">External Accessory Framework</a> and it is recommended that developers read the iOS documentation to understand when the application will receive notifications and how to obtain a list of connected devices.</p>
+
+<p>An App can only communicate with one device at a time using the EA Framework however the <a href="Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> library makes switching between devices simple.</p>
+
+<p>All communication and control of the TSL device is done using an instance of <a href="Classes/TSLAsciiCommander.html">TSLAsciiCommander</a>:</p>
+
+<pre><code>#import "TSLAsciiCommander.h"  
+
+.  
+.  
+
+// Create the TSLAsciiCommander used to communicate with the TSL Reader  
+_commander = [[TSLAsciiCommander alloc] init];  
+</code></pre>
+
+<p><a href="Classes/TSLAsciiCommander.html">TSLAsciiCommander</a> is configured to talk to a specific TSL device using the <code>connect:</code> method which takes an <code>EAAccessory *</code> as its only parameter. So, for some <code>chosenDeviceIndex</code> into the list of connected TSL Devices the following code snippet shows how to change to the new device:</p>
+
+<pre><code>    // Disconnect from the current reader, if any  
+    [_commander disconnect];  
+
+    // Connect to the chosen TSL Reader  
+    _currentAccessory = [[[EAAccessoryManager sharedAccessoryManager] connectedAccessories] chosenDeviceIndex];  
+    [_commander connect:_currentAccessory];  
+</code></pre>
+
+<p>The success of the connection attempt can be determined from the <code>connect:</code> method&rsquo;s BOOL return value.</p>
+
+<p>It is acceptable to pass nil to <code>connect:</code>, in which case <a href="Classes/TSLAsciiCommander.html">TSLAsciiCommander</a> will attempt to connect to the last successfully connected device.</p>
+
+<p>At any time the <a href="Classes/TSLAsciiCommander.html">TSLAsciiCommander</a> <code>isConnected</code> property indicates whether there is a reader currently connected.</p>
+
+<pre><code>    if( _commander.isConnected )  
+    {  
+        // Issue commands to the reader  
+        .  
+        .  
+    }  
+</code></pre>
+
+<p>Background communication with the TSL device is not supported and the App should disconnect from the TSL device when moving to the background and reconnect when returning to the foreground. The following code illustrates how to achieve this (in AppDelegate.m):</p>
+
+<pre><code>    - (void)applicationDidEnterBackground:(UIApplication *)application  
+    {  
+        [commander disconnect];  
+    }  
+
+    - (void)applicationDidBecomeActive:(UIApplication *)application  
+    {  
+        // Attempt to reconnect to the last used accessory  
+        [commander connect:nil];  
+    }  
+</code></pre>
+
+<p>TSL devices may be connected or disconnected at any time and the App should register for <code>EAAccessoryDidConnectNotification</code> and <code>EAAccessoryDidDisconnectNotification</code> to discover when the list of connected devices has changed.</p>
+
+<p><em>Warning:</em> There is a <em>quirk</em> in the EA framework (iOS 5 &amp; 6) that causes the <code>EAAccessoryDidConnectNotification</code> with incomplete information for the connected device. Attempting to connect to such a device will fail. This seems to always be followed by a notification with correct information. A work-around for this is shown below (<code>_accessoryDidConnect:</code> is the notification handler);</p>
+
+<pre><code>    -(void) _accessoryDidConnect:(NSNotification *)notification  
+    {  
+        // Only do something if the accessory added has valid protocol strings  
+        EAAccessory *connectedAccessory = [[notification userInfo] objectForKey:EAAccessoryKey];  
+        if( connectedAccessory.protocolStrings.count != 0 )  
+        {  
+            // Do something  
+            .  
+            .  
+        }  
+    }  
+</code></pre>
+
+<h2>Controlling and Communicating with the TSL Device  </h2>
+
+<p>Once a connection has been established to a TSL device it can be controlled and interrogated using instances derived from <code>TSLAsciiCommand</code>. These objects encapsulate the powerful TSL ASCII 2 protocol and allow simple configuration using object properties. Once configured they are sent to the TSL device using <code>TSLAsciiCommander</code>&rsquo;s <code>executeCommand:</code> method:</p>
+
+<pre><code>    if( _commander.isConnected )  
+    {  
+        // Use the TSLInventoryCommand  
+        TSLInventoryCommand *invCommand = [[TSLInventoryCommand alloc] init];  
+
+        // Request that the signal strength of each transponder is also returned  
+        invCommand.includeTransponderRSSI = TSL_TriState_YES;  
+
+        [_commander executeCommand:invCommand];  
+    }  
+</code></pre>
+
+<p>The above example will issue an asynchronous inventory command - the response to the command is handled elsewhere in the code.</p>
+
+<p><strong>About the Responder Chain</strong></p>
+
+<p><code>TSLAsciiCommander</code> handles incoming responses from the reader using instances derived from <code>TSLAsciiCommandResponder</code> (responders) in a &lsquo;responder chain&rsquo; (See <code>responderChain</code> property).</p>
+
+<p>Each line of ASCII data received from the TSL device is passed to the <code>processReceivedLine:</code> method of each responder in the chain in order. The responder can choose to process this data based on its content. If the responder recognises and processes a particular line it can choose to prevent down-chain responders from seeing it by returning YES from the <code>processReceivedLine</code> method.</p>
+
+<p>TSL devices, such as the 1128 Bluetooth Handheld UHF RFID Reader, can also generate incoming data through actions such as the user pulling the device trigger to initiate an inventory or barcode scan. The responder chain will see all data sent from the device no matter how it was initiated.</p>
+
+<p>It can be useful to communicate with the TSL device in a synchronous mode where a command is executed and the thread then waits until the response has been received from the reader. Most of the commands from the TSL ASCII command library support this by being derived from <code>TSLAsciiSelfResponderCommandBase</code>. These commands provide their own default response handling and use the incoming data to set appropriate properties e.g. TSLBatteryStatusCommand can be executed synchronously and then its <code>batteryLevel</code> property holds the current battery level of the TSL device.</p>
+
+<p>To use synchronous commands requires the addition of a special responder (the synchronousResponder) to <code>TSLAsciiCommander</code>&rsquo;s responder chain. This allows developers to determine where in the responder chain synchronous commands are handled. The following code example illustrates the construction of a responder chain:</p>
+
+<pre><code>    // Create the TSLAsciiCommander used to communicate with the TSL Reader  
+    _commander = [[TSLAsciiCommander alloc] init];  
+
+    // TSLAsciiCommander requires TSLAsciiResponders to handle incoming reader responses  
+
+    // Add a logger to the commander to output all reader responses to the log file  
+    [_commander addResponder:[[TSLLoggerResponder alloc] init]];  
+
+    // Some synchronous commands will be used in the app  
+    [_commander addSynchronousResponder];  
+
+
+    // Performing an inventory could potentially take a long time if many transponders are in range so it is best to handle responses asynchronously  
+    //  
+    // The TSLInventoryCommand is a TSLAsciiResponder for inventory responses and can have a delegate  
+    // (id&lt;TSLInventoryCommandTransponderReceivedDelegate&gt;) that is informed of each transponder as it is received  
+
+    // Create a TSLInventoryCommand  
+    _inventoryResponder = [[TSLInventoryCommand alloc] init];  
+
+    // Add self as the transponder delegate  
+    _inventoryResponder.transponderReceivedDelegate = self;  
+
+    // Pulling the Reader trigger will generate inventory responses that are not from the library.  
+    // To ensure these are also seen requires explicitly requesting handling of non-library command responses  
+    _inventoryResponder.captureNonLibraryResponses = YES;  
+
+    // Add the inventory responder to the commander's responder chain  
+    [_commander addResponder:_inventoryResponder];  
+</code></pre>
+
+<p>In the above example the first responder added is <code>TSLLoggerResponder</code>. This responder simply outputs every line it receives, using NSLog, with a preceding &ldquo;>&rdquo; added and then passes the data on to other responders. This is a powerful debugging tool providing an easy way to see all incoming data.</p>
+
+<p>Next in the responder chain is the synchronous responder. So, all synchronous commands will execute after the logger responder. If the synchronous command executing does not recognise a line of data then it will pass it to the next responder in the chain.</p>
+
+<p>The final responder in the chain is designed to recognise Inventory responses (<code>TSLInventoryCommand</code> used as a responder). By default this command only responds to inventory commands initiated using a <a href="Classes/TSLInventoryCommand.html">TSLInventoryCommand</a> but here it is configured to also handle trigger responses (<code>_inventoryResponder.captureNonLibraryResponses = YES;</code>).</p>
+
+<p><strong>Issuing Synchronous Commands</strong></p>
+
+<p>All commands in the library that support synchronous operation provide a factory method (<code>synchronousCommand</code>) to create a command pre-configured to operate synchronously.<br/>
+The code below demonstrates the use of synchronous commands to reset the TSL device and obtain its version information:</p>
+
+<pre><code>    // Ensure the reader is in a known (default) state  
+    // No information is returned by the reset command other than its succesful completion  
+    TSLFactoryDefaultsCommand * resetCommand = [TSLFactoryDefaultsCommand synchronousCommand];  
+
+    [_commander executeCommand:resetCommand];  
+
+    // Notify user device has been reset  
+    if( resetCommand.isSuccessful )  
+    {  
+        NSLog(@"Reader reset to Factory Defaults\n");  
+    }  
+    else  
+    {  
+        NSLog(@"!!! Unable to reset reader to Factory Defaults !!!\n");  
+    }  
+
+    // Get version information for the reader  
+    // Use the TSLVersionInformationCommand synchronously as the returned information is needed below  
+    TSLVersionInformationCommand * versionCommand = [TSLVersionInformationCommand synchronousCommand];  
+
+    [_commander executeCommand:versionCommand];  
+
+    // Log some of the values obtained  
+    NSLog( @"\n%-16s %@\n%-16s %@\n%-16s %@\n\n\n",  
+         "Manufacturer:", versionCommand.manufacturer,  
+         "Serial Number:", versionCommand.serialNumber,  
+         "Antenna SN:", versionCommand.antennaSerialNumber  
+         );  
+</code></pre>
+
+<p><strong>Command Response Lifecycle Methods</strong></p>
+
+<p>Commands also implement the <a href="Protocols/TSLAsciiCommandResponseNotifying.html">TSLAsciiCommandResponseNotifying</a> protocol which allows access to the response lifecycle events responseBegan and responseEnded. When the response line from the reader contains the <code>CS:</code> header, the <code>responseBegan</code> event is signalled. When lines starting either <code>OK:</code> or <code>ER:</code> are received the <code>responseEnded</code> event occurs.<br/>
+Blocks are used to handle these events and are configured using responseBeganBlock and responseEndedBlock properties. The following code (taken from the Inventory sample) shows their usage:</p>
+
+<pre><code>    //  
+    // Use the responseBeganBlock and responseEndedBlock to change the colour of the reader label while a response is being received  
+    //  
+    // Note: the weakSelf is used to avoid warning of retain cycles when self is used  
+    __weak typeof(self) weakSelf = self;  
+
+    _inventoryResponder.responseBeganBlock = ^  
+    {  
+        dispatch_async(dispatch_get_main_queue(),^  
+                       {  
+                           weakSelf.currentReaderLabel.backgroundColor = [UIColor blueColor];  
+                           weakSelf.currentReaderLabel.textColor = [UIColor whiteColor];  
+                       });  
+    };  
+    _inventoryResponder.responseEndedBlock = ^  
+    {  
+        dispatch_async(dispatch_get_main_queue(),^  
+                       {  
+                           weakSelf.currentReaderLabel.backgroundColor = [UIColor clearColor];  
+                           weakSelf.currentReaderLabel.textColor = [UIColor blackColor];  
+                       });  
+    };  
+</code></pre>
+
+<p><strong>Handling Transponder Responses</strong></p>
+
+<p>Commands that can receive responses from one or more transponders, such as the <a href="Classes/TSLInventoryCommand.html">TSLInventoryCommand</a> or the <a href="Classes/TSLWriteTransponderCommand.html">TSLWriteTransponderCommand</a>, provide access to each received transponder through either delegate or Block-based methods and sometimes both. Where both methods are supported, the delegate object&rsquo;s methods will be called first followed by the execution of any Block. Examples of both of these approaches are available in the sample code (See Inventory and ReadWrite projects).</p>
+
+<p><strong>Handling Device Switch Responses</strong></p>
+
+<p>If the connected device contains a switch (trigger) this can be used to initiate actions within the iOS App. The <a href="Classes/TSLSwitchActionCommand.html">TSLSwitchActionCommand</a> can be used to disable any default device actions and enable asynchronous notifications of the switch state. To capture these responses a <a href="Classes/TSLSwitchResponder.html">TSLSwitchResponder</a> object can be added to the responder chain and provides a delegate method invoked whenever a new switch state is received. An alternate approach is to poll the switch from the App. Both methods are demonstrated in the Trigger sample project.</p>
+
+<h2>Sample Code  </h2>
+
+<p>To see the above code techniques in action build and run the Sample projects provided with this documentation.</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/TSLAbortCommand.html">TSLAbortCommand</a></li>
+							
+							<li><a href="Classes/TSLAlertCommand.html">TSLAlertCommand</a></li>
+							
+							<li><a href="Classes/TSLAntennaParameters.html">TSLAntennaParameters</a></li>
+							
+							<li><a href="Classes/TSLAsciiCommandBase.html">TSLAsciiCommandBase</a></li>
+							
+							<li><a href="Classes/TSLAsciiCommandExecutorBase.html">TSLAsciiCommandExecutorBase</a></li>
+							
+							<li><a href="Classes/TSLAsciiCommandLibraryResponderBase.html">TSLAsciiCommandLibraryResponderBase</a></li>
+							
+							<li><a href="Classes/TSLAsciiCommandResponderBase.html">TSLAsciiCommandResponderBase</a></li>
+							
+							<li><a href="Classes/TSLAsciiCommander.html">TSLAsciiCommander</a></li>
+							
+							<li><a href="Classes/TSLAsciiSelfResponderCommandBase.html">TSLAsciiSelfResponderCommandBase</a></li>
+							
+							<li><a href="Classes/TSLAsciiSynchronousTestCommander.html">TSLAsciiSynchronousTestCommander</a></li>
+							
+							<li><a href="Classes/TSLBarcodeCommand.html">TSLBarcodeCommand</a></li>
+							
+							<li><a href="Classes/TSLBatteryStatusCommand.html">TSLBatteryStatusCommand</a></li>
+							
+							<li><a href="Classes/TSLBinaryEncoding.html">TSLBinaryEncoding</a></li>
+							
+							<li><a href="Classes/TSLCommandParameters.html">TSLCommandParameters</a></li>
+							
+							<li><a href="Classes/TSLDataBankParameters.html">TSLDataBankParameters</a></li>
+							
+							<li><a href="Classes/TSLDateCommand.html">TSLDateCommand</a></li>
+							
+							<li><a href="Classes/TSLDateTimeCommand.html">TSLDateTimeCommand</a></li>
+							
+							<li><a href="Classes/TSLDeleteConfirmation.html">TSLDeleteConfirmation</a></li>
+							
+							<li><a href="Classes/TSLEchoCommand.html">TSLEchoCommand</a></li>
+							
+							<li><a href="Classes/TSLExecuteAutorunFileCommand.html">TSLExecuteAutorunFileCommand</a></li>
+							
+							<li><a href="Classes/TSLFactoryDefaultsCommand.html">TSLFactoryDefaultsCommand</a></li>
+							
+							<li><a href="Classes/TSLInventoryCommand.html">TSLInventoryCommand</a></li>
+							
+							<li><a href="Classes/TSLKillCommand.html">TSLKillCommand</a></li>
+							
+							<li><a href="Classes/TSLLibraryConfiguration.html">TSLLibraryConfiguration</a></li>
+							
+							<li><a href="Classes/TSLLicenceKeyCommand.html">TSLLicenceKeyCommand</a></li>
+							
+							<li><a href="Classes/TSLLockCommand.html">TSLLockCommand</a></li>
+							
+							<li><a href="Classes/TSLLoggerResponder.html">TSLLoggerResponder</a></li>
+							
+							<li><a href="Classes/TSLQAlgorithmParameters.html">TSLQAlgorithmParameters</a></li>
+							
+							<li><a href="Classes/TSLQueryParameters.html">TSLQueryParameters</a></li>
+							
+							<li><a href="Classes/TSLReadAutorunFileCommand.html">TSLReadAutorunFileCommand</a></li>
+							
+							<li><a href="Classes/TSLReadLogFileCommand.html">TSLReadLogFileCommand</a></li>
+							
+							<li><a href="Classes/TSLReadTransponderCommand.html">TSLReadTransponderCommand</a></li>
+							
+							<li><a href="Classes/TSLResponseParameters.html">TSLResponseParameters</a></li>
+							
+							<li><a href="Classes/TSLSelectControlParameters.html">TSLSelectControlParameters</a></li>
+							
+							<li><a href="Classes/TSLSelectMaskParameters.html">TSLSelectMaskParameters</a></li>
+							
+							<li><a href="Classes/TSLSleepCommand.html">TSLSleepCommand</a></li>
+							
+							<li><a href="Classes/TSLSleepTimeoutCommand.html">TSLSleepTimeoutCommand</a></li>
+							
+							<li><a href="Classes/TSLSwitchActionCommand.html">TSLSwitchActionCommand</a></li>
+							
+							<li><a href="Classes/TSLSwitchDoublePressCommand.html">TSLSwitchDoublePressCommand</a></li>
+							
+							<li><a href="Classes/TSLSwitchDoublePressUserActionCommand.html">TSLSwitchDoublePressUserActionCommand</a></li>
+							
+							<li><a href="Classes/TSLSwitchResponder.html">TSLSwitchResponder</a></li>
+							
+							<li><a href="Classes/TSLSwitchSinglePressCommand.html">TSLSwitchSinglePressCommand</a></li>
+							
+							<li><a href="Classes/TSLSwitchSinglePressUserActionCommand.html">TSLSwitchSinglePressUserActionCommand</a></li>
+							
+							<li><a href="Classes/TSLSwitchStateCommand.html">TSLSwitchStateCommand</a></li>
+							
+							<li><a href="Classes/TSLSynchronousDispatchResponder.html">TSLSynchronousDispatchResponder</a></li>
+							
+							<li><a href="Classes/TSLTimeCommand.html">TSLTimeCommand</a></li>
+							
+							<li><a href="Classes/TSLTransponderMemoryCommandBase.html">TSLTransponderMemoryCommandBase</a></li>
+							
+							<li><a href="Classes/TSLTransponderParameters.html">TSLTransponderParameters</a></li>
+							
+							<li><a href="Classes/TSLTransponderSelectCommand.html">TSLTransponderSelectCommand</a></li>
+							
+							<li><a href="Classes/TSLTriState.html">TSLTriState</a></li>
+							
+							<li><a href="Classes/TSLVersionInformationCommand.html">TSLVersionInformationCommand</a></li>
+							
+							<li><a href="Classes/TSLWriteAutorunFileCommand.html">TSLWriteAutorunFileCommand</a></li>
+							
+							<li><a href="Classes/TSLWriteSingleTransponderCommand.html">TSLWriteSingleTransponderCommand</a></li>
+							
+							<li><a href="Classes/TSLWriteTransponderCommand.html">TSLWriteTransponderCommand</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/TSLAntennaParametersProtocol.html">TSLAntennaParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a></li>
+							
+							<li><a href="Protocols/TSLAsciiCommandExecuting.html">TSLAsciiCommandExecuting</a></li>
+							
+							<li><a href="Protocols/TSLAsciiCommandResponder.html">TSLAsciiCommandResponder</a></li>
+							
+							<li><a href="Protocols/TSLAsciiCommandResponderDelegate.html">TSLAsciiCommandResponderDelegate</a></li>
+							
+							<li><a href="Protocols/TSLAsciiCommandResponseNotifying.html">TSLAsciiCommandResponseNotifying</a></li>
+							
+							<li><a href="Protocols/TSLAsciiCommanderSupportedDeviceDelegate.html">TSLAsciiCommanderSupportedDeviceDelegate</a></li>
+							
+							<li><a href="Protocols/TSLBarcodeCommandBarcodeReceivedDelegate.html">TSLBarcodeCommandBarcodeReceivedDelegate</a></li>
+							
+							<li><a href="Protocols/TSLCommandParametersProtocol.html">TSLCommandParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLDataBankParametersProtocol.html">TSLDataBankParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLInventoryCommandTransponderReceivedDelegate.html">TSLInventoryCommandTransponderReceivedDelegate</a></li>
+							
+							<li><a href="Protocols/TSLParametersProtocol.html">TSLParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLQAlgorithmParametersProtocol.html">TSLQAlgorithmParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLQueryParametersProtocol.html">TSLQueryParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLReadCommandTransponderReceivedDelegate.html">TSLReadCommandTransponderReceivedDelegate</a></li>
+							
+							<li><a href="Protocols/TSLResponseParametersProtocol.html">TSLResponseParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLSelectControlParametersProtocol.html">TSLSelectControlParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLSelectMaskParametersProtocol.html">TSLSelectMaskParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLSwitchResponderStateReceivedDelegate.html">TSLSwitchResponderStateReceivedDelegate</a></li>
+							
+							<li><a href="Protocols/TSLTransponderParametersProtocol.html">TSLTransponderParametersProtocol</a></li>
+							
+							<li><a href="Protocols/TSLWriteCommandTransponderReceivedDelegate.html">TSLWriteCommandTransponderReceivedDelegate</a></li>
+							
+							<li><a href="Protocols/TSLWriteSingleCommandTransponderReceivedDelegate.html">TSLWriteSingleCommandTransponderReceivedDelegate</a></li>
+							
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

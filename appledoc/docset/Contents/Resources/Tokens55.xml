@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAntennaParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAntennaParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters related to the reader Antenna operation during commands</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAntennaParametersProtocol/setOutputPower:</TokenIdentifier>
+			<Abstract type="html">The antenna power to use for this command.</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int outputPower</Declaration>
+			
+			
+			<Anchor>//api/name/outputPower</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAntennaParametersProtocol/outputPower</TokenIdentifier>
+			<Abstract type="html">The antenna power to use for this command.</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int outputPower</Declaration>
+			
+			
+			<Anchor>//api/name/outputPower</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAntennaParametersProtocol/outputPower</TokenIdentifier>
+			<Abstract type="html">The antenna power to use for this command.</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int outputPower</Declaration>
+			
+			
+			<Anchor>//api/name/outputPower</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAntennaParametersProtocol/minimumOutputPower</TokenIdentifier>
+			<Abstract type="html">The minimum valid output power value</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (int)minimumOutputPower</Declaration>
+			
+			
+			<Anchor>//api/name/minimumOutputPower</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAntennaParametersProtocol/maximumOutputPower</TokenIdentifier>
+			<Abstract type="html">The maximum valid output power value</Abstract>
+			<DeclaredIn>TSLAntennaParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (int)maximumOutputPower</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOutputPower</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+	</File>
+</Tokens>

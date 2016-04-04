@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAlertCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAlertCommand</TokenIdentifier>
+			<Abstract type="html">A command to configure and query the reader&apos;s alert options</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/setEnableBuzzer:</TokenIdentifier>
+			<Abstract type="html">Turn the buzzer on or off</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState enableBuzzer</Declaration>
+			
+			
+			<Anchor>//api/name/enableBuzzer</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/enableBuzzer</TokenIdentifier>
+			<Abstract type="html">Turn the buzzer on or off</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState enableBuzzer</Declaration>
+			
+			
+			<Anchor>//api/name/enableBuzzer</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAlertCommand/enableBuzzer</TokenIdentifier>
+			<Abstract type="html">Turn the buzzer on or off</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState enableBuzzer</Declaration>
+			
+			
+			<Anchor>//api/name/enableBuzzer</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/setDuration:</TokenIdentifier>
+			<Abstract type="html">Set the Buzzer &amp;amp; Vibrator duration</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_AlertDuration duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/duration</TokenIdentifier>
+			<Abstract type="html">Set the Buzzer &amp;amp; Vibrator duration</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_AlertDuration duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAlertCommand/duration</TokenIdentifier>
+			<Abstract type="html">Set the Buzzer &amp;amp; Vibrator duration</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_AlertDuration duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/setTone:</TokenIdentifier>
+			<Abstract type="html">Set the Buzzer tone</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_BuzzerTone tone</Declaration>
+			
+			
+			<Anchor>//api/name/tone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/tone</TokenIdentifier>
+			<Abstract type="html">Set the Buzzer tone</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_BuzzerTone tone</Declaration>
+			
+			
+			<Anchor>//api/name/tone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAlertCommand/tone</TokenIdentifier>
+			<Abstract type="html">Set the Buzzer tone</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_BuzzerTone tone</Declaration>
+			
+			
+			<Anchor>//api/name/tone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/setEnableVibrator:</TokenIdentifier>
+			<Abstract type="html">Turn the vibrator on or off</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState enableVibrator</Declaration>
+			
+			
+			<Anchor>//api/name/enableVibrator</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAlertCommand/enableVibrator</TokenIdentifier>
+			<Abstract type="html">Turn the vibrator on or off</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState enableVibrator</Declaration>
+			
+			
+			<Anchor>//api/name/enableVibrator</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAlertCommand/enableVibrator</TokenIdentifier>
+			<Abstract type="html">Turn the vibrator on or off</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState enableVibrator</Declaration>
+			
+			
+			<Anchor>//api/name/enableVibrator</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/alertDurationForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_AlertDuration</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_AlertDuration)alertDurationForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLAlertDuration corresponding to the given string. Invalid parameter values return TSLAlertDuration_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/alertDurationForParameterValue:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/parameterValueForAlertDuration:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_AlertDuration</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForAlertDuration:(TSL_AlertDuration)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The TSL_AlertDuration value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_AlertDuration or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForAlertDuration:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/descriptionForAlertDuration:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_AlertDuration</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForAlertDuration:(TSL_AlertDuration)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The TSL_AlertDuration value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_AlertDuration or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForAlertDuration:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/isValidAlertDuration:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_AlertDuration for validity</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidAlertDuration:(TSL_AlertDuration)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The TSL_AlertDuration value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_AlertDuration is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidAlertDuration:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/buzzerToneForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_BuzzerTone</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_BuzzerTone)buzzerToneForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLBuzzerTone corresponding to the given string. Invalid parameter values return TSLBuzzerTone_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/buzzerToneForParameterValue:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/parameterValueForBuzzerTone:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_BuzzerTone</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForBuzzerTone:(TSL_BuzzerTone)tone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tone</Name>
+					<Abstract type="html">The TSL_BuzzerTone value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_BuzzerTone or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForBuzzerTone:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/descriptionForBuzzerTone:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_BuzzerTone</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForBuzzerTone:(TSL_BuzzerTone)tone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tone</Name>
+					<Abstract type="html">The TSL_BuzzerTone value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_BuzzerTone or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForBuzzerTone:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/isValidBuzzerTone:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_BuzzerTone for validity</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidBuzzerTone:(TSL_BuzzerTone)tone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tone</Name>
+					<Abstract type="html">The TSL_BuzzerTone value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_BuzzerTone is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidBuzzerTone:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAlertCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLAlertCommand</Abstract>
+			<DeclaredIn>TSLAlertCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLAlertCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+	</File>
+</Tokens>

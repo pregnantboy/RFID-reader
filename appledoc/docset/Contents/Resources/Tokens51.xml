@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLVersionInformationCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLVersionInformationCommand</TokenIdentifier>
+			<Abstract type="html">A command to query the reader for version information</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setManufacturer:</TokenIdentifier>
+			<Abstract type="html">The Manufacturer name retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturer</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturer</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/manufacturer</TokenIdentifier>
+			<Abstract type="html">The Manufacturer name retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturer</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturer</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/manufacturer</TokenIdentifier>
+			<Abstract type="html">The Manufacturer name retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturer</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturer</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setSerialNumber:</TokenIdentifier>
+			<Abstract type="html">The Unit Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/serialNumber</TokenIdentifier>
+			<Abstract type="html">The Unit Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/serialNumber</TokenIdentifier>
+			<Abstract type="html">The Unit Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html">The Unit Firmware version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/firmwareVersion</TokenIdentifier>
+			<Abstract type="html">The Unit Firmware version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/firmwareVersion</TokenIdentifier>
+			<Abstract type="html">The Unit Firmware version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setBootloaderVersion:</TokenIdentifier>
+			<Abstract type="html">The Unit bootloader version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *bootloaderVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bootloaderVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/bootloaderVersion</TokenIdentifier>
+			<Abstract type="html">The Unit bootloader version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *bootloaderVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bootloaderVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/bootloaderVersion</TokenIdentifier>
+			<Abstract type="html">The Unit bootloader version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *bootloaderVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bootloaderVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setRadioSerialNumber:</TokenIdentifier>
+			<Abstract type="html">The Radio Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/radioSerialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/radioSerialNumber</TokenIdentifier>
+			<Abstract type="html">The Radio Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/radioSerialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/radioSerialNumber</TokenIdentifier>
+			<Abstract type="html">The Radio Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/radioSerialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setRadioFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html">The Radio Firmware version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioFirmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/radioFirmwareVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/radioFirmwareVersion</TokenIdentifier>
+			<Abstract type="html">The Radio Firmware version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioFirmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/radioFirmwareVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/radioFirmwareVersion</TokenIdentifier>
+			<Abstract type="html">The Radio Firmware version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioFirmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/radioFirmwareVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setRadioBootloaderVersion:</TokenIdentifier>
+			<Abstract type="html">The Radio Bootloader version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioBootloaderVersion</Declaration>
+			
+			
+			<Anchor>//api/name/radioBootloaderVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/radioBootloaderVersion</TokenIdentifier>
+			<Abstract type="html">The Radio Bootloader version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioBootloaderVersion</Declaration>
+			
+			
+			<Anchor>//api/name/radioBootloaderVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/radioBootloaderVersion</TokenIdentifier>
+			<Abstract type="html">The Radio Bootloader version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *radioBootloaderVersion</Declaration>
+			
+			
+			<Anchor>//api/name/radioBootloaderVersion</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setAntennaSerialNumber:</TokenIdentifier>
+			<Abstract type="html">The Antenna Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *antennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/antennaSerialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/antennaSerialNumber</TokenIdentifier>
+			<Abstract type="html">The Antenna Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *antennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/antennaSerialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/antennaSerialNumber</TokenIdentifier>
+			<Abstract type="html">The Antenna Serial number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *antennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/antennaSerialNumber</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setAsciiProtocol:</TokenIdentifier>
+			<Abstract type="html">The Protocol version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *asciiProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/asciiProtocol</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/asciiProtocol</TokenIdentifier>
+			<Abstract type="html">The Protocol version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *asciiProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/asciiProtocol</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/asciiProtocol</TokenIdentifier>
+			<Abstract type="html">The Protocol version number retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *asciiProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/asciiProtocol</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/setBluetoothAddress:</TokenIdentifier>
+			<Abstract type="html">The Bluetooth address retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *bluetoothAddress</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothAddress</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLVersionInformationCommand/bluetoothAddress</TokenIdentifier>
+			<Abstract type="html">The Bluetooth address retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *bluetoothAddress</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothAddress</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLVersionInformationCommand/bluetoothAddress</TokenIdentifier>
+			<Abstract type="html">The Bluetooth address retrieved from the reader</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *bluetoothAddress</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothAddress</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLVersionInformationCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLVersionInformationCommand with a default TSLVersionInformationCommandResponder</Abstract>
+			<DeclaredIn>TSLVersionInformationCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLVersionInformationCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+	</File>
+</Tokens>

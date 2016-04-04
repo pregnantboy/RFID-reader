@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLKillCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLKillCommand</TokenIdentifier>
+			<Abstract type="html">A command to kill transponders</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/setKillPassword:</TokenIdentifier>
+			<Abstract type="html">The password required to kill transponders - defaults to nil</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *killPassword</Declaration>
+			
+			
+			<Anchor>//api/name/killPassword</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/killPassword</TokenIdentifier>
+			<Abstract type="html">The password required to kill transponders - defaults to nil</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *killPassword</Declaration>
+			
+			
+			<Anchor>//api/name/killPassword</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLKillCommand/killPassword</TokenIdentifier>
+			<Abstract type="html">The password required to kill transponders - defaults to nil</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *killPassword</Declaration>
+			
+			
+			<Anchor>//api/name/killPassword</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/setInventoryOnly:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLKillCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/setDidAnyTransponderRespond:</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLKillCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/setTransponderReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder response</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLKillTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLKillCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder response</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLKillTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLKillCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder response</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLKillTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLKillCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLKillCommand</Abstract>
+			<DeclaredIn>TSLKillCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLKillCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+	</File>
+</Tokens>

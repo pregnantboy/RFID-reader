@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAsciiCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAsciiCommand</TokenIdentifier>
+			<Abstract type="html">Defines an ASCII command that can be performed on any device supporting the TSL ASCII 2.0 Protocol</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/setCommandLine:</TokenIdentifier>
+			<Abstract type="html">Gets the Ascii command line (including terminators) to be sent to the device</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *commandLine</Declaration>
+			
+			
+			<Anchor>//api/name/commandLine</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/commandLine</TokenIdentifier>
+			<Abstract type="html">Gets the Ascii command line (including terminators) to be sent to the device</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *commandLine</Declaration>
+			
+			
+			<Anchor>//api/name/commandLine</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommand/commandLine</TokenIdentifier>
+			<Abstract type="html">Gets the Ascii command line (including terminators) to be sent to the device</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *commandLine</Declaration>
+			
+			
+			<Anchor>//api/name/commandLine</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/setCommandName:</TokenIdentifier>
+			<Abstract type="html">Gets the Ascii command identifier e.g. &apos;.vr&apos; or &apos;.da&apos;</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *commandName</Declaration>
+			
+			
+			<Anchor>//api/name/commandName</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/commandName</TokenIdentifier>
+			<Abstract type="html">Gets the Ascii command identifier e.g. &apos;.vr&apos; or &apos;.da&apos;</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *commandName</Declaration>
+			
+			
+			<Anchor>//api/name/commandName</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommand/commandName</TokenIdentifier>
+			<Abstract type="html">Gets the Ascii command identifier e.g. &apos;.vr&apos; or &apos;.da&apos;</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *commandName</Declaration>
+			
+			
+			<Anchor>//api/name/commandName</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/setSynchronousCommandResponder:</TokenIdentifier>
+			<Abstract type="html">Set this to a valid TSLAsciiCommandResponder to make the command a synchronous command</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLAsciiCommandResponder&gt; synchronousCommandResponder</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommandResponder</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/synchronousCommandResponder</TokenIdentifier>
+			<Abstract type="html">Set this to a valid TSLAsciiCommandResponder to make the command a synchronous command</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLAsciiCommandResponder&gt; synchronousCommandResponder</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommandResponder</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommand/synchronousCommandResponder</TokenIdentifier>
+			<Abstract type="html">Set this to a valid TSLAsciiCommandResponder to make the command a synchronous command</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLAsciiCommandResponder&gt; synchronousCommandResponder</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommandResponder</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/setMaxSynchronousWaitTime:</TokenIdentifier>
+			<Abstract type="html">Set this to the maximum time to wait for this command to complete when invoked synchronously</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval maxSynchronousWaitTime</Declaration>
+			
+			
+			<Anchor>//api/name/maxSynchronousWaitTime</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommand/maxSynchronousWaitTime</TokenIdentifier>
+			<Abstract type="html">Set this to the maximum time to wait for this command to complete when invoked synchronously</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval maxSynchronousWaitTime</Declaration>
+			
+			
+			<Anchor>//api/name/maxSynchronousWaitTime</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommand/maxSynchronousWaitTime</TokenIdentifier>
+			<Abstract type="html">Set this to the maximum time to wait for this command to complete when invoked synchronously</Abstract>
+			<DeclaredIn>TSLAsciiCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval maxSynchronousWaitTime</Declaration>
+			
+			
+			<Anchor>//api/name/maxSynchronousWaitTime</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+	</File>
+</Tokens>

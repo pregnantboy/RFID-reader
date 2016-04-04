@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLReadTransponderCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLReadTransponderCommand</TokenIdentifier>
+			<Abstract type="html">A command to read data from the memory banks of one or more transponders</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadTransponderCommand/setInventoryOnly:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadTransponderCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLReadTransponderCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadTransponderCommand/setTransponderReceivedDelegate:</TokenIdentifier>
+			<Abstract type="html">The TSLReadCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLReadCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadTransponderCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLReadCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLReadCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLReadTransponderCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLReadCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) id&lt;TSLReadCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadTransponderCommand/setTransponderReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLReadTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadTransponderCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLReadTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLReadTransponderCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLReadTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLReadTransponderCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLReadTransponderCommand</Abstract>
+			<DeclaredIn>TSLReadTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLReadTransponderCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+	</File>
+</Tokens>

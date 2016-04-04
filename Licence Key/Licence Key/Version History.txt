@@ -1,0 +1,13 @@
+
+Licence Key
+===========
+
+
+v1.0 - 02/09/2014
+-----------------
+
+Initial release
+
+Uses the v1.1.0 TSLAsciiCommands.framework
+
+

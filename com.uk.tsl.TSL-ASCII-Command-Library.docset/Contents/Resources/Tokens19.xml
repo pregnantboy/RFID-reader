@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLEchoCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLEchoCommand</TokenIdentifier>
+			<Abstract type="html">A command to configure and query the reader&apos;s echo options</Abstract>
+			<DeclaredIn>TSLEchoCommand.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLEchoCommand/setEchoEnabled:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the reader will echo all commands</Abstract>
+			<DeclaredIn>TSLEchoCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState echoEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/echoEnabled</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLEchoCommand/echoEnabled</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the reader will echo all commands</Abstract>
+			<DeclaredIn>TSLEchoCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState echoEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/echoEnabled</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLEchoCommand/echoEnabled</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the reader will echo all commands</Abstract>
+			<DeclaredIn>TSLEchoCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState echoEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/echoEnabled</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLEchoCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLEchoCommand</Abstract>
+			<DeclaredIn>TSLEchoCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLEchoCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+	</File>
+</Tokens>

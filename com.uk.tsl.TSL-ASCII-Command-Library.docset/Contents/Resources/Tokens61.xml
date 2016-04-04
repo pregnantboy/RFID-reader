@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAsciiCommanderSupportedDeviceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAsciiCommanderSupportedDeviceDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate protocol to specify supported devices based on their EAAccessory name and firmware revision</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommanderSupportedDeviceDelegate/isSupportedDeviceForName:firmware:</TokenIdentifier>
+			<Abstract type="html">Test that a device with the given name and firmware version is supported</Abstract>
+			<DeclaredIn>TSLAsciiCommander.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isSupportedDeviceForName:(NSString *)deviceName firmware:(NSString *)firmwareVersion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deviceName</Name>
+					<Abstract type="html">the name of the device as reported by the EAAccessory name property</Abstract>
+				</Parameter><Parameter>
+					<Name>firmwareVersion</Name>
+					<Abstract type="html">the firmware version as reported by the EAAccessory firmwareRevision property</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if this app supports the given firmware version</Abstract></ReturnValue>
+			<Anchor>//api/name/isSupportedDeviceForName:firmware:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+	</File>
+</Tokens>

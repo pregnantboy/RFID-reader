@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLCommandParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLCommandParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters for generic control of TSLAsciiCommands</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/setTakeNoAction:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES prevents the reader from performing the command&apos;s primary action (e.g. TSLInventoryCommand will not perform the inventory action)
+All other actions, such as setting parameters in the reader are performed</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState takeNoAction</Declaration>
+			
+			
+			<Anchor>//api/name/takeNoAction</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/takeNoAction</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES prevents the reader from performing the command&apos;s primary action (e.g. TSLInventoryCommand will not perform the inventory action)
+All other actions, such as setting parameters in the reader are performed</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState takeNoAction</Declaration>
+			
+			
+			<Anchor>//api/name/takeNoAction</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLCommandParametersProtocol/takeNoAction</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES prevents the reader from performing the command&apos;s primary action (e.g. TSLInventoryCommand will not perform the inventory action)
+All other actions, such as setting parameters in the reader are performed</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState takeNoAction</Declaration>
+			
+			
+			<Anchor>//api/name/takeNoAction</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/setReadParameters:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES instructs the reader to return the supported parameters and their current values for the command</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState readParameters</Declaration>
+			
+			
+			<Anchor>//api/name/readParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/readParameters</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES instructs the reader to return the supported parameters and their current values for the command</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState readParameters</Declaration>
+			
+			
+			<Anchor>//api/name/readParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLCommandParametersProtocol/readParameters</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES instructs the reader to return the supported parameters and their current values for the command</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState readParameters</Declaration>
+			
+			
+			<Anchor>//api/name/readParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/setResetParameters:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES instructs the reader to reset all the parameter values for the command</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/resetParameters</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES instructs the reader to reset all the parameter values for the command</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLCommandParametersProtocol/resetParameters</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES instructs the reader to reset all the parameter values for the command</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/setImplementsTakeNoAction:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the takeNoAction parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsTakeNoAction</Declaration>
+			
+			
+			<Anchor>//api/name/implementsTakeNoAction</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/implementsTakeNoAction</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the takeNoAction parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsTakeNoAction</Declaration>
+			
+			
+			<Anchor>//api/name/implementsTakeNoAction</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLCommandParametersProtocol/implementsTakeNoAction</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the takeNoAction parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsTakeNoAction</Declaration>
+			
+			
+			<Anchor>//api/name/implementsTakeNoAction</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/setImplementsReadParameters:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the readParameters parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsReadParameters</Declaration>
+			
+			
+			<Anchor>//api/name/implementsReadParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/implementsReadParameters</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the readParameters parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsReadParameters</Declaration>
+			
+			
+			<Anchor>//api/name/implementsReadParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLCommandParametersProtocol/implementsReadParameters</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the readParameters parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsReadParameters</Declaration>
+			
+			
+			<Anchor>//api/name/implementsReadParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/setImplementsResetParameters:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the resetParameters parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsResetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/implementsResetParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLCommandParametersProtocol/implementsResetParameters</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the resetParameters parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsResetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/implementsResetParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLCommandParametersProtocol/implementsResetParameters</TokenIdentifier>
+			<Abstract type="html">Returns YES if the TSLAsciiCommand responds to the resetParameters parameter</Abstract>
+			<DeclaredIn>TSLCommandParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL implementsResetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/implementsResetParameters</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSynchronousDispatchResponder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSynchronousDispatchResponder</TokenIdentifier>
+			<Abstract type="html">This is a special TSLAsciiCommandResponder that is inserted into the responder chain to handle synchronous commands</Abstract>
+			<DeclaredIn>TSLSynchronousDispatchResponder.h</DeclaredIn>
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

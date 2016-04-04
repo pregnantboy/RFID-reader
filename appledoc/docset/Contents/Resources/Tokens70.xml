@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLResponseParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLResponseParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Generic parameters for command responses</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLResponseParametersProtocol/setUseAlert:</TokenIdentifier>
+			<Abstract type="html">Control the use of alerts from the reader when executing commands</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useAlert</Declaration>
+			
+			
+			<Anchor>//api/name/useAlert</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLResponseParametersProtocol/useAlert</TokenIdentifier>
+			<Abstract type="html">Control the use of alerts from the reader when executing commands</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useAlert</Declaration>
+			
+			
+			<Anchor>//api/name/useAlert</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLResponseParametersProtocol/useAlert</TokenIdentifier>
+			<Abstract type="html">Control the use of alerts from the reader when executing commands</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState useAlert</Declaration>
+			
+			
+			<Anchor>//api/name/useAlert</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLResponseParametersProtocol/setIncludeDateTime:</TokenIdentifier>
+			<Abstract type="html">Control the presence of DateTime stamps in reader responses</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/includeDateTime</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLResponseParametersProtocol/includeDateTime</TokenIdentifier>
+			<Abstract type="html">Control the presence of DateTime stamps in reader responses</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/includeDateTime</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLResponseParametersProtocol/includeDateTime</TokenIdentifier>
+			<Abstract type="html">Control the presence of DateTime stamps in reader responses</Abstract>
+			<DeclaredIn>TSLResponseParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState includeDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/includeDateTime</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+	</File>
+</Tokens>

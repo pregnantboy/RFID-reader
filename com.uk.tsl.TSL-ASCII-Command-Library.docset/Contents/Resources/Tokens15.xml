@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLDataBankParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLDataBankParameters</TokenIdentifier>
+			<Abstract type="html">Helper class for implementing TSLDataBankParametersProtocol</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDataBankParameters/bankForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_DataBank</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_DataBank)bankForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLDataBank corresponding to the given string. Invalid parameter values return TSLDataBank_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/bankForParameterValue:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDataBankParameters/parameterValueForBank:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_DataBank</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForBank:(TSL_DataBank)bank</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bank</Name>
+					<Abstract type="html">The TSL_DataBank value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_DataBank or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForBank:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDataBankParameters/descriptionForBank:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_DataBank</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForBank:(TSL_DataBank)bank</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bank</Name>
+					<Abstract type="html">The TSL_DataBank value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_DataBank or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForBank:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDataBankParameters/isValidBank:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_DataBank for validity</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidBank:(TSL_DataBank)bank</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bank</Name>
+					<Abstract type="html">The TSL_DataBank value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_DataBank is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidBank:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+	</File>
+</Tokens>

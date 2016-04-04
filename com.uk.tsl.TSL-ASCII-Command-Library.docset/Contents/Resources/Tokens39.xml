@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSwitchDoublePressCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSwitchDoublePressCommand</TokenIdentifier>
+			<Abstract type="html">A command to programmatically double press the device switch</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchDoublePressCommand/maximumDuration</TokenIdentifier>
+			<Abstract type="html">the maximum valid value for the duration parameter</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)maximumDuration</Declaration>
+			
+			<ReturnValue><Abstract type="html">the maximum valid value for the duration parameter</Abstract></ReturnValue>
+			<Anchor>//api/name/maximumDuration</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchDoublePressCommand/setDuration:</TokenIdentifier>
+			<Abstract type="html">The duration for the switch press action (0-99)
+Non-zero values are the time in seconds that the switch press will be maintained
+Zero is an infinite press - use the TSLAbort command to release the switch</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchDoublePressCommand/duration</TokenIdentifier>
+			<Abstract type="html">The duration for the switch press action (0-99)
+Non-zero values are the time in seconds that the switch press will be maintained
+Zero is an infinite press - use the TSLAbort command to release the switch</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchDoublePressCommand/duration</TokenIdentifier>
+			<Abstract type="html">The duration for the switch press action (0-99)
+Non-zero values are the time in seconds that the switch press will be maintained
+Zero is an infinite press - use the TSLAbort command to release the switch</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchDoublePressCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchDoublePressCommand</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchDoublePressCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchDoublePressCommand/synchronousCommandWithDuration:</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchDoublePressCommand configured for the given duration</Abstract>
+			<DeclaredIn>TSLSwitchDoublePressCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchDoublePressCommand *)synchronousCommandWithDuration:(int)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The duration for the switch press action (0-99)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/synchronousCommandWithDuration:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+	</File>
+</Tokens>

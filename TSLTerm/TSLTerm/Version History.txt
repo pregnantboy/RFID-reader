@@ -1,0 +1,23 @@
+
+TSLTerm
+=======
+
+v1.1 - 02/09/2014
+-----------------
+
+Moved the Send and Clear buttons to a toolbar that appears above the keyboard.
+Added "-" and "." (iPhone only) to the keyboard toolbar.
+
+Ensured that the command results always appear at the bottom of the window.
+
+Updated reader selection UI.
+
+Uses the v1.1.0 TSLAsciiCommands.framework
+
+
+v1.0 - 11/10/2013
+--------------
+
+Uses the v1.0 TSLAsciiCommands.framework
+
+

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLWriteTransponderCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLWriteTransponderCommand</TokenIdentifier>
+			<Abstract type="html">A command to write data to the memory banks of multiple transponders</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/setInventoryOnly:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteTransponderCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/setWriteMode:</TokenIdentifier>
+			<Abstract type="html">The write mode to use</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_WriteMode writeMode</Declaration>
+			
+			
+			<Anchor>//api/name/writeMode</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/writeMode</TokenIdentifier>
+			<Abstract type="html">The write mode to use</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_WriteMode writeMode</Declaration>
+			
+			
+			<Anchor>//api/name/writeMode</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteTransponderCommand/writeMode</TokenIdentifier>
+			<Abstract type="html">The write mode to use</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_WriteMode writeMode</Declaration>
+			
+			
+			<Anchor>//api/name/writeMode</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/setImpinjBlockWriteMode:</TokenIdentifier>
+			<Abstract type="html">The block write mode to use when writing to supported transponders
+(Impinj specific extension)</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_ImpinjBlockWriteMode impinjBlockWriteMode</Declaration>
+			
+			
+			<Anchor>//api/name/impinjBlockWriteMode</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/impinjBlockWriteMode</TokenIdentifier>
+			<Abstract type="html">The block write mode to use when writing to supported transponders
+(Impinj specific extension)</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_ImpinjBlockWriteMode impinjBlockWriteMode</Declaration>
+			
+			
+			<Anchor>//api/name/impinjBlockWriteMode</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteTransponderCommand/impinjBlockWriteMode</TokenIdentifier>
+			<Abstract type="html">The block write mode to use when writing to supported transponders
+(Impinj specific extension)</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_ImpinjBlockWriteMode impinjBlockWriteMode</Declaration>
+			
+			
+			<Anchor>//api/name/impinjBlockWriteMode</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/setTransponderReceivedDelegate:</TokenIdentifier>
+			<Abstract type="html">The TSLWriteSingleCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLWriteCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLWriteSingleCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLWriteCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteTransponderCommand/transponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The TSLWriteSingleCommandTransponderReceivedDelegate to inform when each transponder is received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLWriteCommandTransponderReceivedDelegate&gt; transponderReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedDelegate</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/setTransponderReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLWriteTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLWriteTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteTransponderCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLWriteTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/setDidAnyTransponderRespond:</TokenIdentifier>
+			<Abstract type="html">YES if any transponder responded to the write command</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLWriteTransponderCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if any transponder responded to the write command</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLWriteTransponderCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if any transponder responded to the write command</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLWriteTransponderCommand
+(with self as synchronous responder)</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLWriteTransponderCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/isValidWriteMode:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_WriteMode for validity</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidWriteMode:(TSL_WriteMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The TSL_WriteMode value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_WriteMode is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidWriteMode:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/writeModeForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_WriteMode</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_WriteMode)writeModeForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLWriteMode corresponding to the given string. Invalid parameter values return TSLWriteMode_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/writeModeForParameterValue:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/parameterValueForWriteMode:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_WriteMode</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForWriteMode:(TSL_WriteMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The TSL_WriteMode value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_WriteMode or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForWriteMode:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/descriptionForWriteMode:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_WriteMode</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForWriteMode:(TSL_WriteMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The TSL_WriteMode value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_WriteMode or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForWriteMode:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/isValidImpinjBlockWriteMode:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_ImpinjBlockWriteMode for validity</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidImpinjBlockWriteMode:(TSL_ImpinjBlockWriteMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The TSL_ImpinjBlockWriteMode value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_ImpinjBlockWriteMode is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidImpinjBlockWriteMode:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/impinjBlockWriteModeForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_ImpinjBlockWriteMode</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_ImpinjBlockWriteMode)impinjBlockWriteModeForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLImpinjBlockWriteMode corresponding to the given string. Invalid parameter values return TSLImpinjBlockWriteMode_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/impinjBlockWriteModeForParameterValue:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/parameterValueForImpinjBlockWriteMode:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_ImpinjBlockWriteMode</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForImpinjBlockWriteMode:(TSL_ImpinjBlockWriteMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The TSL_ImpinjBlockWriteMode value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_ImpinjBlockWriteMode or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForImpinjBlockWriteMode:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLWriteTransponderCommand/descriptionForImpinjBlockWriteMode:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_ImpinjBlockWriteMode</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForImpinjBlockWriteMode:(TSL_ImpinjBlockWriteMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The TSL_ImpinjBlockWriteMode value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_ImpinjBlockWriteMode or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForImpinjBlockWriteMode:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAsciiCommandExecutorBase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAsciiCommandExecutorBase</TokenIdentifier>
+			<Abstract type="html">A base class that implements the responder chain management</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecutorBase.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommandExecutorBase/setHasSynchronousResponder:</TokenIdentifier>
+			<Abstract type="html">Test for presence of the synchronous command responder in the responder chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecutorBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasSynchronousResponder</Declaration>
+			
+			
+			<Anchor>//api/name/hasSynchronousResponder</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiCommandExecutorBase/hasSynchronousResponder</TokenIdentifier>
+			<Abstract type="html">Test for presence of the synchronous command responder in the responder chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecutorBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasSynchronousResponder</Declaration>
+			
+			
+			<Anchor>//api/name/hasSynchronousResponder</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLAsciiCommandExecutorBase/hasSynchronousResponder</TokenIdentifier>
+			<Abstract type="html">Test for presence of the synchronous command responder in the responder chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecutorBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasSynchronousResponder</Declaration>
+			
+			
+			<Anchor>//api/name/hasSynchronousResponder</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+	</File>
+</Tokens>

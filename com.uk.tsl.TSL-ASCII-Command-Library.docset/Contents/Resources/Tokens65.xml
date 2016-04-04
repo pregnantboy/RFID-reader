@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLInventoryCommandTransponderReceivedDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLInventoryCommandTransponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for objects wishing to receive asynchronous notification of each transponder received</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLInventoryCommandTransponderReceivedDelegate/transponderReceived:crc:pc:rssi:fastId:moreAvailable:</TokenIdentifier>
+			<Abstract type="html">The transponder information received</Abstract>
+			<DeclaredIn>TSLInventoryCommand.h</DeclaredIn>			
+			
+			<Declaration>- (void)transponderReceived:(NSString *)epc crc:(NSNumber *)crc pc:(NSNumber *)pc rssi:(NSNumber *)rssi fastId:(NSData *)fastId moreAvailable:(BOOL)moreAvailable</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>epc</Name>
+					<Abstract type="html">- the transponder identifier as hex-encoded, ascii string</Abstract>
+				</Parameter><Parameter>
+					<Name>crc</Name>
+					<Abstract type="html">- the transponder CRC as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>pc</Name>
+					<Abstract type="html">- the transponder program control word as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>rssi</Name>
+					<Abstract type="html">- the transponders RSSI value (in dBm) as int encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>fastId</Name>
+					<Abstract type="html">- the transponders TID bank as NSData or nil if none (Impinj Only - requires transponder support)</Abstract>
+				</Parameter><Parameter>
+					<Name>moreAvailable</Name>
+					<Abstract type="html">- YES if there are more transponders to be delivered</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/transponderReceived:crc:pc:rssi:fastId:moreAvailable:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+	</File>
+</Tokens>

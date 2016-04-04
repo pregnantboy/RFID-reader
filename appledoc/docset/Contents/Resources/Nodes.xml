@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>TSL ASCII Command Library</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						<NodeRef refid="66"/>
+						<NodeRef refid="67"/>
+						<NodeRef refid="68"/>
+						<NodeRef refid="69"/>
+						<NodeRef refid="70"/>
+						<NodeRef refid="71"/>
+						<NodeRef refid="72"/>
+						<NodeRef refid="73"/>
+						<NodeRef refid="74"/>
+						<NodeRef refid="75"/>
+						<NodeRef refid="76"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>TSLAbortCommand</Name>
+			<Path>Classes/TSLAbortCommand.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>TSLAlertCommand</Name>
+			<Path>Classes/TSLAlertCommand.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>TSLAntennaParameters</Name>
+			<Path>Classes/TSLAntennaParameters.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>TSLAsciiCommandBase</Name>
+			<Path>Classes/TSLAsciiCommandBase.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>TSLAsciiCommandExecutorBase</Name>
+			<Path>Classes/TSLAsciiCommandExecutorBase.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>TSLAsciiCommandLibraryResponderBase</Name>
+			<Path>Classes/TSLAsciiCommandLibraryResponderBase.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>TSLAsciiCommandResponderBase</Name>
+			<Path>Classes/TSLAsciiCommandResponderBase.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>TSLAsciiCommander</Name>
+			<Path>Classes/TSLAsciiCommander.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>TSLAsciiSelfResponderCommandBase</Name>
+			<Path>Classes/TSLAsciiSelfResponderCommandBase.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>TSLAsciiSynchronousTestCommander</Name>
+			<Path>Classes/TSLAsciiSynchronousTestCommander.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>TSLBarcodeCommand</Name>
+			<Path>Classes/TSLBarcodeCommand.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>TSLBatteryStatusCommand</Name>
+			<Path>Classes/TSLBatteryStatusCommand.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>TSLBinaryEncoding</Name>
+			<Path>Classes/TSLBinaryEncoding.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>TSLCommandParameters</Name>
+			<Path>Classes/TSLCommandParameters.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>TSLDataBankParameters</Name>
+			<Path>Classes/TSLDataBankParameters.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>TSLDateCommand</Name>
+			<Path>Classes/TSLDateCommand.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>TSLDateTimeCommand</Name>
+			<Path>Classes/TSLDateTimeCommand.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>TSLDeleteConfirmation</Name>
+			<Path>Classes/TSLDeleteConfirmation.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>TSLEchoCommand</Name>
+			<Path>Classes/TSLEchoCommand.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>TSLExecuteAutorunFileCommand</Name>
+			<Path>Classes/TSLExecuteAutorunFileCommand.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>TSLFactoryDefaultsCommand</Name>
+			<Path>Classes/TSLFactoryDefaultsCommand.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>TSLInventoryCommand</Name>
+			<Path>Classes/TSLInventoryCommand.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>TSLKillCommand</Name>
+			<Path>Classes/TSLKillCommand.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>TSLLibraryConfiguration</Name>
+			<Path>Classes/TSLLibraryConfiguration.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>TSLLicenceKeyCommand</Name>
+			<Path>Classes/TSLLicenceKeyCommand.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>TSLLockCommand</Name>
+			<Path>Classes/TSLLockCommand.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>TSLLoggerResponder</Name>
+			<Path>Classes/TSLLoggerResponder.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>TSLQAlgorithmParameters</Name>
+			<Path>Classes/TSLQAlgorithmParameters.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>TSLQueryParameters</Name>
+			<Path>Classes/TSLQueryParameters.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>TSLReadAutorunFileCommand</Name>
+			<Path>Classes/TSLReadAutorunFileCommand.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>TSLReadLogFileCommand</Name>
+			<Path>Classes/TSLReadLogFileCommand.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>TSLReadTransponderCommand</Name>
+			<Path>Classes/TSLReadTransponderCommand.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>TSLResponseParameters</Name>
+			<Path>Classes/TSLResponseParameters.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>TSLSelectControlParameters</Name>
+			<Path>Classes/TSLSelectControlParameters.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>TSLSelectMaskParameters</Name>
+			<Path>Classes/TSLSelectMaskParameters.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>TSLSleepCommand</Name>
+			<Path>Classes/TSLSleepCommand.html</Path>
+		</Node>
+		<Node id="37">
+			<Name>TSLSleepTimeoutCommand</Name>
+			<Path>Classes/TSLSleepTimeoutCommand.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>TSLSwitchActionCommand</Name>
+			<Path>Classes/TSLSwitchActionCommand.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>TSLSwitchDoublePressCommand</Name>
+			<Path>Classes/TSLSwitchDoublePressCommand.html</Path>
+		</Node>
+		<Node id="40">
+			<Name>TSLSwitchDoublePressUserActionCommand</Name>
+			<Path>Classes/TSLSwitchDoublePressUserActionCommand.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>TSLSwitchResponder</Name>
+			<Path>Classes/TSLSwitchResponder.html</Path>
+		</Node>
+		<Node id="42">
+			<Name>TSLSwitchSinglePressCommand</Name>
+			<Path>Classes/TSLSwitchSinglePressCommand.html</Path>
+		</Node>
+		<Node id="43">
+			<Name>TSLSwitchSinglePressUserActionCommand</Name>
+			<Path>Classes/TSLSwitchSinglePressUserActionCommand.html</Path>
+		</Node>
+		<Node id="44">
+			<Name>TSLSwitchStateCommand</Name>
+			<Path>Classes/TSLSwitchStateCommand.html</Path>
+		</Node>
+		<Node id="45">
+			<Name>TSLSynchronousDispatchResponder</Name>
+			<Path>Classes/TSLSynchronousDispatchResponder.html</Path>
+		</Node>
+		<Node id="46">
+			<Name>TSLTimeCommand</Name>
+			<Path>Classes/TSLTimeCommand.html</Path>
+		</Node>
+		<Node id="47">
+			<Name>TSLTransponderMemoryCommandBase</Name>
+			<Path>Classes/TSLTransponderMemoryCommandBase.html</Path>
+		</Node>
+		<Node id="48">
+			<Name>TSLTransponderParameters</Name>
+			<Path>Classes/TSLTransponderParameters.html</Path>
+		</Node>
+		<Node id="49">
+			<Name>TSLTransponderSelectCommand</Name>
+			<Path>Classes/TSLTransponderSelectCommand.html</Path>
+		</Node>
+		<Node id="50">
+			<Name>TSLTriState</Name>
+			<Path>Classes/TSLTriState.html</Path>
+		</Node>
+		<Node id="51">
+			<Name>TSLVersionInformationCommand</Name>
+			<Path>Classes/TSLVersionInformationCommand.html</Path>
+		</Node>
+		<Node id="52">
+			<Name>TSLWriteAutorunFileCommand</Name>
+			<Path>Classes/TSLWriteAutorunFileCommand.html</Path>
+		</Node>
+		<Node id="53">
+			<Name>TSLWriteSingleTransponderCommand</Name>
+			<Path>Classes/TSLWriteSingleTransponderCommand.html</Path>
+		</Node>
+		<Node id="54">
+			<Name>TSLWriteTransponderCommand</Name>
+			<Path>Classes/TSLWriteTransponderCommand.html</Path>
+		</Node>
+		
+		
+		<Node id="55">
+			<Name>TSLAntennaParametersProtocol</Name>
+			<Path>Protocols/TSLAntennaParametersProtocol.html</Path>
+		</Node>
+		<Node id="56">
+			<Name>TSLAsciiCommand</Name>
+			<Path>Protocols/TSLAsciiCommand.html</Path>
+		</Node>
+		<Node id="57">
+			<Name>TSLAsciiCommandExecuting</Name>
+			<Path>Protocols/TSLAsciiCommandExecuting.html</Path>
+		</Node>
+		<Node id="58">
+			<Name>TSLAsciiCommandResponder</Name>
+			<Path>Protocols/TSLAsciiCommandResponder.html</Path>
+		</Node>
+		<Node id="59">
+			<Name>TSLAsciiCommandResponderDelegate</Name>
+			<Path>Protocols/TSLAsciiCommandResponderDelegate.html</Path>
+		</Node>
+		<Node id="60">
+			<Name>TSLAsciiCommandResponseNotifying</Name>
+			<Path>Protocols/TSLAsciiCommandResponseNotifying.html</Path>
+		</Node>
+		<Node id="61">
+			<Name>TSLAsciiCommanderSupportedDeviceDelegate</Name>
+			<Path>Protocols/TSLAsciiCommanderSupportedDeviceDelegate.html</Path>
+		</Node>
+		<Node id="62">
+			<Name>TSLBarcodeCommandBarcodeReceivedDelegate</Name>
+			<Path>Protocols/TSLBarcodeCommandBarcodeReceivedDelegate.html</Path>
+		</Node>
+		<Node id="63">
+			<Name>TSLCommandParametersProtocol</Name>
+			<Path>Protocols/TSLCommandParametersProtocol.html</Path>
+		</Node>
+		<Node id="64">
+			<Name>TSLDataBankParametersProtocol</Name>
+			<Path>Protocols/TSLDataBankParametersProtocol.html</Path>
+		</Node>
+		<Node id="65">
+			<Name>TSLInventoryCommandTransponderReceivedDelegate</Name>
+			<Path>Protocols/TSLInventoryCommandTransponderReceivedDelegate.html</Path>
+		</Node>
+		<Node id="66">
+			<Name>TSLParametersProtocol</Name>
+			<Path>Protocols/TSLParametersProtocol.html</Path>
+		</Node>
+		<Node id="67">
+			<Name>TSLQAlgorithmParametersProtocol</Name>
+			<Path>Protocols/TSLQAlgorithmParametersProtocol.html</Path>
+		</Node>
+		<Node id="68">
+			<Name>TSLQueryParametersProtocol</Name>
+			<Path>Protocols/TSLQueryParametersProtocol.html</Path>
+		</Node>
+		<Node id="69">
+			<Name>TSLReadCommandTransponderReceivedDelegate</Name>
+			<Path>Protocols/TSLReadCommandTransponderReceivedDelegate.html</Path>
+		</Node>
+		<Node id="70">
+			<Name>TSLResponseParametersProtocol</Name>
+			<Path>Protocols/TSLResponseParametersProtocol.html</Path>
+		</Node>
+		<Node id="71">
+			<Name>TSLSelectControlParametersProtocol</Name>
+			<Path>Protocols/TSLSelectControlParametersProtocol.html</Path>
+		</Node>
+		<Node id="72">
+			<Name>TSLSelectMaskParametersProtocol</Name>
+			<Path>Protocols/TSLSelectMaskParametersProtocol.html</Path>
+		</Node>
+		<Node id="73">
+			<Name>TSLSwitchResponderStateReceivedDelegate</Name>
+			<Path>Protocols/TSLSwitchResponderStateReceivedDelegate.html</Path>
+		</Node>
+		<Node id="74">
+			<Name>TSLTransponderParametersProtocol</Name>
+			<Path>Protocols/TSLTransponderParametersProtocol.html</Path>
+		</Node>
+		<Node id="75">
+			<Name>TSLWriteCommandTransponderReceivedDelegate</Name>
+			<Path>Protocols/TSLWriteCommandTransponderReceivedDelegate.html</Path>
+		</Node>
+		<Node id="76">
+			<Name>TSLWriteSingleCommandTransponderReceivedDelegate</Name>
+			<Path>Protocols/TSLWriteSingleCommandTransponderReceivedDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

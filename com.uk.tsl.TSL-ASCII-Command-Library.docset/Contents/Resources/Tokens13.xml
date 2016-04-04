@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLBinaryEncoding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLBinaryEncoding</TokenIdentifier>
+			<Abstract type="html">Helper methods for handling ASCII Hex encoded values and converting to/from byte data</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/isValidWordAlignedHex:</TokenIdentifier>
+			<Abstract type="html">Test a string for being an ASCII Hex encoded string representing a multiple word value</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidWordAlignedHex:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The ASCII Hex value without 0x or 0X prefix</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given value is a Hex number consisting of multiple words</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidWordAlignedHex:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/fromBase16String:</TokenIdentifier>
+			<Abstract type="html">Convert ASCII Hex encoded string to data bytes</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (NSData *)fromBase16String:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">An NSString representing a whole number of Hex encoded Words with no prefix (e.g. 0x or 0X)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSData object containing the bytes corresponding to the Hex values in the given string</Abstract></ReturnValue>
+			<Anchor>//api/name/fromBase16String:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/toBase16String:</TokenIdentifier>
+			<Abstract type="html">Convert NSData into corresponding Hex digits and return as an NSString</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)toBase16String:(NSData *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">A non-nil NSData object containing the bytes to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The ASCII Hex encoded representation of the NSData bytes as an NSString</Abstract></ReturnValue>
+			<Anchor>//api/name/toBase16String:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/toBase16StringSafe:</TokenIdentifier>
+			<Abstract type="html">Convert NSData into corresponding Hex digits and return as an NSString</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)toBase16StringSafe:(NSData *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">An NSData object containing the bytes to be converted - can be nil</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The ASCII Hex encoded representation of the NSData bytes as an NSString</Abstract></ReturnValue>
+			<Anchor>//api/name/toBase16StringSafe:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/toBase16String:offset:length:</TokenIdentifier>
+			<Abstract type="html">Convert a subset of NSData into corresponding Hex digits and return as an NSString</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)toBase16String:(NSData *)value offset:(int)offset length:(int)length</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">A non-nil NSData object containing the bytes to be converted</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The starting position within the NSData byte buffer of the bytes to be converted</Abstract>
+				</Parameter><Parameter>
+					<Name>length</Name>
+					<Abstract type="html">The number of bytes to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The ASCII Hex encoded representation of the NSData bytes as an NSString</Abstract></ReturnValue>
+			<Anchor>//api/name/toBase16String:offset:length:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/intFromBase16String:</TokenIdentifier>
+			<Abstract type="html">Convert a hex-encoded NSString to an int</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (int)intFromBase16String:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">A non-nil ASCII Hex encoded NSString to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The decimal value of the ASCII Hex encoded representation, or -1 if not valid hex, as an int</Abstract></ReturnValue>
+			<Anchor>//api/name/intFromBase16String:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/asciiStringFromData:</TokenIdentifier>
+			<Abstract type="html">Convert the given data into an ASCII string</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)asciiStringFromData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">An NSData object containing the bytes to be converted - can be nil</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The ASCII encoded representation of the NSData bytes as an NSString</Abstract></ReturnValue>
+			<Anchor>//api/name/asciiStringFromData:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLBinaryEncoding/dataFromAsciiString:</TokenIdentifier>
+			<Abstract type="html">Convert the ASCII string to an NSData object</Abstract>
+			<DeclaredIn>TSLBinaryEncoding.h</DeclaredIn>			
+			
+			<Declaration>+ (NSData *)dataFromAsciiString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">A non-nil ASCII encoded NSString to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSData object containing the bytes corresponding to the ASCII values in the given string</Abstract></ReturnValue>
+			<Anchor>//api/name/dataFromAsciiString:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+	</File>
+</Tokens>

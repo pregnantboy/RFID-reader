@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLLockCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLLockCommand</TokenIdentifier>
+			<Abstract type="html">A command to lock transponder memory banks</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/setLockPayload:</TokenIdentifier>
+			<Abstract type="html">The lock payload encoded in 5 Hex digits as NSString</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *lockPayload</Declaration>
+			
+			
+			<Anchor>//api/name/lockPayload</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/lockPayload</TokenIdentifier>
+			<Abstract type="html">The lock payload encoded in 5 Hex digits as NSString</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *lockPayload</Declaration>
+			
+			
+			<Anchor>//api/name/lockPayload</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLockCommand/lockPayload</TokenIdentifier>
+			<Abstract type="html">The lock payload encoded in 5 Hex digits as NSString</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSString *lockPayload</Declaration>
+			
+			
+			<Anchor>//api/name/lockPayload</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/setInventoryOnly:</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLockCommand/inventoryOnly</TokenIdentifier>
+			<Abstract type="html">When set to TSLTriStateYES the Select operation is NOT performed</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState inventoryOnly</Declaration>
+			
+			
+			<Anchor>//api/name/inventoryOnly</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/setDidAnyTransponderRespond:</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLockCommand/didAnyTransponderRespond</TokenIdentifier>
+			<Abstract type="html">YES if a transponder responded to the write command.</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didAnyTransponderRespond</Declaration>
+			
+			
+			<Anchor>//api/name/didAnyTransponderRespond</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/setTransponderReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder response</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLLockTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLLockCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder response</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLLockTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLLockCommand/transponderReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The Block invoked for each transponder response</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLLockTransponderReceivedBlock transponderReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/transponderReceivedBlock</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLLockCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLLockCommand</Abstract>
+			<DeclaredIn>TSLLockCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLLockCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+	</File>
+</Tokens>

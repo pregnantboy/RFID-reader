@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLQueryParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLQueryParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters for Query operations in commands and responses</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQueryParametersProtocol/setQuerySelect:</TokenIdentifier>
+			<Abstract type="html">The transponders to include based on the select flag state</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QuerySelect querySelect</Declaration>
+			
+			
+			<Anchor>//api/name/querySelect</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQueryParametersProtocol/querySelect</TokenIdentifier>
+			<Abstract type="html">The transponders to include based on the select flag state</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QuerySelect querySelect</Declaration>
+			
+			
+			<Anchor>//api/name/querySelect</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLQueryParametersProtocol/querySelect</TokenIdentifier>
+			<Abstract type="html">The transponders to include based on the select flag state</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QuerySelect querySelect</Declaration>
+			
+			
+			<Anchor>//api/name/querySelect</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQueryParametersProtocol/setQuerySession:</TokenIdentifier>
+			<Abstract type="html">The session of the transponders to be included in this operation</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QuerySession querySession</Declaration>
+			
+			
+			<Anchor>//api/name/querySession</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQueryParametersProtocol/querySession</TokenIdentifier>
+			<Abstract type="html">The session of the transponders to be included in this operation</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QuerySession querySession</Declaration>
+			
+			
+			<Anchor>//api/name/querySession</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLQueryParametersProtocol/querySession</TokenIdentifier>
+			<Abstract type="html">The session of the transponders to be included in this operation</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QuerySession querySession</Declaration>
+			
+			
+			<Anchor>//api/name/querySession</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQueryParametersProtocol/setQueryTarget:</TokenIdentifier>
+			<Abstract type="html">The session state of the transponders to be included in this operation</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QueryTarget queryTarget</Declaration>
+			
+			
+			<Anchor>//api/name/queryTarget</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLQueryParametersProtocol/queryTarget</TokenIdentifier>
+			<Abstract type="html">The session state of the transponders to be included in this operation</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QueryTarget queryTarget</Declaration>
+			
+			
+			<Anchor>//api/name/queryTarget</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLQueryParametersProtocol/queryTarget</TokenIdentifier>
+			<Abstract type="html">The session state of the transponders to be included in this operation</Abstract>
+			<DeclaredIn>TSLQueryParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_QueryTarget queryTarget</Declaration>
+			
+			
+			<Anchor>//api/name/queryTarget</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+	</File>
+</Tokens>

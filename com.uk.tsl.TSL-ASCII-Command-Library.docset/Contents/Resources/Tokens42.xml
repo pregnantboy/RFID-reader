@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSwitchSinglePressCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSwitchSinglePressCommand</TokenIdentifier>
+			<Abstract type="html">A command to programmatically press the device switch</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchSinglePressCommand/maximumDuration</TokenIdentifier>
+			<Abstract type="html">the maximum valid value for the duration parameter</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (int)maximumDuration</Declaration>
+			
+			<ReturnValue><Abstract type="html">the maximum valid value for the duration parameter</Abstract></ReturnValue>
+			<Anchor>//api/name/maximumDuration</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchSinglePressCommand/setDuration:</TokenIdentifier>
+			<Abstract type="html">The duration for the switch press action (0 - maximumDuration
+Non-zero values are the time in seconds that the switch press will be maintained
+Zero is an infinite press - use the TSLAbort command to cancel</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchSinglePressCommand/duration</TokenIdentifier>
+			<Abstract type="html">The duration for the switch press action (0 - maximumDuration
+Non-zero values are the time in seconds that the switch press will be maintained
+Zero is an infinite press - use the TSLAbort command to cancel</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchSinglePressCommand/duration</TokenIdentifier>
+			<Abstract type="html">The duration for the switch press action (0 - maximumDuration
+Non-zero values are the time in seconds that the switch press will be maintained
+Zero is an infinite press - use the TSLAbort command to cancel</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchSinglePressCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchSinglePressCommand</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchSinglePressCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchSinglePressCommand/synchronousCommandWithDuration:</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchSinglePressCommand configured for the given duration</Abstract>
+			<DeclaredIn>TSLSwitchSinglePressCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchSinglePressCommand *)synchronousCommandWithDuration:(int)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The duration for the switch press action (0-99)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/synchronousCommandWithDuration:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+	</File>
+</Tokens>

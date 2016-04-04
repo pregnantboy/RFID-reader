@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSelectControlParameters.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSelectControlParameters</TokenIdentifier>
+			<Abstract type="html">Helper class for implementing TSLSelectControlParametersProtocol</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSelectControlParameters/selectTargetForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_SelectTarget</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_SelectTarget)selectTargetForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLSelectTarget corresponding to the given string. Invalid parameter values return TSLSelectTarget_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/selectTargetForParameterValue:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSelectControlParameters/parameterValueForSelectTarget:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_SelectTarget</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForSelectTarget:(TSL_SelectTarget)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The TSL_SelectTarget value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_SelectTarget or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForSelectTarget:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSelectControlParameters/descriptionForSelectTarget:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_SelectTarget</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForSelectTarget:(TSL_SelectTarget)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The TSL_SelectTarget value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_SelectTarget or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForSelectTarget:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSelectControlParameters/isValidSelectTarget:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_SelectTarget for validity</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidSelectTarget:(TSL_SelectTarget)target</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The TSL_SelectTarget value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_SelectTarget is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidSelectTarget:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSelectControlParameters/descriptionForSelectAction:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_SelectAction</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForSelectAction:(TSL_SelectAction)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The TSL_SelectAction value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_SelectAction or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForSelectAction:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSelectControlParameters/isValidSelectAction:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_SelectAction for validity</Abstract>
+			<DeclaredIn>TSLSelectControlParameters.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidSelectAction:(TSL_SelectAction)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The TSL_SelectAction value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_SelectAction is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidSelectAction:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+	</File>
+</Tokens>

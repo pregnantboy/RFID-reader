@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLWriteCommandTransponderReceivedDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLWriteCommandTransponderReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for objects wishing to receive asynchronous notification of each transponder received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLWriteCommandTransponderReceivedDelegate/transponderReceivedFromWrite:crc:pc:rssi:index:accessErrorCode:backscatterErrorCode:wordsWritten:moreAvailable:</TokenIdentifier>
+			<Abstract type="html">The transponder information received</Abstract>
+			<DeclaredIn>TSLWriteTransponderCommand.h</DeclaredIn>			
+			
+			<Declaration>- (void)transponderReceivedFromWrite:(NSString *)epc crc:(NSNumber *)crc pc:(NSNumber *)pc rssi:(NSNumber *)rssi index:(NSNumber *)index accessErrorCode:(NSString *)aErrorCode backscatterErrorCode:(NSString *)bErrorCode wordsWritten:(NSNumber *)wordsWritten moreAvailable:(BOOL)moreAvailable</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>epc</Name>
+					<Abstract type="html">the transponder identifier as hex-encoded, ascii string</Abstract>
+				</Parameter><Parameter>
+					<Name>crc</Name>
+					<Abstract type="html">the transponder CRC as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>pc</Name>
+					<Abstract type="html">the transponder program control word as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>rssi</Name>
+					<Abstract type="html">the transponders RSSI value (in dBm) as int encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">the index value as unsigned short encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>aErrorCode</Name>
+					<Abstract type="html">the access error code as NSString or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>bErrorCode</Name>
+					<Abstract type="html">the backscatter error code as NSString or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>wordsWritten</Name>
+					<Abstract type="html">the number of words successfully written to the transponder as int encoded in NSNumber or nil if none</Abstract>
+				</Parameter><Parameter>
+					<Name>moreAvailable</Name>
+					<Abstract type="html">YES if there are more transponders to be delivered</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/transponderReceivedFromWrite:crc:pc:rssi:index:accessErrorCode:backscatterErrorCode:wordsWritten:moreAvailable:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAsciiCommandExecuting.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAsciiCommandExecuting</TokenIdentifier>
+			<Abstract type="html">Defines the responsibilities of classes that can execute and respond to a TSLAsciiCommand</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/executeCommand:</TokenIdentifier>
+			<Abstract type="html">Execute the given command.</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>- (void)executeCommand:(id&lt;TSLAsciiCommand&gt;)command</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>command</Name>
+					<Abstract type="html">The command to be executed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeCommand:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/setResponderChain:</TokenIdentifier>
+			<Abstract type="html">The chain of TSLAsciiCommandResponders</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;NSFastEnumeration&gt; responderChain</Declaration>
+			
+			
+			<Anchor>//api/name/responderChain</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/responderChain</TokenIdentifier>
+			<Abstract type="html">The chain of TSLAsciiCommandResponders</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;NSFastEnumeration&gt; responderChain</Declaration>
+			
+			
+			<Anchor>//api/name/responderChain</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandExecuting/responderChain</TokenIdentifier>
+			<Abstract type="html">The chain of TSLAsciiCommandResponders</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;NSFastEnumeration&gt; responderChain</Declaration>
+			
+			
+			<Anchor>//api/name/responderChain</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/addResponder:</TokenIdentifier>
+			<Abstract type="html">Add a responder to the responder chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>- (void)addResponder:(id&lt;TSLAsciiCommandResponder&gt;)responder</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>responder</Name>
+					<Abstract type="html">The responder to add to the chain</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addResponder:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/removeResponder:</TokenIdentifier>
+			<Abstract type="html">Remove a responder from the responder chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeResponder:(id&lt;TSLAsciiCommandResponder&gt;)responder</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>responder</Name>
+					<Abstract type="html">The responder to remove from the chain</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeResponder:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/addSynchronousResponder</TokenIdentifier>
+			<Abstract type="html">Add the synchronous responder into the chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSynchronousResponder</Declaration>
+			
+			
+			<Anchor>//api/name/addSynchronousResponder</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/removeSynchronousResponder</TokenIdentifier>
+			<Abstract type="html">Remove the synchronous responder from the chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeSynchronousResponder</Declaration>
+			
+			
+			<Anchor>//api/name/removeSynchronousResponder</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandExecuting/clearResponders</TokenIdentifier>
+			<Abstract type="html">Clear all responders from the responder chain</Abstract>
+			<DeclaredIn>TSLAsciiCommandExecuting.h</DeclaredIn>			
+			
+			<Declaration>- (void)clearResponders</Declaration>
+			
+			
+			<Anchor>//api/name/clearResponders</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+	</File>
+</Tokens>

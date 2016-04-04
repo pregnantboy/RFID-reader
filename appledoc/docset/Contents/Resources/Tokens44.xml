@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSwitchStateCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSwitchStateCommand</TokenIdentifier>
+			<Abstract type="html">A command to query the state of the reader&apos;s switch</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchStateCommand/setState:</TokenIdentifier>
+			<Abstract type="html">The last switch state received from the device</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) TSL_SwitchState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchStateCommand/state</TokenIdentifier>
+			<Abstract type="html">The last switch state received from the device</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) TSL_SwitchState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchStateCommand/state</TokenIdentifier>
+			<Abstract type="html">The last switch state received from the device</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) TSL_SwitchState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchStateCommand/switchStateForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_SwitchState</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_SwitchState)switchStateForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLSwitchState corresponding to the given string. Invalid parameter values return TSLSwitchState_NotSpecified</Abstract></ReturnValue>
+			<Anchor>//api/name/switchStateForParameterValue:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchStateCommand/parameterValueForSwitchState:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_SwitchState</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForSwitchState:(TSL_SwitchState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_SwitchState value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_SwitchState or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForSwitchState:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchStateCommand/descriptionForSwitchState:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_SwitchState</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForSwitchState:(TSL_SwitchState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_SwitchState value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_SwitchState or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForSwitchState:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchStateCommand/isValidSwitchState:</TokenIdentifier>
+			<Abstract type="html">Test the given TSL_SwitchState for validity</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isValidSwitchState:(TSL_SwitchState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_SwitchState value to be tested</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the given TSL_SwitchState is valid otherwise NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isValidSwitchState:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchStateCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLSwitchStateCommand</Abstract>
+			<DeclaredIn>TSLSwitchStateCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchStateCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+	</File>
+</Tokens>

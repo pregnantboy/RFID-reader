@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLDeleteConfirmation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLDeleteConfirmation</TokenIdentifier>
+			<Abstract type="html">Helper class for TSL_DeleteConfirmation enum</Abstract>
+			<DeclaredIn>TSLDeleteConfirmation.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDeleteConfirmation/parameterValueForDeleteConfirmation:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_DeleteConfirmation</Abstract>
+			<DeclaredIn>TSLDeleteConfirmation.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForDeleteConfirmation:(TSL_DeleteConfirmation)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_DeleteConfirmation value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given TSL_DeleteConfirmation or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForDeleteConfirmation:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDeleteConfirmation/descriptionForDeleteConfirmation:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_DeleteConfirmation</Abstract>
+			<DeclaredIn>TSLDeleteConfirmation.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForDeleteConfirmation:(TSL_DeleteConfirmation)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_DeleteConfirmation value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_DeleteConfirmation or nil if invalid</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForDeleteConfirmation:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLDeleteConfirmation/deleteConfirmationForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_DeleteConfirmation</Abstract>
+			<DeclaredIn>TSLDeleteConfirmation.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_DeleteConfirmation)deleteConfirmationForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLDeleteConfirmation corresponding to the given string. Invalid parameter values return TSLDeleteConfirmation_NO</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteConfirmationForParameterValue:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+	</File>
+</Tokens>

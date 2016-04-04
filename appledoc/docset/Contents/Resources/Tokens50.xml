@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLTriState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLTriState</TokenIdentifier>
+			<Abstract type="html">Helper class for TSL_TriState enum</Abstract>
+			<DeclaredIn>TSLTriState.h</DeclaredIn>
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLTriState/stateForParameterValue:</TokenIdentifier>
+			<Abstract type="html">Parse the given parameter value string and determine the corresponding TSL_TriState</Abstract>
+			<DeclaredIn>TSLTriState.h</DeclaredIn>			
+			
+			<Declaration>+ (TSL_TriState)stateForParameterValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The parameter value as NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The TSLTriState corresponding to the given string. Invalid parameter values return TSLTriStateNOTSPECIFIED</Abstract></ReturnValue>
+			<Anchor>//api/name/stateForParameterValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLTriState/parameterValueForState:</TokenIdentifier>
+			<Abstract type="html">Get the parameter value corresponding to the given TSL_TriState</Abstract>
+			<DeclaredIn>TSLTriState.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)parameterValueForState:(TSL_TriState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_TriState value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The command parameter value for the given state</Abstract></ReturnValue>
+			<Anchor>//api/name/parameterValueForState:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLTriState/descriptionForState:</TokenIdentifier>
+			<Abstract type="html">Get the description corresponding to the given TSL_TriState</Abstract>
+			<DeclaredIn>TSLTriState.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)descriptionForState:(TSL_TriState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The TSL_TriState value to be converted</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The user friendly name for the given TSL_TriState</Abstract></ReturnValue>
+			<Anchor>//api/name/descriptionForState:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+	</File>
+</Tokens>

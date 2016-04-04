@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLDataBankParametersProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLDataBankParametersProtocol</TokenIdentifier>
+			<Abstract type="html">Parameters related to Data Banks in commands and responses</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/setBank:</TokenIdentifier>
+			<Abstract type="html">The transponder data bank to be used</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DataBank bank</Declaration>
+			
+			
+			<Anchor>//api/name/bank</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/bank</TokenIdentifier>
+			<Abstract type="html">The transponder data bank to be used</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DataBank bank</Declaration>
+			
+			
+			<Anchor>//api/name/bank</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLDataBankParametersProtocol/bank</TokenIdentifier>
+			<Abstract type="html">The transponder data bank to be used</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DataBank bank</Declaration>
+			
+			
+			<Anchor>//api/name/bank</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/setOffset:</TokenIdentifier>
+			<Abstract type="html">The offset, in 16 bit words, from the start of the memory bank to where the data will be written</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/offset</TokenIdentifier>
+			<Abstract type="html">The offset, in 16 bit words, from the start of the memory bank to where the data will be written</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLDataBankParametersProtocol/offset</TokenIdentifier>
+			<Abstract type="html">The offset, in 16 bit words, from the start of the memory bank to where the data will be written</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/setLength:</TokenIdentifier>
+			<Abstract type="html">Length in words of the data to write</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/length</TokenIdentifier>
+			<Abstract type="html">Length in words of the data to write</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLDataBankParametersProtocol/length</TokenIdentifier>
+			<Abstract type="html">Length in words of the data to write</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/setData:</TokenIdentifier>
+			<Abstract type="html">The data read from or written to a transponder memory bank</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLDataBankParametersProtocol/data</TokenIdentifier>
+			<Abstract type="html">The data read from or written to a transponder memory bank</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLDataBankParametersProtocol/data</TokenIdentifier>
+			<Abstract type="html">The data read from or written to a transponder memory bank</Abstract>
+			<DeclaredIn>TSLDataBankParameters.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+	</File>
+</Tokens>

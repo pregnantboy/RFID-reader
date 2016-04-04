@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TSLAsciiCommandResponder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TSLAsciiCommandResponder</TokenIdentifier>
+			<Abstract type="html">The interface for classes that handle responses from ASCII 2.0 commands</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/setResponse:</TokenIdentifier>
+			<Abstract type="html">Gets the response as received from the device as NSArray of NSStrings</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/response</TokenIdentifier>
+			<Abstract type="html">Gets the response as received from the device as NSArray of NSStrings</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponder/response</TokenIdentifier>
+			<Abstract type="html">Gets the response as received from the device as NSArray of NSStrings</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/setIsSuccessful:</TokenIdentifier>
+			<Abstract type="html">Gets a value indicating whether the command executed successfully</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSuccessful</Declaration>
+			
+			
+			<Anchor>//api/name/isSuccessful</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/isSuccessful</TokenIdentifier>
+			<Abstract type="html">Gets a value indicating whether the command executed successfully</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSuccessful</Declaration>
+			
+			
+			<Anchor>//api/name/isSuccessful</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponder/isSuccessful</TokenIdentifier>
+			<Abstract type="html">Gets a value indicating whether the command executed successfully</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSuccessful</Declaration>
+			
+			
+			<Anchor>//api/name/isSuccessful</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/setErrorCode:</TokenIdentifier>
+			<Abstract type="html">Gets the error code or null if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *errorCode</Declaration>
+			
+			
+			<Anchor>//api/name/errorCode</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/errorCode</TokenIdentifier>
+			<Abstract type="html">Gets the error code or null if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *errorCode</Declaration>
+			
+			
+			<Anchor>//api/name/errorCode</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponder/errorCode</TokenIdentifier>
+			<Abstract type="html">Gets the error code or null if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *errorCode</Declaration>
+			
+			
+			<Anchor>//api/name/errorCode</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/setMessages:</TokenIdentifier>
+			<Abstract type="html">Gets the messages received from the device as NSArray of NSStrings or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/messages</TokenIdentifier>
+			<Abstract type="html">Gets the messages received from the device as NSArray of NSStrings or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponder/messages</TokenIdentifier>
+			<Abstract type="html">Gets the messages received from the device as NSArray of NSStrings or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/setParameters:</TokenIdentifier>
+			<Abstract type="html">Gets the parameters received from the device as NSArray of NSStrings or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *parameters</Declaration>
+			
+			
+			<Anchor>//api/name/parameters</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/parameters</TokenIdentifier>
+			<Abstract type="html">Gets the parameters received from the device as NSArray of NSStrings or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *parameters</Declaration>
+			
+			
+			<Anchor>//api/name/parameters</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponder/parameters</TokenIdentifier>
+			<Abstract type="html">Gets the parameters received from the device as NSArray of NSStrings or nil if none</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *parameters</Declaration>
+			
+			
+			<Anchor>//api/name/parameters</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/setSynchronousCommandDelegate:</TokenIdentifier>
+			<Abstract type="html">Gets/sets the delegate to be called to handle synchronous command messages</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLAsciiCommandResponderDelegate&gt; synchronousCommandDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommandDelegate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/synchronousCommandDelegate</TokenIdentifier>
+			<Abstract type="html">Gets/sets the delegate to be called to handle synchronous command messages</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLAsciiCommandResponderDelegate&gt; synchronousCommandDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommandDelegate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/TSLAsciiCommandResponder/synchronousCommandDelegate</TokenIdentifier>
+			<Abstract type="html">Gets/sets the delegate to be called to handle synchronous command messages</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLAsciiCommandResponderDelegate&gt; synchronousCommandDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommandDelegate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/processReceivedLine:moreLinesAvailable:</TokenIdentifier>
+			<Abstract type="html">Each correctly terminated line from the device is passed to this method for processing</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)processReceivedLine:(NSString *)fullLine moreLinesAvailable:(BOOL)moreAvailable</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fullLine</Name>
+					<Abstract type="html">The line to be processed</Abstract>
+				</Parameter><Parameter>
+					<Name>moreAvailable</Name>
+					<Abstract type="html">When YES indictates there are additional lines to be processed (and will also be passed to this method)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if this line should not be passed to any other responder</Abstract></ReturnValue>
+			<Anchor>//api/name/processReceivedLine:moreLinesAvailable:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/clearLastResponse</TokenIdentifier>
+			<Abstract type="html">Clears the values from the last response</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>- (void)clearLastResponse</Declaration>
+			
+			
+			<Anchor>//api/name/clearLastResponse</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TSLAsciiCommandResponder/reset</TokenIdentifier>
+			<Abstract type="html">Reset the responder to its default state</Abstract>
+			<DeclaredIn>TSLAsciiCommandResponder.h</DeclaredIn>			
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+	</File>
+</Tokens>

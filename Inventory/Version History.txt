@@ -1,0 +1,35 @@
+
+Inventory
+=========
+
+v1.3 - 28/08/14
+---------------
+
+Updated reader selection UI.
+
+
+v1.2 - 02/04/14
+---------------
+
+Added Antenna power setting slider
+
+
+v1.1 - 11/11/2013
+-----------------
+
+Added barcode scanning - all output is to the results view.
+
+
+
+v1.0 - 11/10/2013
+-----------------
+
+Added switch to configure Impinj FastId option
+
+Added example of using responseBeganBlock and responseEndedBlock properties of TSLInventoryCommand.
+
+Renamed TSLViewController to TSLInventoryViewController to avoid problems in Xcode workspace with other sample projects
+
+Uses the v1.0 TSLAsciiCommands.framework
+
+

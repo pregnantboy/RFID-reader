@@ -1,0 +1,553 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TSLCommandParametersProtocol Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TSL ASCII Command Library </a></h1>
+				<a id="developerHome" href="../index.html">Technology Solutions (UK) Ltd</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TSLCommandParametersProtocol Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/implementsReadParameters">&nbsp;&nbsp;&nbsp;&nbsp;implementsReadParameters</option>
+	
+	<option value="//api/name/implementsResetParameters">&nbsp;&nbsp;&nbsp;&nbsp;implementsResetParameters</option>
+	
+	<option value="//api/name/implementsTakeNoAction">&nbsp;&nbsp;&nbsp;&nbsp;implementsTakeNoAction</option>
+	
+	<option value="//api/name/readParameters">&nbsp;&nbsp;&nbsp;&nbsp;readParameters</option>
+	
+	<option value="//api/name/resetParameters">&nbsp;&nbsp;&nbsp;&nbsp;resetParameters</option>
+	
+	<option value="//api/name/takeNoAction">&nbsp;&nbsp;&nbsp;&nbsp;takeNoAction</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Controlling the Command">Controlling the Command</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Determining supported command parameters">Determining supported command parameters</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/implementsReadParameters">implementsReadParameters</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/implementsResetParameters">implementsResetParameters</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/implementsTakeNoAction">implementsTakeNoAction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/readParameters">readParameters</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetParameters">resetParameters</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/takeNoAction">takeNoAction</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TSLCommandParametersProtocol Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TSLCommandParametersProtocol Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TSLCommandParameters.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Parameters for generic control of TSLAsciiCommands</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Controlling the Command" name="task_Controlling the Command"></a>
+						<h3 class="subsubtitle task-title">Controlling the Command</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/takeNoAction">&nbsp;&nbsp;takeNoAction</a></code>
+		<span class="tooltip"><p>When set to <code>TSL_TriState_YES</code> prevents the reader from performing the command&rsquo;s primary action (e.g. <a href="../Classes/TSLInventoryCommand.html">TSLInventoryCommand</a> will not perform the inventory action)<br/>
+All other actions, such as setting parameters in the reader are performed</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/readParameters">&nbsp;&nbsp;readParameters</a></code>
+		<span class="tooltip"><p>When set to <code>TSL_TriState_YES</code> instructs the reader to return the supported parameters and their current values for the command</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetParameters">&nbsp;&nbsp;resetParameters</a></code>
+		<span class="tooltip"><p>When set to <code>TSL_TriState_YES</code> instructs the reader to reset all the parameter values for the command</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+						
+						<a title="Determining supported command parameters" name="task_Determining supported command parameters"></a>
+						<h3 class="subsubtitle task-title">Determining supported command parameters</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/implementsTakeNoAction">&nbsp;&nbsp;implementsTakeNoAction</a></code>
+		<span class="tooltip"><p>Returns YES if the <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responds to the <a href="#//api/name/takeNoAction"><code>takeNoAction</code></a> parameter</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/implementsReadParameters">&nbsp;&nbsp;implementsReadParameters</a></code>
+		<span class="tooltip"><p>Returns YES if the <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responds to the <a href="#//api/name/readParameters"><code>readParameters</code></a> parameter</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/implementsResetParameters">&nbsp;&nbsp;implementsResetParameters</a></code>
+		<span class="tooltip"><p>Returns YES if the <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responds to the <a href="#//api/name/resetParameters"><code>resetParameters</code></a> parameter</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/implementsReadParameters" title="implementsReadParameters"></a>
+	<h3 class="subsubtitle method-title">implementsReadParameters</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns YES if the <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responds to the <a href="#//api/name/readParameters"><code>readParameters</code></a> parameter</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL implementsReadParameters</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLCommandParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/implementsResetParameters" title="implementsResetParameters"></a>
+	<h3 class="subsubtitle method-title">implementsResetParameters</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns YES if the <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responds to the <a href="#//api/name/resetParameters"><code>resetParameters</code></a> parameter</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL implementsResetParameters</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLCommandParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/implementsTakeNoAction" title="implementsTakeNoAction"></a>
+	<h3 class="subsubtitle method-title">implementsTakeNoAction</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns YES if the <a href="../Protocols/TSLAsciiCommand.html">TSLAsciiCommand</a> responds to the <a href="#//api/name/takeNoAction"><code>takeNoAction</code></a> parameter</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL implementsTakeNoAction</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLCommandParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/readParameters" title="readParameters"></a>
+	<h3 class="subsubtitle method-title">readParameters</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When set to <code>TSL_TriState_YES</code> instructs the reader to return the supported parameters and their current values for the command</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState readParameters</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLCommandParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetParameters" title="resetParameters"></a>
+	<h3 class="subsubtitle method-title">resetParameters</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When set to <code>TSL_TriState_YES</code> instructs the reader to reset all the parameter values for the command</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState resetParameters</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLCommandParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/takeNoAction" title="takeNoAction"></a>
+	<h3 class="subsubtitle method-title">takeNoAction</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When set to <code>TSL_TriState_YES</code> prevents the reader from performing the command&rsquo;s primary action (e.g. <a href="../Classes/TSLInventoryCommand.html">TSLInventoryCommand</a> will not perform the inventory action)<br/>
+All other actions, such as setting parameters in the reader are performed</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) TSL_TriState takeNoAction</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TSLCommandParameters.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Technology Solutions (UK) Ltd. All rights reserved. (Last updated: 2015-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

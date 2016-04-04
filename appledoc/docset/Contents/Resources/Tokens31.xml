@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLReadLogFileCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLReadLogFileCommand</TokenIdentifier>
+			<Abstract type="html">A command to read the device&apos;s Log file</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadLogFileCommand/setCommandLoggingEnabled:</TokenIdentifier>
+			<Abstract type="html">Configure the command logging</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState commandLoggingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/commandLoggingEnabled</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadLogFileCommand/commandLoggingEnabled</TokenIdentifier>
+			<Abstract type="html">Configure the command logging</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState commandLoggingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/commandLoggingEnabled</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLReadLogFileCommand/commandLoggingEnabled</TokenIdentifier>
+			<Abstract type="html">Configure the command logging</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_TriState commandLoggingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/commandLoggingEnabled</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadLogFileCommand/setDeleteFile:</TokenIdentifier>
+			<Abstract type="html">Set to TSLDeleteConfirmationYES to delete the log file from the device</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DeleteConfirmation deleteFile</Declaration>
+			
+			
+			<Anchor>//api/name/deleteFile</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadLogFileCommand/deleteFile</TokenIdentifier>
+			<Abstract type="html">Set to TSLDeleteConfirmationYES to delete the log file from the device</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DeleteConfirmation deleteFile</Declaration>
+			
+			
+			<Anchor>//api/name/deleteFile</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLReadLogFileCommand/deleteFile</TokenIdentifier>
+			<Abstract type="html">Set to TSLDeleteConfirmationYES to delete the log file from the device</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) TSL_DeleteConfirmation deleteFile</Declaration>
+			
+			
+			<Anchor>//api/name/deleteFile</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadLogFileCommand/setFileLineReceivedBlock:</TokenIdentifier>
+			<Abstract type="html">The block executed for each file line received</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLFileLineReceivedBlock fileLineReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/fileLineReceivedBlock</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLReadLogFileCommand/fileLineReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The block executed for each file line received</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLFileLineReceivedBlock fileLineReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/fileLineReceivedBlock</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLReadLogFileCommand/fileLineReceivedBlock</TokenIdentifier>
+			<Abstract type="html">The block executed for each file line received</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) TSLFileLineReceivedBlock fileLineReceivedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/fileLineReceivedBlock</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLReadLogFileCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLReadLogFileCommand</Abstract>
+			<DeclaredIn>TSLReadLogFileCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLReadLogFileCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+	</File>
+</Tokens>

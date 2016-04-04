@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLAsciiSelfResponderCommandBase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLAsciiSelfResponderCommandBase</TokenIdentifier>
+			<Abstract type="html">A base class for commands that are their own responders - this simplifies synchronous command creation</Abstract>
+			<DeclaredIn>TSLAsciiSelfResponderCommandBase.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiSelfResponderCommandBase/initWithCommandName:responder:</TokenIdentifier>
+			<Abstract type="html">Initialise with the given commandName and responder</Abstract>
+			<DeclaredIn>TSLAsciiSelfResponderCommandBase.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCommandName:(NSString *)name responder:(id&lt;TSLAsciiCommandResponder&gt;)responder</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The command name e.g. &apos;.iv&apos; for Inventory</Abstract>
+				</Parameter><Parameter>
+					<Name>responder</Name>
+					<Abstract type="html">The object to handle synchronous responses for this command</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithCommandName:responder:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLAsciiSelfResponderCommandBase/initWithResponder:</TokenIdentifier>
+			<Abstract type="html">Initialise with a TSLAsciiCommandResponder to create a synchronous command</Abstract>
+			<DeclaredIn>TSLAsciiSelfResponderCommandBase.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithResponder:(id&lt;TSLAsciiCommandResponder&gt;)responder</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>responder</Name>
+					<Abstract type="html">The object to handle synchronous responses for this command</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithResponder:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLAsciiSelfResponderCommandBase/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous command with self as responder</Abstract>
+			<DeclaredIn>TSLAsciiSelfResponderCommandBase.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLAsciiSelfResponderCommandBase *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+	</File>
+</Tokens>

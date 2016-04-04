@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLSwitchResponder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLSwitchResponder</TokenIdentifier>
+			<Abstract type="html">A Responder for asynchronous switch status reports from the reader.</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchResponder/setState:</TokenIdentifier>
+			<Abstract type="html">The most recently reported switch state</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) TSL_SwitchState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchResponder/state</TokenIdentifier>
+			<Abstract type="html">The most recently reported switch state</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) TSL_SwitchState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchResponder/state</TokenIdentifier>
+			<Abstract type="html">The most recently reported switch state</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) TSL_SwitchState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchResponder/setSwitchStateReceivedDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate for new switch state information</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLSwitchResponderStateReceivedDelegate&gt; switchStateReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/switchStateReceivedDelegate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLSwitchResponder/switchStateReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate for new switch state information</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLSwitchResponderStateReceivedDelegate&gt; switchStateReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/switchStateReceivedDelegate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLSwitchResponder/switchStateReceivedDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate for new switch state information</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic, readwrite) id&lt;TSLSwitchResponderStateReceivedDelegate&gt; switchStateReceivedDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/switchStateReceivedDelegate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLSwitchResponder/defaultResponder</TokenIdentifier>
+			<Abstract type="html">a TSLSwitchResponder with default configuration</Abstract>
+			<DeclaredIn>TSLSwitchResponder.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLSwitchResponder *)defaultResponder</Declaration>
+			
+			<ReturnValue><Abstract type="html">a TSLSwitchResponder with default configuration</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultResponder</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+	</File>
+</Tokens>

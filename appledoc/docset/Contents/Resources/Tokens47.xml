@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLTransponderMemoryCommandBase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLTransponderMemoryCommandBase</TokenIdentifier>
+			<Abstract type="html">A base class for read/write commands</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/setEpcResponse:</TokenIdentifier>
+			<Abstract type="html">The EPC identifier returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *epcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/epcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/epcResponse</TokenIdentifier>
+			<Abstract type="html">The EPC identifier returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *epcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/epcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLTransponderMemoryCommandBase/epcResponse</TokenIdentifier>
+			<Abstract type="html">The EPC identifier returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *epcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/epcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/setCrcResponse:</TokenIdentifier>
+			<Abstract type="html">The CRC value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *crcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/crcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/crcResponse</TokenIdentifier>
+			<Abstract type="html">The CRC value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *crcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/crcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLTransponderMemoryCommandBase/crcResponse</TokenIdentifier>
+			<Abstract type="html">The CRC value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *crcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/crcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/setPcResponse:</TokenIdentifier>
+			<Abstract type="html">The PC value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *pcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/pcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/pcResponse</TokenIdentifier>
+			<Abstract type="html">The PC value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *pcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/pcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLTransponderMemoryCommandBase/pcResponse</TokenIdentifier>
+			<Abstract type="html">The PC value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *pcResponse</Declaration>
+			
+			
+			<Anchor>//api/name/pcResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/setRssiResponse:</TokenIdentifier>
+			<Abstract type="html">The RSSI value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *rssiResponse</Declaration>
+			
+			
+			<Anchor>//api/name/rssiResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/rssiResponse</TokenIdentifier>
+			<Abstract type="html">The RSSI value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *rssiResponse</Declaration>
+			
+			
+			<Anchor>//api/name/rssiResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLTransponderMemoryCommandBase/rssiResponse</TokenIdentifier>
+			<Abstract type="html">The RSSI value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *rssiResponse</Declaration>
+			
+			
+			<Anchor>//api/name/rssiResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/setIndexResponse:</TokenIdentifier>
+			<Abstract type="html">The Index value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *indexResponse</Declaration>
+			
+			
+			<Anchor>//api/name/indexResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/indexResponse</TokenIdentifier>
+			<Abstract type="html">The Index value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *indexResponse</Declaration>
+			
+			
+			<Anchor>//api/name/indexResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSLTransponderMemoryCommandBase/indexResponse</TokenIdentifier>
+			<Abstract type="html">The Index value returned by the reader</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *indexResponse</Declaration>
+			
+			
+			<Anchor>//api/name/indexResponse</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSLTransponderMemoryCommandBase/clearLastTransponder</TokenIdentifier>
+			<Abstract type="html">Clears the data from the last transponder seen</Abstract>
+			<DeclaredIn>TSLTransponderMemoryCommandBase.h</DeclaredIn>			
+			
+			<Declaration>- (void)clearLastTransponder</Declaration>
+			
+			
+			<Anchor>//api/name/clearLastTransponder</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+	</File>
+</Tokens>

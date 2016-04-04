@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLTransponderSelectCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLTransponderSelectCommand</TokenIdentifier>
+			<Abstract type="html">A command to set the state of transponders</Abstract>
+			<DeclaredIn>TSLTransponderSelectCommand.h</DeclaredIn>
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLTransponderSelectCommand/synchronousCommand</TokenIdentifier>
+			<Abstract type="html">Returns a synchronous TSLTransponderSelectCommand</Abstract>
+			<DeclaredIn>TSLTransponderSelectCommand.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLTransponderSelectCommand *)synchronousCommand</Declaration>
+			
+			
+			<Anchor>//api/name/synchronousCommand</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+	</File>
+</Tokens>

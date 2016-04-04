@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSLLoggerResponder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSLLoggerResponder</TokenIdentifier>
+			<Abstract type="html">A simple responder that inserts every line it sees, preceded by &apos;&gt;&apos;, into the standard log file</Abstract>
+			<DeclaredIn>TSLLoggerResponder.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TSLLoggerResponder/defaultResponder</TokenIdentifier>
+			<Abstract type="html">a TSLLoggerResponder with default configuration</Abstract>
+			<DeclaredIn>TSLLoggerResponder.h</DeclaredIn>			
+			
+			<Declaration>+ (TSLLoggerResponder *)defaultResponder</Declaration>
+			
+			<ReturnValue><Abstract type="html">a TSLLoggerResponder with default configuration</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultResponder</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+	</File>
+</Tokens>
