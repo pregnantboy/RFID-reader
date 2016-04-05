@@ -22,6 +22,7 @@
 		2DAD366D17439F3E003B8FDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD366C17439F3E003B8FDA /* Default-568h@2x.png */; };
 		2DAD367017439F3E003B8FDA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD366E17439F3E003B8FDA /* MainStoryboard.storyboard */; };
 		2DAD367317439F3E003B8FDA /* TSLInventoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD367217439F3E003B8FDA /* TSLInventoryViewController.m */; };
+		3C9838A61CB3DD9E005E06DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9838A51CB3DD9E005E06DF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		2DAD366F17439F3E003B8FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2DAD367117439F3E003B8FDA /* TSLInventoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLInventoryViewController.h; sourceTree = "<group>"; };
 		2DAD367217439F3E003B8FDA /* TSLInventoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSLInventoryViewController.m; sourceTree = "<group>"; };
+		3C9838A51CB3DD9E005E06DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				2DAD366E17439F3E003B8FDA /* MainStoryboard.storyboard */,
 				2DAD367117439F3E003B8FDA /* TSLInventoryViewController.h */,
 				2DAD367217439F3E003B8FDA /* TSLInventoryViewController.m */,
+				3C9838A51CB3DD9E005E06DF /* Images.xcassets */,
 				2DAD365D17439F3E003B8FDA /* Supporting Files */,
 			);
 			path = Inventory;
@@ -199,6 +202,7 @@
 			files = (
 				2DAD366117439F3E003B8FDA /* InfoPlist.strings in Resources */,
 				2DAD366917439F3E003B8FDA /* Default.png in Resources */,
+				3C9838A61CB3DD9E005E06DF /* Images.xcassets in Resources */,
 				2DAD366B17439F3E003B8FDA /* Default@2x.png in Resources */,
 				2DAD366D17439F3E003B8FDA /* Default-568h@2x.png in Resources */,
 				2DAD367017439F3E003B8FDA /* MainStoryboard.storyboard in Resources */,
@@ -301,6 +305,8 @@
 		2DAD367717439F3E003B8FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -327,6 +333,8 @@
 		2DAD367817439F3E003B8FDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

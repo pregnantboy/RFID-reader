@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E2B0B700499B98D488BF544D14148984523E90C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DFFA43749A0FE65C88EDF73FDB85938B46F6AA80" : 0,
+    "E2B0B700499B98D488BF544D14148984523E90C1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2783E8D5-B8B0-4DF5-9553-A0B2580CC19D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DFFA43749A0FE65C88EDF73FDB85938B46F6AA80" : "RFID%20app\/ReadWrite\/",
+    "E2B0B700499B98D488BF544D14148984523E90C1" : "RFID%20app\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Quickstart",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Quickstart.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Volumes\/Design\/Git%20Repositories\/QuickStart%20Projects\/ReadWrite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFFA43749A0FE65C88EDF73FDB85938B46F6AA80"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pregnantboy\/RFID-reader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2B0B700499B98D488BF544D14148984523E90C1"
+    }
+  ]
+}

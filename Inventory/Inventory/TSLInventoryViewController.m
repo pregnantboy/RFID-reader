@@ -198,7 +198,7 @@
 #pragma mark - Google Form submission methods
 -(void)parseEpc:(NSString *)epc {
     [self submitDataToFormWithEpc:epc
-                           scanId:@"GantryScan"
+                           scanId:@"Handheld Reader"
                               uid:[epc substringWithRange:NSMakeRange(0, 8)]
                             block:[epc substringWithRange:NSMakeRange(8, 2)]
                             level:[epc substringWithRange:NSMakeRange(10, 2)]
